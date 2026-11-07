@@ -1111,8 +1111,8 @@ a.forumtitle {
 .cat_new .forumrow-status:before {
 	content: "\E04C";
 	background-color: var(--group-color, var(--darkneutral));
-	box-shadow: 2.5px 2.5px var(--group-color-50, var(--white));
-	color: var(--group-color-50, var(--darkerlight))
+	box-shadow: 2.5px 2.5px var(--group-color-100, var(--white));
+	color: var(--group-color-100, var(--darkerlight))
 }
 
 .fifty .forumrow-status {
@@ -2387,7 +2387,7 @@ topicdesc {
 
 .postprofile-field-label {
 	font-family: var(--serif);
-	background-color: var(--group-color-50, var(--co1-100));
+	background-color: var(--group-color-100, var(--co1-100));
 	width: 100px;
 	display: inline-block;
 	text-shadow: 0.5px 0.5px var(--white);
@@ -3157,7 +3157,7 @@ button.toggle-panel .fi:before:hover {
 	color: var(--group-color);
 	align-items: center;
 	justify-content: center;
-	background-color: var(--group-color-50, var(--darklight))
+	background-color: var(--group-color-100, var(--darklight))
 }
 
 #field_id-6 .field_uneditable:after {
@@ -3226,7 +3226,7 @@ button.toggle-panel .fi:before:hover {
 	font-weight: 900;
 	text-align: right;
 	margin-bottom: var(--3xsmall);
-	border-left: 5px solid var(--group-color-50, var(--co1-100))
+	border-left: 5px solid var(--group-color-100, var(--co1-100))
 }
 
 .profile-links {
@@ -3603,7 +3603,7 @@ input#profile_field_4_-12_0 {
 
 .avct .contenttoggle {
 	color: var(--group-color, var(--group-color-co3));
-	background-color: var(--group-color-50, var(--group-color-co3));
+	background-color: var(--group-color-100, var(--group-color-co3));
 	padding: var(--large)
 }
 
@@ -4012,7 +4012,7 @@ dl.codebox {
 .fichetinder {
 	padding: var(--2xlarge);
 	border: 1px solid var(--group-color, var(--neutral));
-	outline: var(--large) solid var(--group-color-50, var(--darklight));
+	outline: var(--large) solid var(--group-color-100, var(--darklight));
 	margin-top: var(--large)
 }
 
@@ -4233,7 +4233,7 @@ lblqst {
 	font-size: var(--medium);
 	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
-	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-100))
+	box-shadow: inset 0 -9px 0 var(--group-color-100, var(--co1-100))
 }
 
 blockquote.blocperso i {
@@ -4275,7 +4275,7 @@ lbldvrs {
 	text-transform: uppercase;
 	font-weight: 700;
 	color: var(--group-color, var(--co3));
-	background: var(--group-color-50, var(--co3-100));
+	background: var(--group-color-100, var(--co3-100));
 	padding: 1px 5px 1px 7.5px
 }
 
@@ -4285,7 +4285,7 @@ lblplyr {
 	letter-spacing: 2.5px;
 	padding: 1px 2.5px 1px 5px;
 	color: var(--group-color, var(--co1));
-	background-color: var(--group-color-50, var(--co1-100))
+	background-color: var(--group-color-100, var(--co1-100))
 }
 
 .idperso .contenttoggle {
@@ -4293,7 +4293,7 @@ lblplyr {
 	margin: var(--2xlarge) var(--large) 0;
 	outline: var(--large) solid var(--white);
 	background: var(--light);
-	border: 1px solid var(--group-color-50, var(--co1-100)) !important
+	border: 1px solid var(--group-color-100, var(--co1-100)) !important
 }
 
 lblrchrch {
@@ -4321,7 +4321,7 @@ lblrchrch {
 }
 
 blockquote.blocperso {
-	border: 1px solid var(--group-color-50, var(--co3-100));
+	border: 1px solid var(--group-color-100, var(--co3-100));
 	outline: var(--large) solid var(--white)
 }
 
@@ -6801,7 +6801,7 @@ majgc::first-letter {
 
 #postprofile-libre a,
 .postprofile-libre a {
-	background-color: var(--group-color-50, var(--co2-100));
+	background-color: var(--group-color-100, var(--co2-100));
 	padding: 0 var(--2xsmall);
 	color: var(--group-color, var(--co2)) !important;
 	font-family: var(--mono)
@@ -6825,7 +6825,7 @@ majgc::first-letter {
 #postprofile-libre u,
 .postprofile-libre u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 var(--group-color-50, var(--co2-100))
+	box-shadow: inset 0 -5px 0 var(--group-color-100, var(--co2-100))
 }
 
 #postprofile-libre blockquote,
@@ -7574,7 +7574,7 @@ chronoevent strong {
 	margin-top: 34px;
 	flex: 1;
 	position: relative;
-	background-color: var(--group-color-50, var(--co1-100)) !important;
+	background-color: var(--group-color-100, var(--co1-100)) !important;
 	padding: var(--large) !important
 }
 
@@ -7582,7 +7582,7 @@ chronoevent strong {
 	color: var(--group-color, var(--co1));
 	height: 68px;
 	overflow: auto;
-	background-color: var(--group-color-50, var(--co1-100)) !important;
+	background-color: var(--group-color-100, var(--co1-100)) !important;
 	padding: 0px !important;
 	width: 100%
 }
@@ -7815,7 +7815,7 @@ p {
 }
 
 .notification.unread {
-	border: 0.5px solid var(--group-color-50, var(--co1-100));
+	border: 0.5px solid var(--group-color-100, var(--co1-100));
 
 	&:hover {
 		border-color: var(--group-color, var(--co1));
@@ -7979,7 +7979,7 @@ p {
 	height: 20px;
 	width: 20px;
 	display: flex;
-	background: var(--group-color-50, var(--co1-100));
+	background: var(--group-color-100, var(--co1-100));
 	border-radius: 50%;
 	align-items: center;
 	color: var(--group-color, var(--co1));
@@ -8241,7 +8241,7 @@ p {
 }
 
 .ficheperso.first>div {
-	border: 1px solid var(--group-color-50, var(--co1-100));
+	border: 1px solid var(--group-color-100, var(--co1-100));
 	display: flex;
 	width: 100%;
 	border-radius: var(--large) var(--small) var(--large) var(--small)
@@ -8278,14 +8278,14 @@ firstdtls {
 }
 
 firstdtls:nth-last-of-type(even) {
-	border-left: 2.5px solid var(--group-color-50, var(--co1-100));
+	border-left: 2.5px solid var(--group-color-100, var(--co1-100));
 	padding-left: 5px
 }
 
 firstdtls:nth-last-of-type(odd) {
 	justify-content: end;
 	padding-right: 4px;
-	border-right: 2.5px solid var(--group-color-50, var(--co1-100))
+	border-right: 2.5px solid var(--group-color-100, var(--co1-100))
 }
 
 .ficheperso.first a {
@@ -8310,7 +8310,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	padding: var(--large);
-	background-color: var(--group-color-50, var(--co1-100));
+	background-color: var(--group-color-100, var(--co1-100));
 	border-radius: var(--large) var(--small) var(--large) var(--small);
 	border: 1px solid var(--group-color);
 	width: 100%
@@ -8342,7 +8342,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
-	border-top: 1px solid var(--group-color-50, var(--co1-100))
+	border-top: 1px solid var(--group-color-100, var(--co1-100))
 }
 
 .statuspseudo {
@@ -8380,11 +8380,11 @@ statusdtls {
 	justify-content: center;
 	font-family: var(--serif);
 	text-transform: uppercase;
-	border-top: 1px solid var(--group-color-50, var(--co1-100))
+	border-top: 1px solid var(--group-color-100, var(--co1-100))
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 1px solid var(--group-color-50, var(--co1-100))
+	border-right: 1px solid var(--group-color-100, var(--co1-100))
 }
 
 .d-none {
