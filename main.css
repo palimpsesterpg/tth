@@ -1,4 +1,6 @@
 :root {
+	color-scheme: light;
+
 	--4xsmall: 0.25rem;
 	--3xsmall: 0.375rem;
 	--2xsmall: 0.5rem;
@@ -13,11 +15,11 @@
 	--5xlarge: 5rem;
 	--6xlarge: 6rem;
 
-	--main: 'Open Sans';
-	--mono: 'Inconsolata';
-	--spe: 'Popsies';
-	--display: 'Bebas';
-	--serif: 'Playfair Display';
+	--main: "Open Sans";
+	--mono: "Inconsolata";
+	--spe: "Popsies";
+	--display: "Bebas";
+	--serif: "Playfair Display";
 
 	--icons-thin: "uicons-thin-straight";
 	--icons-solid: "uicons-solid-straight";
@@ -30,7 +32,7 @@
 	--admin: #333333;
 	--test: #6b6a6a;
 	--sky: #863304;
-	--sea: #4A4B28;
+	--sea: #4a4b28;
 	--land: #640792;
 
 	--white: #ffffff;
@@ -97,7 +99,10 @@
 	--lightdark: color-mix(in srgb, var(--black) 90%, var(--white));
 	--lighterdark: color-mix(in srgb, var(--black) 85%, var(--white));
 
-	--gradientNeutral: linear-gradient(to right, var(--light), var(--neutral), var(--light));
+	--gradientNeutral: linear-gradient(to right,
+			var(--light),
+			var(--neutral),
+			var(--light));
 
 	--ease: cubic-bezier(0.4, 0, 0.2, 1);
 	--ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
@@ -105,23 +110,22 @@
 	--gradient12: linear-gradient(to right, var(--co1), var(--co2));
 	--gradient13: linear-gradient(to right, var(--co1), var(--co3));
 	--gradient23: linear-gradient(to right, var(--co2), var(--co3));
-	--gradientAll: linear-gradient(to right, ;
-			var(--co1), ;
-			var(--co3), ;
-			var(--co2), ;
-			var(--co3), ;
-			var(--co1));
+	--gradientAll: linear-gradient(to right,
+			; var(--co1),
+			; var(--co3),
+			; var(--co2),
+			; var(--co3),
+			; var(--co1));
 	--gradient12-50: linear-gradient(to right, var(--co1-100), var(--co2-100));
 	--gradient13-50: linear-gradient(to right, var(--co1-100), var(--co3-100));
 	--gradient23-50: linear-gradient(to right, var(--co2-100), var(--co3-100));
-	--gradientAll-50: linear-gradient(to right, ;
-			var(--co1-100), ;
-			var(--co3-100), ;
-			var(--co2-100), ;
-			var(--co3-100), ;
-			var(--co1-100));
-	--header: url("header-tth-light.png");
-	color-scheme: light
+	--gradientAll-50: linear-gradient(to right,
+			; var(--co1-100),
+			; var(--co3-100),
+			; var(--co2-100),
+			; var(--co3-100),
+			; var(--co1-100));
+	--header: url("header-tth-light.png")
 }
 
 [data-color-scheme="dark"] {
@@ -173,11 +177,20 @@
 	--group-color-op50: color-mix(in srgb, var(--group-color) 50%, transparent);
 	--group-color-op75: color-mix(in srgb, var(--group-color) 75%, transparent);
 
-	--gradientgc1: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
-	--gradientgc2: linear-gradient(to right, var(--group-color-200), var(--group-color-400), var(--group-color-200));
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-200),
+			var(--group-color-400),
+			var(--group-color-200));
 	--gradientgc3: linear-gradient(var(--white-op75), var(--group-color-op75));
 
-	--gradientLight: linear-gradient(to right, var(--light), var(--group-color), var(--light))
+	--gradientLight: linear-gradient(to right,
+			var(--light),
+			var(--group-color),
+			var(--light))
 }
 
 .group-test {
@@ -200,9 +213,7 @@
 	--group-base: var(--admin)
 }
 
-[data-color-scheme="dark"] :is([class^="group-"],
-	[class*=" group-"]) {
-
+[data-color-scheme="dark"] :is([class^="group-"], [class*=" group-"]) {
 	--group-color: color-mix(in srgb, var(--group-base) 80%, var(--black-base));
 
 	--group-color-400: var(--group-base);
@@ -235,7 +246,6 @@ strong {
 }
 
 * {
-	box-sizing: border-box;
 	scrollbar-color: var(--co3);
 	scrollbar-width: thin
 }
@@ -399,6 +409,18 @@ a:hover {
 	color: var(--darkneutral)
 }
 
+*,
+*:before,
+*:after {
+	box-sizing: border-box !important
+}
+
+img {
+	max-height: 600px;
+	max-width: 600px;
+	object-fit: cover
+}
+
 body {
 	font-family: var(--main);
 	color: var(--lightdark);
@@ -421,7 +443,7 @@ body::before {
 
 #wrap {
 	padding: var(--large);
-	box-sizing: border-box;
+
 	width: 950px;
 	margin: 0 auto;
 	background-color: var(--darklight)
@@ -431,7 +453,6 @@ body::before {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
-	;
 	padding: var(--small);
 	text-align: center
 }
@@ -526,7 +547,6 @@ body::before {
 	text-transform: lowercase;
 	color: var(--black);
 	opacity: 0.75;
-	;
 	font-family: var(--display);
 	font-weight: 700;
 	letter-spacing: 2.5px;
@@ -574,7 +594,7 @@ body::before {
 .switcheroo__avatar img {
 	width: 26px;
 	height: 26px;
-	object-fit: cover;
+
 	object-position: center;
 	border-radius: 50%;
 	transition: border-radius 128ms var(--ease);
@@ -628,7 +648,6 @@ body::before {
 	position: absolute;
 	width: -webkit-max-content;
 	width: max-content;
-	;
 	z-index: 999;
 	opacity: 0;
 	pointer-events: none;
@@ -835,7 +854,7 @@ body::before {
 
 .forumrow {
 	background-size: cover;
-	box-sizing: border-box;
+
 	box-shadow: 2.5px 2.5px var(--neutral);
 	flex: 1 1 100%
 }
@@ -843,7 +862,7 @@ body::before {
 .forumrow-inside {
 	display: flex;
 	position: relative;
-	box-sizing: border-box;
+
 	align-items: center;
 	gap: var(--large);
 	padding: var(--large);
@@ -901,7 +920,7 @@ body::before {
 .forumrow-avatar img {
 	width: 50px;
 	aspect-ratio: 1;
-	object-fit: cover;
+
 	filter: grayscale(1);
 	border-radius: 50%
 }
@@ -962,7 +981,7 @@ a.forumtitle {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-shadow: .5px .5px var(--co1-700);
+	text-shadow: 0.5px 0.5px var(--co1-700);
 	border: 0.5px solid var(--white);
 	box-shadow: 1px 1px var(--co1-100);
 	border-radius: 50%;
@@ -1227,7 +1246,7 @@ a.forumtitle {
 }
 
 .forumdesc span:before {
-	content: '#'
+	content: "#"
 }
 
 labdesc {
@@ -1408,7 +1427,6 @@ div.award.award-hj::before {
 }
 
 .icon-admin img {
-	object-fit: cover;
 	width: 107px;
 	height: 107px;
 	object-position: 75%
@@ -1551,8 +1569,7 @@ div.award.award-hj::before {
 	height: 125px;
 	filter: grayscale(1);
 	width: 150px;
-	border: var(--small) solid var(--white);
-	object-fit: cover
+	border: var(--small) solid var(--white)
 }
 
 .bloc-accueil.one div {
@@ -1578,7 +1595,6 @@ div.award.award-hj::before {
 
 .bloc-accueil.five,
 .bloc-accueil.six {
-	box-sizing: border-box;
 	width: calc(50% - var(--large) / 2)
 }
 
@@ -1685,7 +1701,6 @@ div.award.award-hj::before {
 
 .bloc-accueil.five span {
 	text-align: center;
-	;
 	padding: var(--2xsmall);
 	font-family: var(--serif);
 	background-color: var(--white)
@@ -1728,7 +1743,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.six div {
 	padding: var(--small);
-	box-sizing: border-box;
+
 	width: calc(50% - var(--small));
 	height: 103px;
 	overflow: auto;
@@ -1760,7 +1775,7 @@ div.award.award-hj::before {
 .bloc-accueil.six img {
 	height: 50px;
 	width: 50px;
-	object-fit: cover;
+
 	border-radius: 100%
 }
 
@@ -1857,7 +1872,7 @@ div.award.award-hj::before {
 
 #newest-user-avatar img {
 	height: 115px;
-	object-fit: cover;
+
 	aspect-ratio: 1;
 	border: var(--2xsmall) solid var(--white)
 }
@@ -1910,7 +1925,7 @@ div.award.award-hj::before {
 	flex-direction: column;
 	height: auto;
 	padding: var(--2xsmall);
-	box-sizing: border-box;
+
 	gap: var(--2xsmall);
 	height: 201px;
 	border: 0.5px solid var(--co3)
@@ -1958,8 +1973,7 @@ div.award.award-hj::before {
 	height: 26px;
 	width: 26px;
 	border-radius: 100%;
-	filter: grayscale(1);
-	object-fit: cover
+	filter: grayscale(1)
 }
 
 .post_new .topicrow-avatar img {
@@ -2000,7 +2014,6 @@ div.award.award-hj::before {
 	float: right;
 	background-color: var(--co2-100);
 	color: var(--co2-400);
-	;
 	padding: 0 var(--3xsmall)
 }
 
@@ -2057,7 +2070,7 @@ topicinfo:after {
 .last-admin-type:after {
 	width: 918px;
 	position: absolute;
-	content: '';
+	content: "";
 	height: var(--large);
 	background-color: var(--darklight);
 	bottom: 0;
@@ -2069,7 +2082,6 @@ topicdate,
 topicloc {
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	;
 	font-weight: 500
 }
 
@@ -2134,7 +2146,6 @@ topictype {
 	text-transform: uppercase;
 	color: var(--co1);
 	letter-spacing: 1px;
-	;
 	padding-right: 7px
 }
 
@@ -2224,9 +2235,17 @@ topicdesc {
 	display: block
 }
 
-.post:has(.ficheadmin, .fichelisting, .fichefam, .fichemoodboard, .ficheperso, .fichepl, .fichepredef, .ficherec, .ficheinsta,
-	.fichetinder, .fichetodo) .postprofile,
-.post:has(.ficheadmin, .fichepredef) .postbody-icons,
+.post:has(.ficheadmin,
+	.fichelisting,
+	.fichefam,
+	.fichemoodboard,
+	.ficheperso,
+	.fichepl,
+	.fichepredef,
+	.ficherec,
+	.ficheinsta,
+	.fichetinder,
+	.fichetodo) .postprofile,
 #u1 .postprofile-online {
 	display: none
 }
@@ -2272,7 +2291,6 @@ topicdesc {
 	color: var(--group-color, var(--darkerneutral));
 	letter-spacing: 1px;
 	text-align: center;
-	;
 	width: 100%;
 	display: block
 }
@@ -2332,7 +2350,7 @@ topicdesc {
 .postprofile-avatar img {
 	width: 232px;
 	height: 370px;
-	object-fit: cover;
+
 	padding: var(--large);
 	background-color: var(--white)
 }
@@ -2372,11 +2390,11 @@ topicdesc {
 	background-color: var(--group-color-50, var(--co1-100));
 	width: 100px;
 	display: inline-block;
-	text-shadow: .5px .5px var(--white);
+	text-shadow: 0.5px 0.5px var(--white);
 	margin-right: var(--3xsmall);
 	border-radius: var(--small);
 	text-align: center;
-	border: .5px solid;
+	border: 0.5px solid;
 	color: var(--group-color, var(--co1))
 }
 
@@ -2428,7 +2446,7 @@ topicdesc {
 
 .profile-tabs:after {
 	border-top: 0.5px solid var(--white);
-	content: '';
+	content: "";
 	top: 10px;
 	width: calc(100% - var(--2xlarge));
 	position: absolute
@@ -2441,7 +2459,6 @@ topicdesc {
 	font-family: var(--display);
 	flex: 1;
 	text-align: center;
-	;
 	border-bottom: 0.5px solid var(--neutral);
 	padding-bottom: var(--large)
 }
@@ -2476,8 +2493,7 @@ topicdesc {
 	width: 232px;
 	max-height: 150px;
 	padding: var(--large);
-	background-color: var(--white);
-	object-fit: cover
+	background-color: var(--white)
 }
 
 .postprofile-contact {
@@ -2542,16 +2558,14 @@ topicdesc {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	padding: 0px !important;
-	object-fit: cover
+	padding: 0px !important
 }
 
 .minipostprofile .postprofile-icon img {
 	width: 110px;
 	height: 110px;
 	border-radius: var(--small);
-	padding: 0px !important;
-	object-fit: cover
+	padding: 0px !important
 }
 
 .postlist.sms .postprofile-field-content {
@@ -2797,7 +2811,7 @@ textarea {
 .soustitreadmin:before {
 	flex: 1;
 	border-bottom: 0.5px solid var(--co2);
-	content: ''
+	content: ""
 }
 
 .textlisting {
@@ -3050,8 +3064,7 @@ button.toggle-panel .fi:before:hover {
 .profile-avatar img {
 	width: 200px;
 	height: 314px;
-	border: var(--small) solid var(--light);
-	object-fit: cover
+	border: var(--small) solid var(--light)
 }
 
 .profile-bloc {
@@ -3103,7 +3116,6 @@ button.toggle-panel .fi:before:hover {
 	padding: var(--2xsmall);
 	padding-right: calc(var(--2xsmall) - 2.5px);
 	text-align: center;
-	;
 	font-weight: 300;
 	background-color: var(--white);
 	border: 0.5px solid var(--group-color, var(--co));
@@ -3138,7 +3150,7 @@ button.toggle-panel .fi:before:hover {
 	display: flex;
 	width: 50%;
 	flex: 1;
-	box-sizing: border-box;
+
 	padding: var(--large);
 	height: 50px;
 	font-weight: 700;
@@ -3211,7 +3223,6 @@ button.toggle-panel .fi:before:hover {
 .profile-field-label {
 	color: var(--group-color);
 	text-transform: uppercase;
-	;
 	font-weight: 900;
 	text-align: right;
 	margin-bottom: var(--3xsmall);
@@ -3241,14 +3252,14 @@ button.toggle-panel .fi:before:hover {
 .member {
 	border-left: var(--2xsmall) solid var(--group-color, var(--dark)) !important;
 	border: 1px solid var(--group-color, var(--dark));
-	box-shadow: 0 0 0rem .55rem var(--neutral);
+	box-shadow: 0 0 0rem 0.55rem var(--neutral);
 	display: flex;
 	padding: var(--2xsmall) 0;
 	justify-content: space-between;
 	background-color: var(--light);
 	outline: var(--2xsmall) solid var(--white);
 	align-items: center;
-	box-sizing: border-box;
+
 	gap: var(--2xsmall);
 	margin: var(--2xsmall);
 	flex: 0 0 calc((100% - 4 * var(--large)) / 5 - 2 * var(--2xsmall));
@@ -3262,8 +3273,7 @@ button.toggle-panel .fi:before:hover {
 .member-avatar img {
 	height: 50px;
 	width: 50px;
-	border-radius: 50%;
-	object-fit: cover
+	border-radius: 50%
 }
 
 .member-pseudo {
@@ -3281,7 +3291,6 @@ button.toggle-panel .fi:before:hover {
 .member-celeb {
 	padding: var(--3xsmall);
 	width: 100%;
-	;
 	font-family: var(--mono);
 	text-align: center;
 	text-transform: uppercase;
@@ -3442,8 +3451,7 @@ input#profile_field_4_-12_0 {
 }
 
 .mespriv-display .postprofile img {
-	width: 100px;
-	object-fit: cover
+	width: 100px
 }
 
 .mespriv-display {
@@ -3677,8 +3685,7 @@ avhi:hover {
 .feed-avatar,
 .feed-item .act-icon {
 	height: 35px;
-	width: 35px;
-	object-fit: cover
+	width: 35px
 }
 
 .feed-item .feed-avatar {
@@ -3883,8 +3890,7 @@ dl.codebox {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
-	object-fit: cover
+	position: relative
 }
 
 .imgfam .active img {
@@ -4049,8 +4055,7 @@ dl.codebox {
 .fichepredef .posttabs img {
 	width: 100%;
 	height: -webkit-fill-available;
-	filter: grayscale(1);
-	object-fit: cover
+	filter: grayscale(1)
 }
 
 .fichepredef .textlisting {
@@ -4157,31 +4162,29 @@ dl.codebox {
 }
 
 .pseudoperso pronom:before {
-	content: '('
+	content: "("
 }
 
 .pseudoperso pronom:after {
-	content: ')'
+	content: ")"
 }
 
 .headperso img {
 	width: 300px;
 	border-radius: var(--3xsmall);
-	height: 400px;
-	object-fit: cover
+	height: 400px
 }
 
 .headrec img {
 	width: 200px;
 	border-radius: var(--3xsmall);
-	height: 100px;
-	object-fit: cover
+	height: 100px
 }
 
 .imganec {
 	height: 100px;
 	width: 150px;
-	object-fit: cover;
+
 	margin: 0 var(--small)
 }
 
@@ -4247,7 +4250,6 @@ lblchrn {
 	letter-spacing: 5px;
 	font-weight: 200;
 	text-transform: uppercase;
-	;
 	color: var(--white)
 }
 
@@ -4271,7 +4273,6 @@ lblprtt:after {
 lbldvrs {
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	;
 	font-weight: 700;
 	color: var(--group-color, var(--co3));
 	background: var(--group-color-50, var(--co3-100));
@@ -4298,9 +4299,8 @@ lblplyr {
 lblrchrch {
 	font-family: var(--mono);
 	text-transform: uppercase;
-	;
 	color: var(--group-color, var(--co1));
-	letter-spacing: .5px;
+	letter-spacing: 0.5px;
 	padding-left: 2px
 }
 
@@ -4349,7 +4349,7 @@ blockquote.blocperso {
 .blocperso.four img {
 	height: 50px;
 	width: 50px;
-	object-fit: cover;
+
 	border-radius: 50px
 }
 
@@ -4394,8 +4394,7 @@ blockquote.blocperso {
 .headpl img {
 	height: 100px;
 	width: 150px;
-	border-radius: var(--3xsmall);
-	object-fit: cover
+	border-radius: var(--3xsmall)
 }
 
 .blocpl,
@@ -4554,7 +4553,7 @@ reclinks a {
 }
 
 reclinks a:after {
-	content: '—';
+	content: "—";
 	padding-left: var(--large);
 	font-weight: 100;
 	color: var(--group-color, var(--co3))
@@ -5337,7 +5336,6 @@ dbackbigc {
 	padding-left: calc(var(--large) + 2.5px);
 	padding-right: var(--large);
 	letter-spacing: 2.5px;
-	;
 	text-transform: uppercase;
 	color: var(--white)
 }
@@ -5369,7 +5367,6 @@ mbackbigc {
 	padding-left: calc(var(--3xsmall) + 5px);
 	padding-right: var(--3xsmall);
 	letter-spacing: 5px;
-	;
 	text-transform: lowercase;
 	color: var(--white)
 }
@@ -6862,7 +6859,6 @@ majgc::first-letter {
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
 	letter-spacing: 1px;
-	;
 	width: 232px;
 	padding: var(--large);
 	font-family: var(--mono)
@@ -6921,8 +6917,7 @@ majgc::first-letter {
 .postprofile-libre ol[type="i"] img {
 	width: 0;
 	flex-grow: 1;
-	aspect-ratio: 1 / 1;
-	object-fit: cover
+	aspect-ratio: 1 / 1
 }
 
 #postprofile-libre ol[type="i"] img,
@@ -7176,13 +7171,11 @@ pblocgc,
 }
 
 .fichemoodboard.mix.one img {
-	height: 100px;
-	object-fit: cover
+	height: 100px
 }
 
 .fichemoodboard.mix.two img {
-	height: 75px;
-	object-fit: cover
+	height: 75px
 }
 
 .fichemoodboard.mix.one img:nth-child(1),
@@ -7256,28 +7249,25 @@ pblocgc,
 
 .fichemoodboard.carre img {
 	width: -webkit-fill-available;
-	object-fit: cover;
+
 	flex-grow: 1;
 	aspect-ratio: 1 / 1
 }
 
 .icon50,
 .logo50 {
-	object-fit: cover;
 	width: 50px;
 	height: 50px
 }
 
 .icon75,
 .logo75 {
-	object-fit: cover;
 	width: 75px;
 	height: 75px
 }
 
 .icon100,
 .logo100 {
-	object-fit: cover;
 	width: 100px;
 	height: 100px
 }
@@ -7359,7 +7349,6 @@ pblocgc,
 }
 
 .tooltip-avatar {
-	object-fit: cover;
 	height: 115px;
 	width: 75px
 }
@@ -7428,7 +7417,6 @@ pblocgc,
 	font-family: var(--main);
 	position: absolute;
 	padding: var(--large);
-	;
 	width: 300px;
 	border: 0.5px solid var(--neutral);
 	height: fit-content;
@@ -7484,7 +7472,7 @@ pblocgc,
 .indivhead img {
 	height: 50px;
 	width: 50px;
-	object-fit: cover;
+
 	border-radius: 100%
 }
 
@@ -7511,7 +7499,6 @@ pblocgc,
 
 .indivquote {
 	text-transform: lowercase;
-	;
 	font-family: var(--serif);
 	font-style: italic
 }
@@ -7655,7 +7642,6 @@ p {
 #restricted-block a {
 	width: calc(50% - var(--3xsmall) / 2);
 	font-family: var(--display);
-	;
 	text-transform: uppercase;
 	font-weight: 700;
 	height: fit-content
@@ -7855,7 +7841,7 @@ p {
 		width: 100%;
 		height: 100%;
 		aspect-ratio: 1;
-		object-fit: cover;
+
 		object-position: center;
 	}
 }
@@ -7872,7 +7858,6 @@ p {
 	display: flex;
 	place-items: center;
 	border-radius: 50%;
-	;
 	align-items: center;
 	justify-content: center
 }
@@ -7968,7 +7953,7 @@ p {
 .notiffi_head_ava {
 	width: 75px;
 	height: 92px;
-	object-fit: cover;
+
 	border-radius: var(--3xsmall)
 }
 
@@ -8177,7 +8162,7 @@ p {
 
 .notiffi_body_admin:after {
 	position: absolute;
-	content: '1';
+	content: "1";
 	font-weight: 700;
 	right: var(--small);
 	top: var(--small);
@@ -8240,9 +8225,7 @@ p {
 	padding: var(--2xsmall);
 	border-top: var(--2xsmall) solid var(--white);
 	border-left: var(--2xsmall) solid var(--white);
-	border-bottom: var(--2xsmall) solid var(--white);
-	box-sizing: border-box;
-	object-fit: cover
+	border-bottom: var(--2xsmall) solid var(--white)
 }
 
 .firstcontent {
@@ -8287,7 +8270,7 @@ firstdtls {
 	font-weight: 100;
 	letter-spacing: 1px;
 	width: 50%;
-	box-sizing: border-box;
+
 	display: flex;
 	color: var(--group-color);
 	height: 55px;
@@ -8306,10 +8289,11 @@ firstdtls:nth-last-of-type(odd) {
 }
 
 .ficheperso.first a {
-	background: linear-gradient(to right, var(--group-color-300), var(--group-color-600));
+	background: linear-gradient(to right,
+			var(--group-color-300),
+			var(--group-color-600));
 	color: var(--white);
 	padding: 0 var(--small);
-	;
 	text-transform: uppercase;
 	text-align: right;
 	font-family: var(--serif);
@@ -8334,7 +8318,7 @@ firstdtls:nth-last-of-type(odd) {
 
 .ficheperso.status img {
 	width: 200px;
-	object-fit: cover;
+
 	height: -webkit-fill-available
 }
 
@@ -8391,7 +8375,7 @@ statusdtls {
 	padding: var(--large);
 	display: flex;
 	height: 75px;
-	box-sizing: border-box;
+
 	align-items: center;
 	justify-content: center;
 	font-family: var(--serif);
@@ -8495,7 +8479,7 @@ statusdtls:nth-of-type(odd) {
 .iconinsta {
 	width: 100px;
 	height: 100px;
-	object-fit: cover;
+
 	border-radius: 100%;
 	padding: var(--2xsmall);
 	border: 1px solid var(--group-color, var(--co1))
@@ -8504,7 +8488,7 @@ statusdtls:nth-of-type(odd) {
 .miniconinsta {
 	width: 50px;
 	height: 50px;
-	object-fit: cover;
+
 	border-radius: 100%;
 	padding: var(--4xsmall);
 	border: 0.5px solid var(--group-color, var(--co1))
@@ -8536,8 +8520,6 @@ minipseudo:before {
 mainpseudo:before {
 	font-size: var(--medium)
 }
-
-minipseudo:before {}
 
 instadata {
 	font-weight: 300;
@@ -8612,8 +8594,7 @@ statusinsta {
 
 .imginsta img {
 	height: 100%;
-	width: 100%;
-	object-fit: cover
+	width: 100%
 }
 
 .imgcontent {
@@ -8640,8 +8621,7 @@ statusinsta {
 
 .ficheinsta .imgpost {
 	width: 400px;
-	height: 500px;
-	object-fit: cover
+	height: 500px
 }
 
 .ficheinsta.story {
@@ -8709,8 +8689,7 @@ statusinsta {
 .ficherphead img {
 	height: 100px;
 	padding: var(--2xsmall);
-	background-color: var(--white);
-	object-fit: cover
+	background-color: var(--white)
 }
 
 .ficherp.two .ficherphead img {
@@ -8744,8 +8723,6 @@ statusinsta {
 .ficherphead ficherptitle {
 	font-size: var(--medium)
 }
-
-.ficherphead ficherpsstitle {}
 
 .ficherp.one ficherptitle {
 	font-family: var(--serif);
@@ -8980,16 +8957,14 @@ statusinsta {
 .ficheperso.playlist .headplaylist img {
 	border-radius: 50%;
 	width: 35px;
-	height: 35px;
-	object-fit: cover
+	height: 35px
 }
 
 .ficheperso.playlist .dtlsplaylist img {
 	width: 150px;
 	padding: var(--large);
 	background-color: var(--white);
-	height: 150px;
-	object-fit: cover
+	height: 150px
 }
 
 .ficheperso.playlist .dtlsplaylist,
@@ -9127,8 +9102,7 @@ statusinsta {
 }
 
 .signtes img {
-	height: 75px;
-	object-fit: cover
+	height: 75px
 }
 
 .signtes.one img,
@@ -9286,8 +9260,7 @@ statusinsta {
 
 .fichetinder .tinderimg img {
 	width: 400px;
-	height: 500px;
-	object-fit: cover
+	height: 500px
 }
 
 .fichetinder .tinderimg {
@@ -9312,7 +9285,7 @@ statusinsta {
 }
 
 .fichetinder .tinderimg:after {
-	content: '\ea5a \e5e8'
+	content: "\ea5a \e5e8"
 }
 
 .fichetinder .tinderbio,
@@ -9321,7 +9294,7 @@ statusinsta {
 }
 
 .tindersearch:before {
-	content: '\ece1';
+	content: "\ece1";
 	font-family: var(--icons-thin) !important;
 	color: var(--group-color)
 }
@@ -9345,21 +9318,18 @@ statusinsta {
 
 .fichetinder .tindermoodbd img {
 	width: calc(100% / 3 - 0.65rem);
-	aspect-ratio: 1;
-	object-fit: cover
+	aspect-ratio: 1
 }
 
 .minicontinder {
 	height: 50px;
-	width: 50px;
-	object-fit: cover
+	width: 50px
 }
 
 .ficheperso.astro img {
 	width: 300px;
 	height: 300px;
-	border-radius: 0 var(--small) var(--large) 0;
-	object-fit: cover
+	border-radius: 0 var(--small) var(--large) 0
 }
 
 .ficheperso.astro>div {
@@ -9379,7 +9349,7 @@ statusinsta {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	box-sizing: border-box;
+
 	background-color: var(--white)
 }
 
@@ -9416,7 +9386,6 @@ statusinsta {
 lblprtt {
 	text-transform: lowercase;
 	letter-spacing: 2.5px;
-	;
 	font-family: var(--mono);
 	color: var(--group-color, var(--co3))
 }
@@ -9462,23 +9431,23 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab[data-tab="1"]:before {
-	content: '\f2e4'
+	content: "\f2e4"
 }
 
 .ficheperso.more .posttab[data-tab="2"]:before {
-	content: '\f164'
+	content: "\f164"
 }
 
 .ficheperso.more .posttab[data-tab="4"]:before {
-	content: '\e04d'
+	content: "\e04d"
 }
 
 .ficheperso.more .posttab[data-tab="3"]:before {
-	content: '\ed44'
+	content: "\ed44"
 }
 
 .ficheperso.more .posttab[data-tab="5"]:before {
-	content: '\e45e'
+	content: "\e45e"
 }
 
 .posttab-content.thst {
@@ -9498,23 +9467,23 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab[data-tab="1"].active~.posttab-title:after {
-	content: 'favoris'
+	content: "favoris"
 }
 
 .ficheperso.more .posttab[data-tab="2"].active~.posttab-title:after {
-	content: 'mode de vie'
+	content: "mode de vie"
 }
 
 .ficheperso.more .posttab[data-tab="3"].active~.posttab-title:after {
-	content: 'portrait imagé'
+	content: "portrait imagé"
 }
 
 .ficheperso.more .posttab[data-tab="4"].active~.posttab-title:after {
-	content: 'premiers et derniers'
+	content: "premiers et derniers"
 }
 
 .ficheperso.more .posttab[data-tab="5"].active~.posttab-title:after {
-	content: 'ça ou ça ?'
+	content: "ça ou ça ?"
 }
 
 .ficheportrait {
@@ -9546,7 +9515,6 @@ lblpmdn {
 }
 
 .ficheportrait img {
-	object-fit: cover;
 	padding: var(--small);
 	background-color: var(--white);
 	border: 1px solid var(--neutral);
@@ -9575,7 +9543,7 @@ lblpmdn {
 }
 
 .fichetodo::before>div {
-	content: '';
+	content: "";
 	width: 100px;
 	height: 30px;
 	background: var(--group-color-100);
@@ -9600,7 +9568,7 @@ lblpmdn {
 
 .fichetodo span:before,
 .fichedefi span:before {
-	content: '\f28f';
+	content: "\f28f";
 	font-family: var(--icons-thin) !important;
 	color: var(--group-color)
 }
@@ -9609,7 +9577,7 @@ lblpmdn {
 .fichedefi span.done:before,
 .fichetodo span:hover:before,
 .fichedefi span:hover:before {
-	content: '\e430'
+	content: "\e430"
 }
 
 .fichedefi span a {
@@ -9667,7 +9635,7 @@ lblpmdn {
 .defiheader img {
 	height: 65px;
 	width: 65px;
-	object-fit: cover;
+
 	filter: grayscale(1);
 	border-radius: 50%
 }
@@ -9685,7 +9653,6 @@ lblpmdn {
 
 .ficheperso.defis defistatus {
 	text-transform: uppercase;
-	;
 	background: var(--group-color);
 	color: var(--white);
 	padding: 0 var(--3xsmall);
@@ -9776,7 +9743,6 @@ lblpmdn {
 
 .form-line desc {
 	text-transform: uppercase;
-	;
 	width: 100%;
 	letter-spacing: 2.5px
 }
