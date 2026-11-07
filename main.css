@@ -32,8 +32,8 @@
 	--admin: #333333;
 	--test: #6b6a6a;
 	--sky: #863304;
-	--sea: #4a4b28;
-	--land: #640792;
+	--sea: #640792;
+	--land: #4f7942;
 
 	--white: #ffffff;
 	--black: #000000;
@@ -6983,7 +6983,7 @@ bblocgc,
 	background-color: var(--white);
 	display: block;
 	padding: var(--2xsmall);
-	outline: 1px solid var(--co1);
+	outline: 0.5px solid var(--co1);
 	display: block;
 	width: 50%;
 	margin: 0 auto
@@ -8701,7 +8701,7 @@ statusinsta {
 	width: 75px;
 	height: 75px;
 	border: 5px solid var(--light);
-	outline: 1px solid var(--neutral);
+	outline: 0.5px solid var(--neutral);
 	border-radius: 50%;
 	padding: 0px
 }
@@ -9140,7 +9140,7 @@ statusinsta {
 	width: 75px;
 	outline-offset: -5px;
 	border-radius: 50%;
-	outline: 1px solid var(--white)
+	outline: 0.5px solid var(--white)
 }
 
 .signtes.five,
@@ -9158,7 +9158,7 @@ statusinsta {
 .signtes.five img {
 	width: 75px;
 	outline-offset: -5px;
-	outline: 1px solid var(--white)
+	outline: 0.5px solid var(--white)
 }
 
 .signtes.five div {
