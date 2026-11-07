@@ -76,7 +76,7 @@
 }
 
 .cam cam2 {
-    background-color: var(--group-color-50);
+    background-color: var(--group-color-100);
     padding: 0 var(--medium);
     font-family: "Inconsolata";
     font-weight: 300;
@@ -110,7 +110,7 @@
 
 .cam cam5 {
     color: var(--group-color);
-    box-shadow: 0px -5px inset var(--group-color-50);
+    box-shadow: 0px -5px inset var(--group-color-100);
     font-family: var(--serif);
     text-transform: uppercase;
     font-weight: 700
@@ -174,13 +174,13 @@
     padding-left: calc(var(--small) + 1px);
     letter-spacing: 1px;
     color: var(--group-color);
-    background: var(--group-color-50);
+    background: var(--group-color-100);
     text-shadow: 1px 1px var(--white)
 }
 
 .cam .rpcam {
     border: 1px solid var(--group-color-200);
-    outline: 2px solid var(--group-color-50);
+    outline: 2px solid var(--group-color-100);
     box-shadow: 0px 0px 0px 6px var(--white);
     background-color: var(--white);
     padding: var(--large);
@@ -213,7 +213,7 @@
 
 .cam .inforpcam {
     color: var(--group-color) !important;
-    background: var(--group-color-50);
+    background: var(--group-color-100);
     padding: var(--32xsmall);
     display: flex;
     align-items: center;
@@ -317,7 +317,7 @@
 }
 
 .cam #postprofile-libre h3 {
-    background-color: var(--group-color-50);
+    background-color: var(--group-color-100);
     margin: 0 auto !important;
     width: fit-content;
     text-transform: uppercase;
@@ -339,7 +339,7 @@
 
 .cam #postprofile-libre div[align="justify"] {
     padding: var(--2xsmall);
-    background: var(--group-color-50);
+    background: var(--group-color-100);
     color: var(--group-color);
     font-weight: 300;
     border: 0.5px solid var(--group-color-200)
@@ -468,7 +468,7 @@
 }
 
 .cam .fichefam wback3 {
-    background: var(--co3-50)
+    background: var(--co3-100)
 }
 
 .cam .fichefam wbackd {

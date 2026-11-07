@@ -23,72 +23,81 @@
 	--icons-solid: "uicons-solid-straight";
 	--icons-custom: "uicons-custom-itb";
 
-	--co1-50: #F4E9E1;
-	--co1-100: #E9D3C3;
-	--co1-200: #DFBDA5;
-	--co1-300: #D4A787;
-	--co1-400: #C99169;
-	--co1: #BE7C4D;
-	--co1-600: #A2663B;
-	--co1-700: #82512F;
-	--co1-800: #613D23;
+	--co1: #780000;
+	--co2: #946507;
+	--co3: #003049;
 
-	--co1-op25: #BE7C4D40;
-	--co1-op50: #BE7C4D80;
-	--co1-op75: #BE7C4Dbf;
+	--admin: #333333;
+	--test: #6b6a6a;
+	--sky: #863304;
+	--sea: #4A4B28;
+	--land: #640792;
 
-	--co2-50: #BADEFF;
-	--co2-100: #75BCFF;
-	--co2-200: #309BFF;
-	--co2-300: #0079EB;
-	--co2-400: #0056A6;
-	--co2: #003262;
-	--co2-600: #002A51;
-	--co2-700: #002141;
-	--co2-800: #001930;
+	--white: #ffffff;
+	--black: #000000;
 
-	--co2-op25: #00326240;
-	--co2-op50: #00326280;
-	--co2-op75: #003262bf;
+	--co1-100: color-mix(in srgb, var(--co1) 20%, var(--white));
+	--co1-200: color-mix(in srgb, var(--co1) 40%, var(--white));
+	--co1-300: color-mix(in srgb, var(--co1) 60%, var(--white));
+	--co1-400: color-mix(in srgb, var(--co1) 80%, var(--white));
+	--co1-600: color-mix(in srgb, var(--co1) 80%, var(--black));
+	--co1-700: color-mix(in srgb, var(--co1) 60%, var(--black));
+	--co1-800: color-mix(in srgb, var(--co1) 40%, var(--black));
+	--co1-900: color-mix(in srgb, var(--co1) 20%, var(--black));
 
-	--co3-50: #EAF0F2;
-	--co3-100: #D5E1E5;
-	--co3-200: #C0D2D8;
-	--co3-300: #ABC3CB;
-	--co3-400: #96B4BE;
-	--co3: #82A6B1;
-	--co3-600: #628F9D;
-	--co3-700: #4F737D;
-	--co3-800: #3B565E;
+	--co1-op25: color-mix(in srgb, var(--co1) 25%, transparent);
+	--co1-op50: color-mix(in srgb, var(--co1) 50%, transparent);
+	--co1-op75: color-mix(in srgb, var(--co1) 75%, transparent);
 
-	--co3-op25: #82A6B140;
-	--co3-op50: #82A6B180;
-	--co3-op75: #82A6B1bf;
+	--co2-100: color-mix(in srgb, var(--co2) 20%, var(--white));
+	--co2-200: color-mix(in srgb, var(--co2) 40%, var(--white));
+	--co2-300: color-mix(in srgb, var(--co2) 60%, var(--white));
+	--co2-400: color-mix(in srgb, var(--co2) 80%, var(--white));
+	--co2-600: color-mix(in srgb, var(--co2) 80%, var(--black));
+	--co2-700: color-mix(in srgb, var(--co2) 60%, var(--black));
+	--co2-800: color-mix(in srgb, var(--co2) 40%, var(--black));
+	--co2-800: color-mix(in srgb, var(--co2) 20%, var(--black));
 
-	--white-op25: #ffffff40;
-	--white-op50: #ffffff80;
-	--white-op75: #ffffffbf;
-	--white-op90: #ffffffe6;
+	--co2-op25: color-mix(in srgb, var(--co2) 25%, transparent);
+	--co2-op50: color-mix(in srgb, var(--co2) 50%, transparent);
+	--co2-op75: color-mix(in srgb, var(--co2) 75%, transparent);
 
-	--black-op25: #00000040;
-	--black-op50: #00000080;
-	--black-op75: #000000bf;
-	--black-op90: #000000e6;
+	--co3-100: color-mix(in srgb, var(--co3) 20%, var(--white));
+	--co3-200: color-mix(in srgb, var(--co3) 40%, var(--white));
+	--co3-300: color-mix(in srgb, var(--co3) 60%, var(--white));
+	--co3-400: color-mix(in srgb, var(--co3) 80%, var(--white));
+	--co3-600: color-mix(in srgb, var(--co3) 80%, var(--black));
+	--co3-700: color-mix(in srgb, var(--co3) 60%, var(--black));
+	--co3-800: color-mix(in srgb, var(--co3) 40%, var(--black));
+	--co3-900: color-mix(in srgb, var(--co3) 20%, var(--black));
 
-	--white: #fff;
-	--black: #000;
+	--co3-op25: color-mix(in srgb, var(--co3) 25%, transparent);
+	--co3-op50: color-mix(in srgb, var(--co3) 50%, transparent);
+	--co3-op75: color-mix(in srgb, var(--co3) 75%, transparent);
 
-	--light: #fafafa;
-	--darklight: #f2f2f2;
-	--darkerlight: #ebebeb;
+	--white-op25: color-mix(in srgb, var(--white) 25%, transparent);
+	--white-op50: color-mix(in srgb, var(--white) 50%, transparent);
+	--white-op75: color-mix(in srgb, var(--white) 75%, transparent);
+	--white-op90: color-mix(in srgb, var(--white) 90%, transparent);
 
-	--neutral: #e6e6e6;
-	--darkneutral: #b8b8b8;
-	--darkerneutral: #737373;
+	--black-op25: color-mix(in srgb, var(--black) 25%, transparent);
+	--black-op50: color-mix(in srgb, var(--black) 50%, transparent);
+	--black-op75: color-mix(in srgb, var(--black) 75%, transparent);
+	--black-op90: color-mix(in srgb, var(--black) 90%, transparent);
 
-	--dark: #292929;
-	--lightdark: #333;
-	--lighterdark: #4c4c4c;
+	--light: color-mix(in srgb, var(--white) 95%, var(--black));
+	--darklight: color-mix(in srgb, var(--white) 90%, var(--black));
+	--darkerlight: color-mix(in srgb, var(--white) 85%, var(--black));
+
+	--neutral: color-mix(in srgb, var(--white) 80%, var(--black));
+	--darkneutral: color-mix(in srgb, var(--white) 75%, var(--black));
+	--darkerneutral: color-mix(in srgb, var(--white) 70%, var(--black));
+
+	--dark: color-mix(in srgb, var(--black) 95%, var(--white));
+	--lightdark: color-mix(in srgb, var(--black) 90%, var(--white));
+	--lighterdark: color-mix(in srgb, var(--black) 85%, var(--white));
+
+	--gradientNeutral: linear-gradient(to right, var(--light), var(--neutral), var(--light));
 
 	--ease: cubic-bezier(0.4, 0, 0.2, 1);
 	--ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
@@ -102,15 +111,15 @@
 			var(--co2), ;
 			var(--co3), ;
 			var(--co1));
-	--gradient12-50: linear-gradient(to right, var(--co1-50), var(--co2-50));
-	--gradient13-50: linear-gradient(to right, var(--co1-50), var(--co3-50));
-	--gradient23-50: linear-gradient(to right, var(--co2-50), var(--co3-50));
+	--gradient12-50: linear-gradient(to right, var(--co1-100), var(--co2-100));
+	--gradient13-50: linear-gradient(to right, var(--co1-100), var(--co3-100));
+	--gradient23-50: linear-gradient(to right, var(--co2-100), var(--co3-100));
 	--gradientAll-50: linear-gradient(to right, ;
-			var(--co1-50), ;
-			var(--co3-50), ;
-			var(--co2-50), ;
-			var(--co3-50), ;
-			var(--co1-50));
+			var(--co1-100), ;
+			var(--co3-100), ;
+			var(--co2-100), ;
+			var(--co3-100), ;
+			var(--co1-100));
 	--header: url("header-tth-light.png");
 	color-scheme: light
 }
@@ -118,72 +127,89 @@
 [data-color-scheme="dark"] {
 	color-scheme: dark;
 
-	--black-op25: #ffffff40;
-	--black-op50: #ffffff80;
-	--black-op75: #ffffffbf;
-	--black-op90: #ffffffe6;
+	--co1-base: #780000;
+	--co2-base: #946507;
+	--co3-base: #003049;
 
-	--white-op25: #00000040;
-	--white-op50: #00000080;
-	--white-op75: #000000bf;
-	--white-op90: #000000e6;
+	--co1: color-mix(in srgb, var(--co1-base) 80%, var(--black-base));
+	--co2: color-mix(in srgb, var(--co2-base) 80%, var(--black-base));
+	--co3: color-mix(in srgb, var(--co3-base) 80%, var(--black-base));
 
-	--white: #191919;
-	--black: #fafafa;
+	--co1-400: var(--co1-base);
+	--co2-400: var(--co1-base);
+	--co3-400: var(--co1-base);
 
-	--light: #292929;
-	--darklight: #1c1c1c;
-	--darkerlight: #242424;
+	--co1-op25: color-mix(in srgb, var(--co1) 75%, transparent);
+	--co1-op50: color-mix(in srgb, var(--co1) 50%, transparent);
+	--co1-op75: color-mix(in srgb, var(--co1) 25%, transparent);
 
-	--neutral: #2b2b2b;
-	--darkneutral: #4d4d4d;
-	--darkerneutral: #8c8c8c;
+	--co2-op25: color-mix(in srgb, var(--co2) 75%, transparent);
+	--co2-op50: color-mix(in srgb, var(--co2) 50%, transparent);
+	--co2-op75: color-mix(in srgb, var(--co2) 25%, transparent);
 
-	--dark: #e6e6e6;
-	--lightdark: #cccccc;
-	--lighterdark: #b3b3b3;
+	--co3-op25: color-mix(in srgb, var(--co3) 75%, transparent);
+	--co3-op50: color-mix(in srgb, var(--co3) 50%, transparent);
+	--co3-op75: color-mix(in srgb, var(--co3) 25%, transparent);
 
-	--co1-50: #613D23;
-	--co1-100: #82512F;
-	--co1-200: #A2663B;
-	--co1-300: #BE7C4D;
-	--co1-400: #C99169;
-	--co1: #D4A787;
-	--co1-600: #DFBDA5;
-	--co1-700: #E9D3C3;
-	--co1-800: #F4E9E1;
+	--white: color-mix(in srgb, var(--white-base) 80%, var(--black-base));
+	--black: color-mix(in srgb, var(--black-base) 80%, var(--white-base))
+}
 
-	--co1-op25: #D4A78740;
-	--co1-op50: #D4A78780;
-	--co1-op75: #D4A787bf;
+[class^="group-"],
+[class*=" group-"] {
+	--group-color: var(--group-base);
 
-	--co2-50: #001930;
-	--co2-100: #002141;
-	--co2-200: #002A51;
-	--co2-300: #003262;
-	--co2-400: #0056A6;
-	--co2: #0079EB;
-	--co2-600: #309BFF;
-	--co2-700: #75BCFF;
-	--co2-800: #BADEFF;
+	--group-color-100: color-mix(in srgb, var(--group-color) 20%, var(--white));
+	--group-color-200: color-mix(in srgb, var(--group-color) 40%, var(--white));
+	--group-color-300: color-mix(in srgb, var(--group-color) 60%, var(--white));
+	--group-color-400: color-mix(in srgb, var(--group-color) 80%, var(--white));
 
-	--co2-op25: #0079EB40;
-	--co2-op50: #0079EB80;
-	--co2-op75: #0079EBbf;
+	--group-color-600: color-mix(in srgb, var(--group-color) 80%, var(--black));
+	--group-color-700: color-mix(in srgb, var(--group-color) 60%, var(--black));
+	--group-color-800: color-mix(in srgb, var(--group-color) 40%, var(--black));
+	--group-color-900: color-mix(in srgb, var(--group-color) 20%, var(--black));
 
-	--co3-50: #3B565E;
-	--co3-100: #4F737D;
-	--co3-200: #628F9D;
-	--co3-300: #82A6B1;
-	--co3-400: #96B4BE;
-	--co3: #ABC3CB;
-	--co3-600: #C0D2D8;
-	--co3-700: #D5E1E5;
-	--co3-800: #EAF0F2;
+	--group-color-op25: color-mix(in srgb, var(--group-color) 25%, transparent);
+	--group-color-op50: color-mix(in srgb, var(--group-color) 50%, transparent);
+	--group-color-op75: color-mix(in srgb, var(--group-color) 75%, transparent);
 
-	--co3-op25: #ABC3CB40;
-	--co3-op50: #ABC3CB80;
-	--co3-op75: #ABC3CBbf;
+	--gradientgc1: linear-gradient(to right, var(--group-color-400), var(--group-color-600), var(--group-color-400));
+	--gradientgc2: linear-gradient(to right, var(--group-color-200), var(--group-color-400), var(--group-color-200));
+	--gradientgc3: linear-gradient(var(--white-op75), var(--group-color-op75));
+
+	--gradientLight: linear-gradient(to right, var(--light), var(--group-color), var(--light))
+}
+
+.group-test {
+	--group-base: var(--test)
+}
+
+.group-4 {
+	--group-base: var(--sky)
+}
+
+.group-5 {
+	--group-base: var(--sea)
+}
+
+.group-6 {
+	--group-base: var(--land)
+}
+
+.group-7 {
+	--group-base: var(--admin)
+}
+
+[data-color-scheme="dark"] :is([class^="group-"],
+	[class*=" group-"]) {
+
+	--group-color: color-mix(in srgb, var(--group-base) 80%, var(--black-base));
+
+	--group-color-400: var(--group-base);
+
+	--group-color-op25: color-mix(in srgb, var(--group-color) 75%, transparent);
+	--group-color-op50: color-mix(in srgb, var(--group-color) 50%, transparent);
+	--group-color-op75: color-mix(in srgb, var(--group-color) 25%, transparent)
 }
 
 .usr_grp_clr {
@@ -464,7 +490,7 @@ body::before {
 	color: var(--co3);
 	font-size: var(--medium);
 	padding: var(--large);
-	background-color: var(--co3-50);
+	background-color: var(--co3-100);
 	z-index: 999
 }
 
@@ -651,7 +677,7 @@ body::before {
 
 .switcheroo__form {
 	padding: var(--2xlarge);
-	background: var(--co2-50)
+	background: var(--co2-100)
 }
 
 .switcheroo__form-row {
@@ -675,7 +701,7 @@ body::before {
 
 .switcheroo__form-input {
 	width: 100%;
-	background-color: var(--co2-50) !important
+	background-color: var(--co2-100) !important
 }
 
 .switcheroo__form-button {
@@ -898,7 +924,7 @@ a.forumtitle {
 	text-transform: uppercase;
 	letter-spacing: 0.15rem;
 	padding-left: 0.15rem;
-	background-color: var(--co1-50);
+	background-color: var(--co1-100);
 	text-shadow: 1px 1px var(--white);
 	width: 100%;
 	text-align: center;
@@ -1221,11 +1247,11 @@ div.award {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
-	border: 10px solid var(--co1-50);
+	border: 10px solid var(--co1-100);
 	border-radius: 50%;
 	flex-shrink: 0;
 	scroll-snap-align: center;
-	background-color: var(--co1-50);
+	background-color: var(--co1-100);
 	background-image: none
 }
 
@@ -1247,8 +1273,8 @@ div.award::before {
 }
 
 div.award.auto-age {
-	border-color: var(--co2-50);
-	background-color: var(--co2-50)
+	border-color: var(--co2-100);
+	background-color: var(--co2-100)
 }
 
 div.award.auto-age::before {
@@ -1256,8 +1282,8 @@ div.award.auto-age::before {
 }
 
 div.award.auto-rp {
-	border-color: var(--co3-50);
-	background-color: var(--co3-50)
+	border-color: var(--co3-100);
+	background-color: var(--co3-100)
 }
 
 div.award.auto-rp::before {
@@ -1463,7 +1489,7 @@ div.award.award-hj::before {
 }
 
 .bloc-details.three a:before {
-	background-color: var(--co3-50);
+	background-color: var(--co3-100);
 	height: 25px;
 	color: var(--co3-700);
 	display: flex;
@@ -1591,7 +1617,7 @@ div.award.award-hj::before {
 	font-family: var(--serif);
 	margin: 0 var(--3xsmall);
 	padding: 0 var(--3xsmall);
-	background: var(--co2-50);
+	background: var(--co2-100);
 	text-shadow: 0.5px 0.5px var(--white)
 }
 
@@ -1603,7 +1629,7 @@ div.award.award-hj::before {
 }
 
 .bloc-accueil.four {
-	background-color: var(--co1-50);
+	background-color: var(--co1-100);
 	color: var(--co1);
 	padding: var(--large)
 }
@@ -1972,7 +1998,7 @@ div.award.award-hj::before {
 
 .topicrow-title .pagination {
 	float: right;
-	background-color: var(--co2-50);
+	background-color: var(--co2-100);
 	color: var(--co2-400);
 	;
 	padding: 0 var(--3xsmall)
@@ -2343,7 +2369,7 @@ topicdesc {
 
 .postprofile-field-label {
 	font-family: var(--serif);
-	background-color: var(--group-color-50, var(--co1-50));
+	background-color: var(--group-color-50, var(--co1-100));
 	width: 100px;
 	display: inline-block;
 	text-shadow: .5px .5px var(--white);
@@ -2455,7 +2481,7 @@ topicdesc {
 }
 
 .postprofile-contact {
-	background-color: var(--group-color-50);
+	background-color: var(--group-color-100);
 	padding: var(--large);
 	align-items: center;
 	justify-content: space-evenly;
@@ -2708,7 +2734,7 @@ button1,
 .button1 {
 	margin: 0 !important;
 	letter-spacing: 2.5px;
-	background-color: var(--co2-50) !important;
+	background-color: var(--co2-100) !important;
 	font-family: var(--serif) !important;
 	text-transform: uppercase;
 	padding: var(--2xsmall) !important;
@@ -2806,11 +2832,11 @@ textarea {
 }
 
 .ficheadmin .textlisting wback1 {
-	background-color: var(--co1-50)
+	background-color: var(--co1-100)
 }
 
 .ficheadmin .textlisting wback2 {
-	background-color: var(--co2-50)
+	background-color: var(--co2-100)
 }
 
 .ficheadmin upp {
@@ -2883,7 +2909,7 @@ textarea {
 	text-decoration: line-through;
 	text-decoration-style: wavy;
 	text-decoration-thickness: 1px;
-	text-decoration-color: var(--co3-50)
+	text-decoration-color: var(--co3-100)
 }
 
 .ficheadmin strong {
@@ -2891,7 +2917,7 @@ textarea {
 }
 
 .ficheadmin a:not(.mentiontag) {
-	background-color: var(--co3-50);
+	background-color: var(--co3-100);
 	padding: 0 var(--2xsmall)
 }
 
@@ -2912,7 +2938,7 @@ textarea {
 
 .ficheadmin u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 var(--co3-50)
+	box-shadow: inset 0 -5px 0 var(--co3-100)
 }
 
 .inneradmin u {
@@ -3189,7 +3215,7 @@ button.toggle-panel .fi:before:hover {
 	font-weight: 900;
 	text-align: right;
 	margin-bottom: var(--3xsmall);
-	border-left: 5px solid var(--group-color-50, var(--co1-50))
+	border-left: 5px solid var(--group-color-50, var(--co1-100))
 }
 
 .profile-links {
@@ -3686,7 +3712,7 @@ avhi:hover {
 	padding: var(--3xsmall);
 	align-items: center;
 	justify-content: center;
-	color: var(--co3-50);
+	color: var(--co3-100);
 	background-color: var(--co3);
 	transition-duration: 2s;
 	width: 35px;
@@ -3740,7 +3766,7 @@ cite:before {
 .copy-code {
 	margin-left: var(--medium);
 	font-size: var(--medium);
-	background-color: var(--co3-50);
+	background-color: var(--co3-100);
 	color: var(--co3);
 	float: right;
 	position: relative;
@@ -3814,133 +3840,6 @@ dl.codebox {
 .posttab.active backbi3 {
 	color: var(--co3) !important;
 	background: var(--white)
-}
-
-.group-7 {
-	--group-color-50: #f0f0f0;
-	--group-color-100: #e1e1e1;
-	--group-color-200: #c3c3c3;
-	--group-color-300: #a6a6a6;
-	--group-color-400: #888888;
-	--group-color: #6a6a6a;
-	--group-color-600: #4c4c4c;
-	--group-color-700: #404040;
-	--group-color-800: #333333;
-
-	--gradientgc1: linear-gradient(to right, ;
-			var(--group-color-50), ;
-			var(--group-color-100), ;
-			var(--group-color-50));
-	--gradientgc2: linear-gradient(to right, ;
-			var(--group-color-400), ;
-			var(--group-color-600), ;
-			var(--group-color-400))
-}
-
-.group-4 {
-	--group-color-50: #F3F4DB;
-	--group-color-100: #E6E9B8;
-	--group-color-200: #DADD94;
-	--group-color-300: #CDD271;
-	--group-color-400: #C1C74D;
-	--group-color: #A7AD37;
-	--group-color-600: #8C912E;
-	--group-color-700: #707425;
-	--group-color-800: #54571C;
-
-	--gradientgc1: linear-gradient(to right, ;
-			var(--group-color-50), ;
-			var(--group-color-100), ;
-			var(--group-color-50));
-	--gradientgc2: linear-gradient(to right, ;
-			var(--group-color-400), ;
-			var(--group-color-600), ;
-			var(--group-color-400))
-}
-
-.group-5 {
-	--group-color-50: #F7E5D2;
-	--group-color-100: #EECBA5;
-	--group-color-200: #E6B177;
-	--group-color-300: #DE964A;
-	--group-color-400: #CD7C26;
-	--group-color: #9E5F1D;
-	--group-color-600: #855018;
-	--group-color-700: #6A4013;
-	--group-color-800: #50300F;
-
-	--gradientgc1: linear-gradient(to right, ;
-			var(--group-color-50), ;
-			var(--group-color-100), ;
-			var(--group-color-50));
-	--gradientgc2: linear-gradient(to right, ;
-			var(--group-color-400), ;
-			var(--group-color-600), ;
-			var(--group-color-400))
-}
-
-.group-6 {
-	--group-color-50: #E7EFF1;
-	--group-color-100: #D0DEE3;
-	--group-color-200: #B8CED5;
-	--group-color-300: #A1BDC8;
-	--group-color-400: #89ADBA;
-	--group-color: #729DAD;
-	--group-color-600: #588596;
-	--group-color-700: #466B78;
-	--group-color-800: #35505A;
-
-	--gradientgc1: linear-gradient(to right, ;
-			var(--group-color-50), ;
-			var(--group-color-100), ;
-			var(--group-color-50));
-	--gradientgc2: linear-gradient(to right, ;
-			var(--group-color-400), ;
-			var(--group-color-600), ;
-			var(--group-color-400))
-}
-
-.group-def {
-	--group-color-50: #f0f0f0;
-	--group-color-100: #e1e1e1;
-	--group-color-200: #c3c3c3;
-	--group-color-300: #a6a6a6;
-	--group-color-400: #888888;
-	--group-color: #6a6a6a;
-	--group-color-600: #4c4c4c;
-	--group-color-700: #404040;
-	--group-color-800: #333333;
-
-	--gradientgc1: linear-gradient(to right, ;
-			var(--group-color-50), ;
-			var(--group-color-100), ;
-			var(--group-color-50));
-	--gradientgc2: linear-gradient(to right, ;
-			var(--group-color-400), ;
-			var(--group-color-600), ;
-			var(--group-color-400))
-}
-
-[data-color-scheme="dark"] .group-def,
-[data-color-scheme="dark"] .group-7 {
-	--group-color-800: #e1e1e1;
-	--group-color-700: #c3c3c3;
-	--group-color-600: #a6a6a6;
-	--group-color: #888888;
-	--group-color-400: #6a6a6a;
-	--group-color-300: #4c4c4c;
-	--group-color-200: #404040;
-	--group-color-100: #333333;
-	--group-color-50: #262626;
-
-	--gradientgc1: linear-gradient(to right, ;
-			var(--group-color-800x), ;
-			var(--group-color-700x), ;
-			var(--group-color-800x));
-	--gradientgc2: linear-gradient(to right, ;
-			var(--group-color-400), ;
-			var(--group-color-600), ;
-			var(--group-color-400))
 }
 
 .titrefam {
@@ -4187,7 +4086,7 @@ dl.codebox {
 	letter-spacing: var(--3xsmall);
 	padding-left: var(--3xsmall);
 	color: var(--co2);
-	text-shadow: 1px 1px var(--co2-50)
+	text-shadow: 1px 1px var(--co2-100)
 }
 
 .sstitrepredef {
@@ -4331,7 +4230,7 @@ lblqst {
 	font-size: var(--medium);
 	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
-	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50))
+	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-100))
 }
 
 blockquote.blocperso i {
@@ -4375,7 +4274,7 @@ lbldvrs {
 	;
 	font-weight: 700;
 	color: var(--group-color, var(--co3));
-	background: var(--group-color-50, var(--co3-50));
+	background: var(--group-color-50, var(--co3-100));
 	padding: 1px 5px 1px 7.5px
 }
 
@@ -4385,7 +4284,7 @@ lblplyr {
 	letter-spacing: 2.5px;
 	padding: 1px 2.5px 1px 5px;
 	color: var(--group-color, var(--co1));
-	background-color: var(--group-color-50, var(--co1-50))
+	background-color: var(--group-color-50, var(--co1-100))
 }
 
 .idperso .contenttoggle {
@@ -4393,7 +4292,7 @@ lblplyr {
 	margin: var(--2xlarge) var(--large) 0;
 	outline: var(--large) solid var(--white);
 	background: var(--light);
-	border: 1px solid var(--group-color-50, var(--co1-50)) !important
+	border: 1px solid var(--group-color-50, var(--co1-100)) !important
 }
 
 lblrchrch {
@@ -4422,7 +4321,7 @@ lblrchrch {
 }
 
 blockquote.blocperso {
-	border: 1px solid var(--group-color-50, var(--co3-50));
+	border: 1px solid var(--group-color-50, var(--co3-100));
 	outline: var(--large) solid var(--white)
 }
 
@@ -4944,21 +4843,21 @@ lback1,
 lbackb1,
 lbacki1,
 lbackbi1 {
-	background-color: var(--co1-50)
+	background-color: var(--co1-100)
 }
 
 lback2,
 lbackb2,
 lbacki2,
 lbackbi2 {
-	background-color: var(--co2-50)
+	background-color: var(--co2-100)
 }
 
 lback3,
 lbackb3,
 lbacki3,
 lbackbi3 {
-	background-color: var(--co3-50)
+	background-color: var(--co3-100)
 }
 
 lbackn,
@@ -4979,7 +4878,7 @@ lbackgc,
 lbackbgc,
 lbackigc,
 lbackbigc {
-	background-color: var(--group-color-50)
+	background-color: var(--group-color-100)
 }
 
 dback1,
@@ -5527,7 +5426,7 @@ lgrad1,
 lgradb1,
 lgradi1,
 lgradbi1 {
-	background: var(--gradient12-50)
+	background: var(--gradient12-100)
 }
 
 lbgrad2,
@@ -5538,7 +5437,7 @@ lgrad2,
 lgradb2,
 lgradi2,
 lgradbi2 {
-	background: var(--gradient13-50)
+	background: var(--gradient13-100)
 }
 
 lbgrad3,
@@ -5549,7 +5448,7 @@ lgrad3,
 lgradb3,
 lgradi3,
 lgradbi3 {
-	background: var(--gradient23-50)
+	background: var(--gradient23-100)
 }
 
 lbgradgc,
@@ -5885,7 +5784,7 @@ under1,
 underb1,
 underi1,
 underbi1 {
-	box-shadow: inset 0 -8px 0 var(--co1-50);
+	box-shadow: inset 0 -8px 0 var(--co1-100);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	color: var(--co1-600)
@@ -5895,7 +5794,7 @@ under2,
 underb2,
 underi2,
 underbi2 {
-	box-shadow: inset 0 -8px 0 var(--co2-50);
+	box-shadow: inset 0 -8px 0 var(--co2-100);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	color: var(--co2-600)
@@ -5905,7 +5804,7 @@ under3,
 underb3,
 underi3,
 underbi3 {
-	box-shadow: inset 0 -8px 0 var(--co3-50);
+	box-shadow: inset 0 -8px 0 var(--co3-100);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	color: var(--co3-600)
@@ -5934,7 +5833,7 @@ undergc,
 underbgc,
 underigc,
 underbigc {
-	box-shadow: inset 0 -8px 0 var(--group-color-50);
+	box-shadow: inset 0 -8px 0 var(--group-color-100);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	color: var(--group-color-600)
@@ -6804,17 +6703,17 @@ majgc::first-letter {
 .br8d,
 .br8gc,
 .br8w {
-	background-color: var(--co1-50);
+	background-color: var(--co1-100);
 	width: 35%;
 	height: 2.5px
 }
 
 .br82 {
-	background-color: var(--co2-50)
+	background-color: var(--co2-100)
 }
 
 .br83 {
-	background-color: var(--co3-50)
+	background-color: var(--co3-100)
 }
 
 .br8n {
@@ -6830,7 +6729,7 @@ majgc::first-letter {
 }
 
 .br8gc {
-	background-color: var(--group-color-50)
+	background-color: var(--group-color-100)
 }
 
 .br91 {
@@ -6905,7 +6804,7 @@ majgc::first-letter {
 
 #postprofile-libre a,
 .postprofile-libre a {
-	background-color: var(--group-color-50, var(--co2-50));
+	background-color: var(--group-color-50, var(--co2-100));
 	padding: 0 var(--2xsmall);
 	color: var(--group-color, var(--co2)) !important;
 	font-family: var(--mono)
@@ -6929,7 +6828,7 @@ majgc::first-letter {
 #postprofile-libre u,
 .postprofile-libre u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 var(--group-color-50, var(--co2-50))
+	box-shadow: inset 0 -5px 0 var(--group-color-50, var(--co2-100))
 }
 
 #postprofile-libre blockquote,
@@ -7228,19 +7127,19 @@ pblocgc,
 	width: 50%;
 	margin: 0 auto;
 	padding: var(--small);
-	background-color: var(--co1-50);
+	background-color: var(--co1-100);
 	color: var(--co1)
 }
 
 pbloc2,
 .pbloc2 {
-	background-color: var(--co2-50);
+	background-color: var(--co2-100);
 	color: var(--co2)
 }
 
 pbloc3,
 .pbloc3 {
-	background-color: var(--co3-50);
+	background-color: var(--co3-100);
 	color: var(--co3)
 }
 
@@ -7258,7 +7157,7 @@ pblocd,
 
 pblocgc,
 .pblocgc {
-	background-color: var(--group-color-50);
+	background-color: var(--group-color-100);
 	color: var(--group-color, var(--darkneutral))
 }
 
@@ -7625,7 +7524,7 @@ pblocgc,
 
 blockquote.indiv {
 	padding: var(--large);
-	background-color: var(--group-color-50);
+	background-color: var(--group-color-100);
 	line-height: var(--large);
 	letter-spacing: 1px;
 	font-family: var(--mono)
@@ -7688,7 +7587,7 @@ chronoevent strong {
 	margin-top: 34px;
 	flex: 1;
 	position: relative;
-	background-color: var(--group-color-50, var(--co1-50)) !important;
+	background-color: var(--group-color-50, var(--co1-100)) !important;
 	padding: var(--large) !important
 }
 
@@ -7696,7 +7595,7 @@ chronoevent strong {
 	color: var(--group-color, var(--co1));
 	height: 68px;
 	overflow: auto;
-	background-color: var(--group-color-50, var(--co1-50)) !important;
+	background-color: var(--group-color-50, var(--co1-100)) !important;
 	padding: 0px !important;
 	width: 100%
 }
@@ -7930,7 +7829,7 @@ p {
 }
 
 .notification.unread {
-	border: 0.5px solid var(--group-color-50, var(--co1-50));
+	border: 0.5px solid var(--group-color-50, var(--co1-100));
 
 	&:hover {
 		border-color: var(--group-color, var(--co1));
@@ -8095,7 +7994,7 @@ p {
 	height: 20px;
 	width: 20px;
 	display: flex;
-	background: var(--group-color-50, var(--co1-50));
+	background: var(--group-color-50, var(--co1-100));
 	border-radius: 50%;
 	align-items: center;
 	color: var(--group-color, var(--co1));
@@ -8301,7 +8200,7 @@ p {
 .notiffi_body_admin u {
 	color: var(--co3);
 	text-decoration: none;
-	box-shadow: inset 0 -8px 0 var(--co3-50);
+	box-shadow: inset 0 -8px 0 var(--co3-100);
 	font-family: var(--mono)
 }
 
@@ -8359,7 +8258,7 @@ p {
 }
 
 .ficheperso.first>div {
-	border: 1px solid var(--group-color-50, var(--co1-50));
+	border: 1px solid var(--group-color-50, var(--co1-100));
 	display: flex;
 	width: 100%;
 	border-radius: var(--large) var(--small) var(--large) var(--small)
@@ -8374,7 +8273,7 @@ p {
 	color: var(--group-color);
 	font-family: var(--display);
 	font-size: var(--2xlarge);
-	text-shadow: 1px 1px var(--group-color-50);
+	text-shadow: 1px 1px var(--group-color-100);
 	letter-spacing: 2.5px;
 	font-weight: 700;
 	line-height: var(--2xlarge);
@@ -8396,14 +8295,14 @@ firstdtls {
 }
 
 firstdtls:nth-last-of-type(even) {
-	border-left: 2.5px solid var(--group-color-50, var(--co1-50));
+	border-left: 2.5px solid var(--group-color-50, var(--co1-100));
 	padding-left: 5px
 }
 
 firstdtls:nth-last-of-type(odd) {
 	justify-content: end;
 	padding-right: 4px;
-	border-right: 2.5px solid var(--group-color-50, var(--co1-50))
+	border-right: 2.5px solid var(--group-color-50, var(--co1-100))
 }
 
 .ficheperso.first a {
@@ -8427,7 +8326,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	padding: var(--large);
-	background-color: var(--group-color-50, var(--co1-50));
+	background-color: var(--group-color-50, var(--co1-100));
 	border-radius: var(--large) var(--small) var(--large) var(--small);
 	border: 1px solid var(--group-color);
 	width: 100%
@@ -8459,7 +8358,7 @@ firstdtls:nth-last-of-type(odd) {
 	align-items: center;
 	justify-content: center;
 	text-transform: lowercase;
-	border-top: 1px solid var(--group-color-50, var(--co1-50))
+	border-top: 1px solid var(--group-color-50, var(--co1-100))
 }
 
 .statuspseudo {
@@ -8470,7 +8369,7 @@ firstdtls:nth-last-of-type(odd) {
 	color: var(--group-color);
 	font-family: var(--display);
 	font-size: var(--2xlarge);
-	text-shadow: 1px 1px var(--group-color-50);
+	text-shadow: 1px 1px var(--group-color-100);
 	letter-spacing: 5px;
 	font-weight: 100;
 	line-height: var(--2xlarge);
@@ -8497,11 +8396,11 @@ statusdtls {
 	justify-content: center;
 	font-family: var(--serif);
 	text-transform: uppercase;
-	border-top: 1px solid var(--group-color-50, var(--co1-50))
+	border-top: 1px solid var(--group-color-50, var(--co1-100))
 }
 
 statusdtls:nth-of-type(odd) {
-	border-right: 1px solid var(--group-color-50, var(--co1-50))
+	border-right: 1px solid var(--group-color-50, var(--co1-100))
 }
 
 .d-none {
@@ -9373,7 +9272,7 @@ statusinsta {
 	padding: 0 var(--large);
 	font-family: var(--display);
 	overflow: hidden;
-	background: var(--group-color-50);
+	background: var(--group-color-100);
 	color: var(--group-color);
 	display: flex;
 	align-items: center;
@@ -9467,7 +9366,7 @@ statusinsta {
 	flex-direction: row;
 	display: flex;
 	border-radius: var(--large) var(--small) var(--large) var(--small);
-	background-color: var(--group-color-50);
+	background-color: var(--group-color-100);
 	padding: var(--large);
 	border: 0.5px solid var(--white);
 	width: 100%
@@ -9501,12 +9400,12 @@ statusinsta {
 }
 
 .astrocontent span:nth-of-type(odd) {
-	border-right: 1px solid var(--group-color-50)
+	border-right: 1px solid var(--group-color-100)
 }
 
 .astrocontent span:nth-of-type(1),
 .astrocontent span:nth-of-type(2) {
-	border-bottom: 1px solid var(--group-color-50)
+	border-bottom: 1px solid var(--group-color-100)
 }
 
 .astrocontent i {
@@ -9843,7 +9742,7 @@ lblpmdn {
 
 .minipostprofile .postprofile-contact i:before {
 	padding: 5px;
-	background: var(--group-color-50);
+	background: var(--group-color-100);
 	border-radius: 50%
 }
 
@@ -9885,7 +9784,7 @@ lblpmdn {
 #form-presentation button,
 #form-validation button {
 	border: 0.5px solid var(--co3);
-	background: var(--co3-50);
+	background: var(--co3-100);
 	border-radius: var(--small);
 	padding: var(--3xsmall) var(--2xlarge);
 	margin: 0 auto;
