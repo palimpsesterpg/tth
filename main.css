@@ -422,16 +422,16 @@ img {
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    font-family: var(--main);
-    color: var(--lighterdark);
-    font-size: var(--small);
-    background: var(--header);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed
+	width: 100%;
+	height: 100%;
+	font-family: var(--main);
+	color: var(--lighterdark);
+	font-size: var(--small);
+	background: var(--header);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed
 }
 
 #wrap {
@@ -6440,7 +6440,7 @@ majgc::first-letter {
 .br1n:before,
 .br1d:before,
 .br1gc:before {
-	content: "—";
+	content: "•";
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--small);
@@ -6465,7 +6465,7 @@ majgc::first-letter {
 .br5n:before,
 .br5d:before,
 .br5gc:before {
-	content: "œ§";
+	content: "✦";
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--3xlarge);
@@ -6619,8 +6619,8 @@ majgc::first-letter {
 .br7n,
 .br7d,
 .br7gc {
-	letter-spacing: var(--large);
-	padding-left: var(--large)
+	letter-spacing: var(--2xsmall);
+	padding-left: var(--2xsmall)
 }
 
 .br31:before,
@@ -6629,7 +6629,7 @@ majgc::first-letter {
 .br3n:before,
 .br3d:before,
 .br3gc:before {
-	content: "——————————"
+	content: "• • • • •"
 }
 
 .br41,
