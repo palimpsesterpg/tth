@@ -3236,14 +3236,12 @@ font-size: var(--3xlarge);
 .profile-links {
 	display: flex;
 	align-items: center;
-	margin-top: -3px !important;
 	justify-content: center;
 	gap: var(--large);
 	text-transform: lowercase;
 	font-weight: 300;
 	font-family: var(--serif);
-	font-size: var(--medium);
-	padding: var(--large) 0
+	font-size: var(--medium)
 }
 
 .memberlist {
