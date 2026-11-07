@@ -22,7 +22,7 @@
 	--serif: "Playfair Display";
 
 	--icons-thin: "uicons-thin-straight";
-	--icons-solid: "uicons-solid-straight"
+	--icons-solid: "uicons-solid-straight";
 
 	--co1: #780000;
 	--co2: #946507;
@@ -1221,7 +1221,7 @@ a.forumtitle {
 .forumdesc span {
 	text-transform: lowercase;
 	font-weight: 700;
-	color: var(--lightdark)
+	color: var(--lighterdark)
 }
 
 .hundred .forumdesc span {
@@ -1892,11 +1892,11 @@ div.award.award-hj::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	color: var(--light);
 	height: -webkit-fill-available;
 	width: -webkit-fill-available;
 	align-items: center;
-	padding-left: var(--group-color-100);
+	color: var(--group-color-100);
+	padding-left: var(--small);
 	border-left: var(--small) solid var(--light)
 }
 
