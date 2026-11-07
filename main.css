@@ -422,14 +422,16 @@ img {
 }
 
 body {
-	font-family: var(--main);
-	color: var(--lightdark);
-	font-size: var(--small);
-	margin-top: 0 !important;
-	background-attachment: fixed;
-	background: var(--header);
-	background-size: cover;
-	background-position: center
+    width: 100%;
+    height: 100%;
+    font-family: var(--main);
+    color: var(--lighterdark);
+    font-size: var(--small);
+    background: var(--header);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 #wrap {
