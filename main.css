@@ -846,8 +846,7 @@ body {
 
 .forumrow {
 	background-size: cover;
-
-	box-shadow: 2.5px 2.5px var(--neutral);
+	box-shadow: 2.5px 2.5px var(--darklight);
 	flex: 1 1 100%
 }
 
@@ -1222,7 +1221,7 @@ a.forumtitle {
 .forumdesc span {
 	text-transform: lowercase;
 	font-weight: 700;
-	color: var(--darkerneutral)
+	color: var(--lightdark)
 }
 
 .hundred .forumdesc span {
@@ -1893,12 +1892,12 @@ div.award.award-hj::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	color: var(--white);
+	color: var(--light);
 	height: -webkit-fill-available;
 	width: -webkit-fill-available;
 	align-items: center;
-	padding-left: var(--large);
-	border-left: var(--small) solid var(--white)
+	padding-left: var(--group-color-100);
+	border-left: var(--small) solid var(--light)
 }
 
 #groups-qeel div:hover span {
