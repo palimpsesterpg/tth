@@ -1480,8 +1480,8 @@ div.award.award-hj::before {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-left: 2.5px solid var(--co3-200);
-	border-right: 2.5px solid var(--co3-200);
+	border-left: var(--4xsmall) solid var(--co3-100);
+	border-right: var(--4xsmall) solid var(--co3-100);
 	text-align: justify;
 	padding: 0 var(--large);
 	color: var(--darkneutral);
