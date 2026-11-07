@@ -1381,7 +1381,7 @@ div.award.award-hj::before {
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--2xsmall);
-	flex: 0 1 136px;
+	flex: 0 1 136px !important;
 	overflow-y: auto;
 	overflow-x: hidden;
 	justify-content: center;
@@ -1507,19 +1507,19 @@ div.award.award-hj::before {
 }
 
 .bloc-details.three a:before {
-	background-color: var(--co3-100);
+	width: 25px;
 	height: 25px;
-	color: var(--co3-700);
+	background-color: var(--co3-100);
+	color: var(--co3);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 50%;
-	width: 25px
+	border-radius: 50%
 }
 
 .bloc-details.three .fi-ts-question:before {
-	background-color: var(--darklight);
-	color: var(--darkneutral)
+	background-color: var(--co3-100);
+	color: var(--co3);
 }
 
 #page-details {
@@ -3077,7 +3077,7 @@ button.toggle-panel .fi:before:hover {
 	align-content: flex-start;
 	background-color: var(--light);
 	padding: var(--large);
-	border: 0.5px solid var(--group-color)
+	border: 0.5px solid var(--group-color-300, var(--co1-300))
 }
 
 .profile-bloc.one>div {
@@ -3119,8 +3119,8 @@ button.toggle-panel .fi:before:hover {
 	padding-right: calc(var(--2xsmall) - 2.5px);
 	text-align: center;
 	font-weight: 300;
-	background-color: var(--white);
-	border: 0.5px solid var(--group-color, var(--co));
+	background-color: var(--light);
+	border: 0.5px solid var(--group-color-300, var(--co2-300));
 	color: var(--group-color, var(--co2))
 }
 
