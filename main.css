@@ -22,8 +22,7 @@
 	--serif: "Playfair Display";
 
 	--icons-thin: "uicons-thin-straight";
-	--icons-solid: "uicons-solid-straight";
-	--icons-custom: "uicons-custom-itb";
+	--icons-solid: "uicons-solid-straight"
 
 	--co1: #780000;
 	--co2: #946507;
@@ -125,6 +124,7 @@
 			; var(--co2-100),
 			; var(--co3-100),
 			; var(--co1-100));
+			
 	--header: url("header-tth-light.png")
 }
 
@@ -1058,7 +1058,7 @@ a.forumtitle {
 
 .forumrow-status:before {
 	content: "\E04A";
-	font-family: var(--icons-custom) !important;
+	font-family: var(--icons-thin) !important;
 	background-color: var(--darkerlight);
 	height: 35px;
 	width: 35px;
@@ -1797,7 +1797,7 @@ div.award.award-hj::before {
 .postprofile-pseudo a.cam:before,
 .cam .profile-pseudo:before {
 	content: "\E054";
-	font-family: var(--icons-custom) !important;
+	font-family: var(--icons-thin) !important;
 	color: var(--group-color, var(--co1));
 	margin-right: var(--3xsmall)
 }
@@ -1980,7 +1980,7 @@ div.award.award-hj::before {
 
 .topicrow-status:before {
 	content: "\E04B";
-	font-family: var(--icons-custom) !important;
+	font-family: var(--icons-thin) !important;
 	background-color: var(--darklight);
 	color: var(--darkneutral);
 	height: 25px;
@@ -6737,19 +6737,19 @@ majgc::first-letter {
 }
 
 .br93 {
-	background: var(--gradient14)
-}
-
-.br94 {
 	background: var(--gradient23)
 }
 
+.br94 {
+	background: var(--gradient12-100)
+}
+
 .br95 {
-	background: var(--gradient24)
+	background: var(--gradient13-100)
 }
 
 .br96 {
-	background: var(--gradient34)
+	background: var(--gradient23-100)
 }
 
 .brpost dl.codebox {
@@ -7477,7 +7477,7 @@ pblocgc,
 
 .indivhead div:before {
 	content: "";
-	font-family: var(--icons-custom) !important;
+	font-family: var(--icons-thin) !important;
 	content: "\e04d";
 	color: var(--group-color-200)
 }
