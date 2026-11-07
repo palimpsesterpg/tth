@@ -2773,7 +2773,7 @@ textarea {
 	font-weight: 700;
 	letter-spacing: 2.5px;
 	text-transform: lowercase;
-	font-size: var(--medium);
+	font-size: var(--2xlarge);
 	color: var(--co1);
 	background: var(--white);
 	width: 100%;
@@ -2787,7 +2787,7 @@ textarea {
 	width: 100%;
 	gap: var(--large);
 	text-transform: uppercase;
-	font-size: var(--medium);
+	font-size: var(--large);
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -2898,7 +2898,7 @@ textarea {
 	color: var(--co3) !important
 }
 
-.ficheadmin maj3 {
+.fichelisting maj3 {
 	color: var(--co3);
 	font-weight: 200;
 	border: 0.5px solid var(--co3-100);
@@ -4790,10 +4790,10 @@ bbordergc,
 bborderbgc,
 bborderigc,
 bborderbigc,
-mborgcergc,
-mborgcerbgc,
-mborgcerigc,
-mborgcerbigc {
+mbordergc,
+mborderbgc,
+mborderigc,
+mborderbigc {
 	color: var(--group-color, var(--lightdark))
 }
 
