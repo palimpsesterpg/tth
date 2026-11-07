@@ -1346,7 +1346,7 @@ div.award.award-hj::before {
 	word-break: break-word;
 	width: max-content;
 	white-space: normal;
-	border: 1px solid var(--neutral)
+	border: 0.5px solid var(--neutral)
 }
 
 .award_tooltiptext::before {
@@ -1605,7 +1605,7 @@ div.award.award-hj::before {
 }
 
 .bloc-accueil.two {
-	border: 1px solid var(--co2);
+	border: 0.5px solid var(--co2);
 	outline: 4px solid var(--white);
 	padding: var(--large);
 	text-align: justify;
@@ -2646,7 +2646,7 @@ topicdesc {
 
 .sceditor-container {
 	background-color: transparent !important;
-	border: 1px solid var(--darklight) !important;
+	border: 0.5px solid var(--darklight) !important;
 	border-radius: 0px !important
 }
 
@@ -2973,7 +2973,7 @@ textarea {
 .panel-content button {
 	padding: var(--2xsmall);
 	background-color: var(--darklight);
-	border: 1px solid var(--neutral)
+	border: 0.5px solid var(--neutral)
 }
 
 .panel-content button:hover {
@@ -3077,11 +3077,7 @@ button.toggle-panel .fi:before:hover {
 	align-content: flex-start;
 	background-color: var(--light);
 	padding: var(--large);
-	border: 1px solid var(--neutral)
-}
-
-.profile-bloc.one {
-	gap: var(--large)
+	border: 0.5px solid var(--group-color)
 }
 
 .profile-bloc.one>div {
@@ -3264,7 +3260,7 @@ button.toggle-panel .fi:before:hover {
 
 .member {
 	border-left: var(--2xsmall) solid var(--group-color, var(--dark)) !important;
-	border: 1px solid var(--group-color, var(--dark));
+	border: 0.5px solid var(--group-color, var(--dark));
 	box-shadow: 0 0 0rem 0.55rem var(--neutral);
 	display: flex;
 	padding: var(--2xsmall) 0;
@@ -3272,7 +3268,6 @@ button.toggle-panel .fi:before:hover {
 	background-color: var(--light);
 	outline: var(--2xsmall) solid var(--white);
 	align-items: center;
-
 	gap: var(--2xsmall);
 	margin: var(--2xsmall);
 	flex: 0 0 calc((100% - 4 * var(--large)) / 5 - 2 * var(--2xsmall));
@@ -3442,7 +3437,7 @@ input#profile_field_4_-12_0 {
 }
 
 .mespriv-display.post {
-	border: 1px solid var(--group-color, var(--co1));
+	border: 0.5px solid var(--group-color, var(--co1));
 	margin: var(--large);
 	background-color: var(--white);
 	flex-direction: row-reverse !important
@@ -4024,7 +4019,7 @@ dl.codebox {
 .ficheinsta,
 .fichetinder {
 	padding: var(--2xlarge);
-	border: 1px solid var(--group-color, var(--neutral));
+	border: 0.5px solid var(--group-color, var(--neutral));
 	outline: var(--large) solid var(--group-color-100, var(--darklight));
 	margin-top: var(--large)
 }
@@ -4203,7 +4198,7 @@ dl.codebox {
 
 .blocperso.one {
 	background-color: var(--white);
-	border: 1px solid var(--group-color-200, var(--co3-200));
+	border: 0.5px solid var(--group-color-200, var(--co3-200));
 	padding: var(--2xlarge)
 }
 
@@ -4306,7 +4301,7 @@ lblplyr {
 	margin: var(--2xlarge) var(--large) 0;
 	outline: var(--large) solid var(--white);
 	background: var(--light);
-	border: 1px solid var(--group-color-100, var(--co1-100)) !important
+	border: 0.5px solid var(--group-color-100, var(--co1-100)) !important
 }
 
 lblrchrch {
@@ -4334,7 +4329,7 @@ lblrchrch {
 }
 
 blockquote.blocperso {
-	border: 1px solid var(--group-color-100, var(--co3-100));
+	border: 0.5px solid var(--group-color-100, var(--co3-100));
 	outline: var(--large) solid var(--white)
 }
 
@@ -7386,7 +7381,7 @@ pblocgc,
 	background: var(--light) !important;
 	padding: var(--3xsmall) !important;
 	box-shadow: none !important;
-	border: 1px solid var(--darkerlight);
+	border: 0.5px solid var(--darkerlight);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
@@ -7546,7 +7541,7 @@ chronodate {
 chronodate:after {
 	content: "";
 	display: block;
-	border: 1px solid var(--group-color, var(--darkneutral));
+	border: 0.5px solid var(--group-color, var(--darkneutral));
 	height: 7.5px;
 	width: 7.5px;
 	border-radius: 100%;
@@ -7807,7 +7802,7 @@ p {
 	margin-bottom: var(--medium);
 	padding: var(--medium);
 	align-items: center;
-	border: 1px solid var(--neutral);
+	border: 0.5px solid var(--neutral);
 	background: var(--white);
 	transition: border 0.2s;
 	animation: notiffiFadeIn 0.3s ease-in-out;
@@ -8254,7 +8249,7 @@ p {
 }
 
 .ficheperso.first>div {
-	border: 1px solid var(--group-color-100, var(--co1-100));
+	border: 0.5px solid var(--group-color-100, var(--co1-100));
 	display: flex;
 	width: 100%;
 	border-radius: var(--large) var(--small) var(--large) var(--small)
@@ -8325,7 +8320,7 @@ firstdtls:nth-last-of-type(odd) {
 	padding: var(--large);
 	background-color: var(--group-color-100, var(--co1-100));
 	border-radius: var(--large) var(--small) var(--large) var(--small);
-	border: 1px solid var(--group-color);
+	border: 0.5px solid var(--group-color);
 	width: 100%
 }
 
@@ -8495,7 +8490,7 @@ statusdtls:nth-of-type(odd) {
 
 	border-radius: 100%;
 	padding: var(--2xsmall);
-	border: 1px solid var(--group-color, var(--co1))
+	border: 0.5px solid var(--group-color, var(--co1))
 }
 
 .miniconinsta {
@@ -8707,7 +8702,7 @@ statusinsta {
 
 .ficherp.two .ficherphead img {
 	width: 100px;
-	border: 1px solid var(--neutral)
+	border: 0.5px solid var(--neutral)
 }
 
 .ficherp.three .ficherphead img {
@@ -9124,7 +9119,7 @@ statusinsta {
 	width: 100px;
 	padding: 5px;
 	background-color: var(--white);
-	border: 1px solid var(--darklight)
+	border: 0.5px solid var(--darklight)
 }
 
 .signtes.seven img {
@@ -9140,7 +9135,7 @@ statusinsta {
 .signtes.nine img {
 	width: 75px;
 	padding: 5px;
-	border: 1px solid var(--group-color-100)
+	border: 0.5px solid var(--group-color-100)
 }
 
 .signtes.two div,
@@ -9184,7 +9179,7 @@ statusinsta {
 	width: 75px;
 	border-radius: 50%;
 	padding: 5px;
-	border: 1px solid var(--group-color-100)
+	border: 0.5px solid var(--group-color-100)
 }
 
 .signtes.seven,
@@ -9530,7 +9525,7 @@ lblpmdn {
 .ficheportrait img {
 	padding: var(--small);
 	background-color: var(--white);
-	border: 1px solid var(--neutral);
+	border: 0.5px solid var(--neutral);
 	height: 100px
 }
 
