@@ -96,9 +96,9 @@
 	--darkneutral: color-mix(in srgb, white 72.5%, black);
 	--darkerneutral: color-mix(in srgb, white 70%, black);
 
-	--dark: color-mix(in srgb, white 35%, black);
-	--lightdark: color-mix(in srgb, white 30%, black);
-	--lighterdark: color-mix(in srgb, white 25%, black);
+    --dark: color-mix(in srgb, white 25%, black);
+    --lightdark: color-mix(in srgb, white 30%, black);
+    --lighterdark: color-mix(in srgb, white 35%, black);
 
 	--gradientNeutral: linear-gradient(to right,
 			var(--light),
@@ -194,9 +194,9 @@
 	--darkneutral: color-mix(in srgb, black 62.5%, white);
 	--darkerneutral: color-mix(in srgb, black 60%, white);
 
-	--dark: color-mix(in srgb, black 25%, white);
+	--dark: color-mix(in srgb, black 15%, white);
 	--lightdark: color-mix(in srgb, black 20%, white);
-	--lighterdark: color-mix(in srgb, black 15%, white);
+	--lighterdark: color-mix(in srgb, black 25%, white);
 }
 
 .group-test {
