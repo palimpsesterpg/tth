@@ -142,7 +142,7 @@
 	--co1-600: color-mix(in srgb, var(--co1) 80%, white);
 	--co1-700: color-mix(in srgb, var(--co1) 60%, white);
 	--co1-800: color-mix(in srgb, var(--co1) 40%, white);
-	--co1-800: color-mix(in srgb, var(--co1) 20%, white);
+	--co1-900: color-mix(in srgb, var(--co1) 20%, white);
 
 	--co1-op25: color-mix(in srgb, var(--co1) 75%, transparent);
 	--co1-op75: color-mix(in srgb, var(--co1) 25%, transparent);
@@ -155,7 +155,7 @@
 	--co2-600: color-mix(in srgb, var(--co2) 80%, white);
 	--co2-700: color-mix(in srgb, var(--co2) 60%, white);
 	--co2-800: color-mix(in srgb, var(--co2) 40%, white);
-	--co2-800: color-mix(in srgb, var(--co2) 20%, white);
+	--co2-900: color-mix(in srgb, var(--co2) 20%, white);
 
 	--co2-op25: color-mix(in srgb, var(--co2) 75%, transparent);
 	--co2-op75: color-mix(in srgb, var(--co2) 25%, transparent);
@@ -172,7 +172,7 @@
 
 	--co3-op25: color-mix(in srgb, var(--co3) 75%, transparent);
 	--co3-op75: color-mix(in srgb, var(--co3) 25%, transparent);
-	--co3-op75: color-mix(in srgb, var(--co3) 10%, transparent);
+	--co3-op90: color-mix(in srgb, var(--co3) 10%, transparent);
 
 	--white-op25: color-mix(in srgb, black 25%, transparent);
 	--white-op50: color-mix(in srgb, black 50%, transparent);
