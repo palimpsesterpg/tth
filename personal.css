@@ -97,7 +97,7 @@
 }
 
 .cam cam4 {
-    color: var(--white);
+    color: white;
     background-color: var(--group-color);
     font-family: var(--display);
     text-transform: lowercase;
@@ -121,7 +121,7 @@
             var(--group-color-300),
             var(--group-color),
             var(--group-color-300));
-    color: var(--white);
+    color: white;
     padding-right: var(--2xsmall);
     padding-left: calc(var(--2xsmall) + 5px);
     text-transform: lowercase;
@@ -142,7 +142,7 @@
 .cam cam8 {
     font-size: var(--large);
     background: var(--group-color-600);
-    color: var(--white);
+    color: white;
     padding: 0 var(--small);
     text-transform: lowercase;
     font-weight: 200
@@ -175,14 +175,14 @@
     letter-spacing: 1px;
     color: var(--group-color);
     background: var(--group-color-100);
-    text-shadow: 1px 1px var(--white)
+    text-shadow: 1px 1px white
 }
 
 .cam .rpcam {
     border: 0.5px solid var(--group-color-300);
     outline: 2px solid var(--group-color-100);
-    box-shadow: 0px 0px 0px 6px var(--white);
-    background-color: var(--white);
+    box-shadow: 0px 0px 0px 6px white;
+    background-color: white;
     padding: var(--large);
     display: flex;
     width: 90%;
@@ -239,7 +239,7 @@
 
 .cam .footrpcam {
     background: var(--group-color);
-    color: var(--white) !important;
+    color: white !important;
     padding: var(--32xsmall);
     text-align: center;
     text-transform: lowercase;
@@ -355,7 +355,7 @@
 }
 
 .cam #postprofile-libre div[align="justify"] a {
-    background-color: var(--white);
+    background-color: white;
     color: var(--group-color) !important
 }
 
@@ -449,7 +449,7 @@
     font-family: var(--main);
     font-size: var(--small);
     text-transform: uppercase;
-    background-color: var(--white);
+    background-color: white;
     color: var(--group-color, var(--darkneutral));
     padding: var(--32xsmall) var(--large) var(--32xsmall) calc(var(--large) + 1.5px);
     letter-spacing: 1.5px;

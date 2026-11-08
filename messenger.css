@@ -101,7 +101,7 @@
     width: 100%;
     padding: var(--small);
     gap: var(--large);
-    color: var(--white);
+    color: white;
     background: var(--co2);
     font-size: var(--large);
     align-items: center;
@@ -125,7 +125,7 @@
 }
 
 #FAM-menu {
-    color: var(--white);
+    color: white;
     background: var(--co2);
     position: absolute;
     right: 0px;
@@ -794,7 +794,7 @@ a.FAM-attachment-thumb {
     height: 20px;
     width: 20px;
     background: var(--group-color, var(--co2));
-    color: var(--white);
+    color: white;
     align-items: center
 }
 
@@ -1306,7 +1306,7 @@ blockquote.FAM-codebox>div {
 .FAM-tab:hover,
 .FAM-tab.FAM-tab-active {
     background: var(--co2-200);
-    color: var(--white)
+    color: white
 }
 
 .FAM-tab-active .FAM-tab-name {

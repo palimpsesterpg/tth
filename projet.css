@@ -1,6 +1,6 @@
 .background-prj {
     background-color: var(--light);
-    border: var(--large) solid var(--white);
+    border: var(--large) solid white;
     padding: var(--large);
     outline: 0.5px solid var(--neutral);
     height: 100%;
@@ -49,12 +49,12 @@ headtitle {
 }
 
 .header-prj {
-    background-color: var(--white);
+    background-color: white;
     border: 0.5px solid var(--neutral);
     padding: var(--large);
     display: flex;
     justify-content: space-between;
-    color: var(--black);
+    color: var(--dark);
     align-items: center
 }
 
@@ -67,7 +67,7 @@ subtitle {
 .content-prj strong,
 .content-prj i {
     font-family: var(--serif);
-    color: var(--black)
+    color: var(--dark)
 }
 
 .content-prj strong {
@@ -76,13 +76,13 @@ subtitle {
 
 .content-prj span {
     font-family: var(--mono);
-    color: var(--black);
+    color: var(--dark);
     background-color: var(--neutral);
     padding: 0 var(--2xsmall);
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-left: calc(var(--2xsmall) + 1px);
-    border: 0.5px solid var(--white);
+    border: 0.5px solid white;
     border-radius: var(--small)
 }
 
@@ -90,10 +90,10 @@ subtitle {
     text-align: right;
     display: flex;
     font-family: var(--display);
-    color: var(--black);
+    color: var(--dark);
     text-transform: lowercase;
     font-size: var(--large);
-    text-shadow: 1px 1px var(--white);
+    text-shadow: 1px 1px white;
     font-weight: 700;
     padding-left: 5px;
     align-items: center;
@@ -109,7 +109,7 @@ subtitle {
 
 m {
     font-family: var(--spe);
-    color: var(--black);
+    color: var(--dark);
     height: var(--medium);
     font-size: var(--medium);
     display: inline-block
