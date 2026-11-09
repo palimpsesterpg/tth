@@ -86,19 +86,19 @@
 	--black-op75: color-mix(in srgb, black 75%, transparent);
 	--black-op90: color-mix(in srgb, black 90%, transparent);
 
-    --light: color-mix(in srgb, white 97.5%, black);
-    --dark-light: color-mix(in srgb, white 95%, black);
-    --darker-light: color-mix(in srgb, white 90%, black);
+	--light: color-mix(in srgb, white 97.5%, black);
+	--dark-light: color-mix(in srgb, white 95%, black);
+	--darker-light: color-mix(in srgb, white 90%, black);
 
-    --lighter-neutral: color-mix(in srgb, white 75%, grey);
-    --light-neutral: color-mix(in srgb, white 67.5%, grey);
-    --neutral: color-mix(in srgb, white 50%, grey);
-    --dark-neutral: color-mix(in srgb, white 37.5%, grey);
-    --darker-neutral: color-mix(in srgb, white 25%, grey);
+	--lighter-neutral: color-mix(in srgb, white 75%, grey);
+	--light-neutral: color-mix(in srgb, white 67.5%, grey);
+	--neutral: color-mix(in srgb, white 50%, grey);
+	--dark-neutral: color-mix(in srgb, white 37.5%, grey);
+	--darker-neutral: color-mix(in srgb, white 25%, grey);
 
-    --lighter-dark: color-mix(in srgb, white 35%, black);
-    --light-dark: color-mix(in srgb, white 30%, black);
-    --dark: color-mix(in srgb, white 25%, black);
+	--lighter-dark: color-mix(in srgb, white 35%, black);
+	--light-dark: color-mix(in srgb, white 30%, black);
+	--dark: color-mix(in srgb, white 25%, black);
 
 	--gradientNeutral: linear-gradient(to right,
 			var(--light),
@@ -184,19 +184,19 @@
 	--black-op75: color-mix(in srgb, white 75%, transparent);
 	--black-op90: color-mix(in srgb, white 90%, transparent);
 
-    --light: color-mix(in srgb, black 87.5%, white);
-    --dark-light: color-mix(in srgb, black 85%, white);
-    --darker-light: color-mix(in srgb, black 80%, white);
+	--light: color-mix(in srgb, black 87.5%, white);
+	--dark-light: color-mix(in srgb, black 85%, white);
+	--darker-light: color-mix(in srgb, black 80%, white);
 
-    --lighter-neutral: color-mix(in srgb, black 75%, grey);
-    --light-neutral: color-mix(in srgb, black 67.5%, grey);
-    --neutral: color-mix(in srgb, black 50%, grey);
-    --dark-neutral: color-mix(in srgb, black 37.5%, grey);
-    --darker-neutral: color-mix(in srgb, black 25%, grey);
+	--lighter-neutral: color-mix(in srgb, black 75%, grey);
+	--light-neutral: color-mix(in srgb, black 67.5%, grey);
+	--neutral: color-mix(in srgb, black 50%, grey);
+	--dark-neutral: color-mix(in srgb, black 37.5%, grey);
+	--darker-neutral: color-mix(in srgb, black 25%, grey);
 
-    --lighter-dark: color-mix(in srgb, black 45%, white);
-    --light-dark: color-mix(in srgb, black 40%, white);
-    --dark: color-mix(in srgb, black 35%, white);
+	--lighter-dark: color-mix(in srgb, black 45%, white);
+	--light-dark: color-mix(in srgb, black 40%, white);
+	--dark: color-mix(in srgb, black 35%, white);
 }
 
 .group-test {
