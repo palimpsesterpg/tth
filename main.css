@@ -87,18 +87,18 @@
 	--black-op90: color-mix(in srgb, black 90%, transparent);
 
 	--light: color-mix(in srgb, white 97.5%, black);
-	--darklight: color-mix(in srgb, white 95%, black);
-	--darkerlight: color-mix(in srgb, white 90%, black);
+	--dark-light: color-mix(in srgb, white 95%, black);
+	--darker-light: color-mix(in srgb, white 90%, black);
 
-	--lightneutral: color-mix(in srgb, white 80%, black);
-	--lighterneutral: color-mix(in srgb, white 77.5%, black);
+	--light-neutral: color-mix(in srgb, white 80%, black);
+	--lighter-neutral: color-mix(in srgb, white 77.5%, black);
 	--neutral: color-mix(in srgb, white 75%, black);
-	--darkneutral: color-mix(in srgb, white 72.5%, black);
-	--darkerneutral: color-mix(in srgb, white 70%, black);
+	--dark-neutral: color-mix(in srgb, white 72.5%, black);
+	--darker-neutral: color-mix(in srgb, white 70%, black);
 
     --dark: color-mix(in srgb, white 25%, black);
-    --lightdark: color-mix(in srgb, white 30%, black);
-    --lighterdark: color-mix(in srgb, white 35%, black);
+    --light-dark: color-mix(in srgb, white 30%, black);
+    --lighter-dark: color-mix(in srgb, white 35%, black);
 
 	--gradientNeutral: linear-gradient(to right,
 			var(--light),
@@ -185,18 +185,18 @@
 	--black-op90: color-mix(in srgb, white 90%, transparent);
 
 	--light: color-mix(in srgb, black 87.5%, white);
-	--darklight: color-mix(in srgb, black 85%, white);
-	--darkerlight: color-mix(in srgb, black 80%, white);
+	--dark-light: color-mix(in srgb, black 85%, white);
+	--darker-light: color-mix(in srgb, black 80%, white);
 
-	--lightneutral: color-mix(in srgb, black 70%, white);
-	--lighterneutral: color-mix(in srgb, black 67.5%, white);
+	--light-neutral: color-mix(in srgb, black 70%, white);
+	--lighter-neutral: color-mix(in srgb, black 67.5%, white);
 	--neutral: color-mix(in srgb, black 65%, white);
-	--darkneutral: color-mix(in srgb, black 62.5%, white);
-	--darkerneutral: color-mix(in srgb, black 60%, white);
+	--dark-neutral: color-mix(in srgb, black 62.5%, white);
+	--darker-neutral: color-mix(in srgb, black 60%, white);
 
 	--dark: color-mix(in srgb, black 15%, white);
-	--lightdark: color-mix(in srgb, black 20%, white);
-	--lighterdark: color-mix(in srgb, black 25%, white);
+	--light-dark: color-mix(in srgb, black 20%, white);
+	--lighter-dark: color-mix(in srgb, black 25%, white);
 }
 
 .group-test {
@@ -455,7 +455,7 @@ a:visited {
 }
 
 a:hover {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 *,
@@ -474,7 +474,7 @@ body {
 	width: 100%;
 	height: 100%;
 	font-family: var(--main);
-	color: var(--lighterdark);
+	color: var(--lighter-dark);
 	font-size: var(--small);
 	background: var(--header);
 	background-size: cover;
@@ -487,7 +487,7 @@ body {
 	padding: var(--large);
 	width: 950px;
 	margin: 0 auto;
-	background-color: var(--darklight)
+	background-color: var(--dark-light)
 }
 
 .bottomlist {
@@ -844,12 +844,12 @@ body {
 
 .forumlist:nth-of-type(even) .forumlist-title {
 	padding-right: var(--large);
-	border-right: 0.5px solid var(--lighterneutral)
+	border-right: 0.5px solid var(--lighter-neutral)
 }
 
 .forumlist:nth-of-type(odd) .forumlist-title {
 	padding-left: var(--large);
-	border-left: 0.5px solid var(--lighterneutral);
+	border-left: 0.5px solid var(--lighter-neutral);
 	padding-top: 0 var(--3xsmall);
 	order: 3
 }
@@ -895,7 +895,7 @@ body {
 
 .forumrow {
 	background-size: cover;
-	box-shadow: 2.5px 2.5px var(--darklight);
+	box-shadow: 2.5px 2.5px var(--dark-light);
 	flex: 1 1 100%
 }
 
@@ -1060,7 +1060,7 @@ a.forumtitle {
 }
 
 .forumlinks {
-	color: var(--darkerlight)
+	color: var(--darker-light)
 }
 
 .fifty .forumlinks,
@@ -1108,7 +1108,7 @@ a.forumtitle {
 .forumrow-status:before {
 	content: "\E04A";
 	font-family: var(--icons-thin) !important;
-	background-color: var(--darkerlight);
+	background-color: var(--darker-light);
 	height: 35px;
 	width: 35px;
 	display: flex;
@@ -1150,9 +1150,9 @@ a.forumtitle {
 .forum_new .forumrow-status:before,
 .cat_new .forumrow-status:before {
 	content: "\E04C";
-	background-color: var(--group-color, var(--darkneutral));
+	background-color: var(--group-color, var(--dark-neutral));
 	box-shadow: 2.5px 2.5px var(--group-color-100, white);
-	color: var(--group-color-100, var(--darkerlight))
+	color: var(--group-color-100, var(--darker-light))
 }
 
 .fifty .forumrow-status {
@@ -1270,7 +1270,7 @@ a.forumtitle {
 .forumdesc span {
 	text-transform: lowercase;
 	font-weight: 700;
-	color: var(--lighterdark)
+	color: var(--lighter-dark)
 }
 
 .hundred .forumdesc span {
@@ -1377,7 +1377,7 @@ div.award.award-hj::before {
 	transform: translateY(-50%);
 	text-align: center;
 	padding: var(--small) var(--large);
-	background-color: var(--darklight);
+	background-color: var(--dark-light);
 	z-index: 10;
 	opacity: 1;
 	word-break: break-word;
@@ -1386,7 +1386,7 @@ div.award.award-hj::before {
 	word-break: break-word;
 	width: max-content;
 	white-space: normal;
-	border: 0.5px solid var(--lighterneutral)
+	border: 0.5px solid var(--lighter-neutral)
 }
 
 .award_tooltiptext::before {
@@ -1443,7 +1443,7 @@ div.award.award-hj::before {
 }
 
 .bloc-details.two {
-	background-color: var(--darklight);
+	background-color: var(--dark-light);
 	padding: var(--large);
 	flex: 0 0 200px
 }
@@ -1480,7 +1480,7 @@ div.award.award-hj::before {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	background-color: var(--darklight);
+	background-color: var(--dark-light);
 	gap: var(--2xsmall);
 	width: 107px;
 	height: 107px;
@@ -1505,7 +1505,7 @@ div.award.award-hj::before {
 
 .icon-admin i {
 	letter-spacing: 2.5px;
-	color: var(--lighterdark)
+	color: var(--lighter-dark)
 }
 
 .icon-admin u {
@@ -1524,7 +1524,7 @@ div.award.award-hj::before {
 	border-right: var(--4xsmall) solid var(--co3-100);
 	text-align: justify;
 	padding: 0 var(--large);
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	height: 107px
 }
 
@@ -1906,7 +1906,7 @@ div.award.award-hj::before {
 #logged-in-user-list div {
 	height: 124px;
 	text-align: justify;
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	overflow: auto
 }
 
@@ -1994,7 +1994,7 @@ div.award.award-hj::before {
 
 #newest-user a:hover,
 #newest-user a span:hover {
-	color: var(--lighterdark) !important
+	color: var(--lighter-dark) !important
 }
 
 #l-whosbirthday-today,
@@ -2004,7 +2004,7 @@ div.award.award-hj::before {
 
 #l-whosbirthday-today:has(a) {
 	display: block !important;
-	border-top: 0.5px solid var(--darkneutral);
+	border-top: 0.5px solid var(--dark-neutral);
 	margin-top: var(--large);
 	padding-top: var(--large)
 }
@@ -2030,8 +2030,8 @@ div.award.award-hj::before {
 .topicrow-status:before {
 	content: "\E04B";
 	font-family: var(--icons-thin) !important;
-	background-color: var(--darklight);
-	color: var(--darkneutral);
+	background-color: var(--dark-light);
+	color: var(--dark-neutral);
 	height: 25px;
 	width: 25px;
 	display: flex;
@@ -2098,7 +2098,7 @@ topicinfo:after {
 .topicrow-title:has(topictype:not(:empty)) .topictitle:before {
 	content: "›";
 	padding-right: var(--2xsmall);
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	font-style: normal
 }
 
@@ -2112,7 +2112,7 @@ topicinfo:after {
 	position: absolute;
 	content: "";
 	height: var(--large);
-	background-color: var(--darklight);
+	background-color: var(--dark-light);
 	bottom: 0;
 	left: -1rem
 }
@@ -2223,7 +2223,7 @@ topicdesc {
 .topictitle {
 	font-family: var(--serif);
 	display: inline-flex;
-	color: var(--lighterdark) !important;
+	color: var(--lighter-dark) !important;
 	text-transform: lowercase
 }
 
@@ -2249,7 +2249,7 @@ topicdesc {
 .post {
 	display: flex;
 	gap: var(--large);
-	border: 0.5px solid var(--lighterneutral);
+	border: 0.5px solid var(--lighter-neutral);
 	padding: var(--large);
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -2328,7 +2328,7 @@ topicdesc {
 
 #postprofile-rang .postprofile-field-content {
 	text-transform: lowercase;
-	color: var(--group-color, var(--darkerneutral));
+	color: var(--group-color, var(--darker-neutral));
 	letter-spacing: 1px;
 	text-align: center;
 	width: 100%;
@@ -2499,7 +2499,7 @@ topicdesc {
 	font-family: var(--display);
 	flex: 1;
 	text-align: center;
-	border-bottom: 0.5px solid var(--lighterneutral);
+	border-bottom: 0.5px solid var(--lighter-neutral);
 	padding-bottom: var(--large)
 }
 
@@ -2632,7 +2632,7 @@ topicdesc {
 	display: flex;
 	flex-direction: column;
 	gap: var(--2xlarge);
-	background-color: var(--darklight)
+	background-color: var(--dark-light)
 }
 
 .topic-actions {
@@ -2686,7 +2686,7 @@ topicdesc {
 
 .sceditor-container {
 	background-color: transparent !important;
-	border: 0.5px solid var(--darklight) !important;
+	border: 0.5px solid var(--dark-light) !important;
 	border-radius: 0px !important
 }
 
@@ -2698,7 +2698,7 @@ topicdesc {
 	font-weight: 300;
 	letter-spacing: 2.5px;
 	padding-bottom: var(--large);
-	color: var(--lighterdark)
+	color: var(--lighter-dark)
 }
 
 .word-count strong {
@@ -2710,7 +2710,7 @@ topicdesc {
 	padding: var(--large) !important;
 	background-color: white !important;
 	border: 0 !important;
-	color: var(--lightdark) !important;
+	color: var(--light-dark) !important;
 	font-family: var(--mono) !important;
 	margin: 0 !important;
 	border-radius: 0 !important;
@@ -2806,7 +2806,7 @@ select {
 	text-align: center;
 	border-radius: 0;
 	font-weight: 300;
-	background-color: var(--darklight) !important;
+	background-color: var(--dark-light) !important;
 	padding: var(--2xsmall) !important
 }
 
@@ -2817,7 +2817,7 @@ button {
 textarea {
 	font-family: var(--main) !important;
 	padding: var(--2xsmall) !important;
-	background-color: var(--darklight) !important;
+	background-color: var(--dark-light) !important;
 	border: 0px !important
 }
 
@@ -3007,17 +3007,17 @@ textarea {
 	width: 100%;
 	text-align: justify;
 	width: 100%;
-	background-color: var(--darklight)
+	background-color: var(--dark-light)
 }
 
 .panel-content button {
 	padding: var(--2xsmall);
-	background-color: var(--darklight);
-	border: 0.5px solid var(--lighterneutral)
+	background-color: var(--dark-light);
+	border: 0.5px solid var(--lighter-neutral)
 }
 
 .panel-content button:hover {
-	background-color: var(--darkerlight)
+	background-color: var(--darker-light)
 }
 
 button.toggle-panel {
@@ -3199,7 +3199,7 @@ button.toggle-panel .fi:before:hover {
 	align-items: center;
 	justify-content: center;
 	text-transform: uppercase;
-	background-color: var(--group-color-100, var(--darklight))
+	background-color: var(--group-color-100, var(--dark-light))
 }
 
 #field_id-6 .field_uneditable:after {
@@ -3315,7 +3315,7 @@ button.toggle-panel .fi:before:hover {
 }
 
 .member:hover {
-	box-shadow: 0 0 0rem 0.55rem var(--group-color-100, var(--darkneutral))
+	box-shadow: 0 0 0rem 0.55rem var(--group-color-100, var(--dark-neutral))
 }
 
 .member-avatar img {
@@ -3666,14 +3666,14 @@ avct:hover {
 }
 
 avhi {
-	background-color: var(--darkerlight);
-	color: var(--darkerlight);
+	background-color: var(--darker-light);
+	color: var(--darker-light);
 	transition-duration: 0.7s
 }
 
 avhi:hover {
 	background-color: transparent;
-	color: var(--lightdark);
+	color: var(--light-dark);
 	transition-duration: 0.7s
 }
 
@@ -3707,7 +3707,7 @@ avhi:hover {
 	content: "";
 	flex: 1;
 	margin: 0 var(--large);
-	border-bottom: 0.5px solid var(--lighterneutral)
+	border-bottom: 0.5px solid var(--lighter-neutral)
 }
 
 .feed-item .text {
@@ -3973,12 +3973,12 @@ dl.codebox {
 	text-transform: lowercase;
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	border-bottom: 0.5px solid var(--lighterneutral)
+	border-bottom: 0.5px solid var(--lighter-neutral)
 }
 
 .fichepl .posttabs {
 	font-size: var(--medium);
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 .fichepl .posttabs .active {
@@ -4040,8 +4040,8 @@ dl.codebox {
 .fichefam,
 .fichepl {
 	padding: var(--2xlarge);
-	border: 0.5px solid var(--darkneutral);
-	outline: var(--large) solid var(--darklight);
+	border: 0.5px solid var(--dark-neutral);
+	outline: var(--large) solid var(--dark-light);
 	margin-top: var(--large)
 }
 
@@ -4049,7 +4049,7 @@ dl.codebox {
 .ficheadmin,
 .fichelisting {
 	padding: var(--2xlarge);
-	border: 0.5px solid var(--lighterneutral);
+	border: 0.5px solid var(--lighter-neutral);
 	outline: var(--large) solid white;
 	margin-top: var(--large)
 }
@@ -4060,7 +4060,7 @@ dl.codebox {
 .fichetinder {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--group-color, var(--neutral));
-	outline: var(--large) solid var(--group-color-100, var(--darklight));
+	outline: var(--large) solid var(--group-color-100, var(--dark-light));
 	margin-top: var(--large)
 }
 
@@ -4080,18 +4080,18 @@ dl.codebox {
 .fichepredef .posttab {
 	width: 100%;
 	text-transform: uppercase;
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	font-weight: 900
 }
 
 .fichepredef .posttab:nth-of-type(odd) {
 	text-align: right;
-	border-left: var(--3xsmall) solid var(--lighterneutral);
+	border-left: var(--3xsmall) solid var(--lighter-neutral);
 	padding-left: var(--3xsmall)
 }
 
 .fichepredef .posttab:nth-of-type(even) {
-	border-right: var(--3xsmall) solid var(--lighterneutral);
+	border-right: var(--3xsmall) solid var(--lighter-neutral);
 	padding-right: var(--3xsmall)
 }
 
@@ -4186,7 +4186,7 @@ dl.codebox {
 
 .pseudoperso nom {
 	font-family: var(--spe);
-	color: var(--lightdark);
+	color: var(--light-dark);
 	font-size: var(--3xlarge);
 	text-transform: lowercase;
 	line-height: var(--2xlarge);
@@ -4195,7 +4195,7 @@ dl.codebox {
 
 .pseudoperso prenom {
 	font-weight: 100;
-	color: var(--lightdark);
+	color: var(--light-dark);
 	font-size: var(--3xlarge);
 	text-transform: uppercase;
 	letter-spacing: var(--4xsmall);
@@ -4203,7 +4203,7 @@ dl.codebox {
 }
 
 .pseudoperso pronom {
-	color: var(--darkerneutral);
+	color: var(--darker-neutral);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-family: var(--mono)
@@ -4360,7 +4360,7 @@ lblrchrch {
 }
 
 .blocperso.two {
-	background-color: var(--darklight);
+	background-color: var(--dark-light);
 	padding: var(--2xlarge)
 }
 
@@ -4430,7 +4430,7 @@ blockquote.blocperso {
 }
 
 .headpl i {
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	text-transform: lowercase;
 	letter-spacing: 2.5px
 }
@@ -4496,7 +4496,7 @@ blockquote.blocperso {
 .attentes strong:first-child:before,
 .attentes strong:first-child:after {
 	content: "";
-	border-bottom: 0.5px solid var(--lighterneutral);
+	border-bottom: 0.5px solid var(--lighter-neutral);
 	flex: 1;
 	margin: 0 var(--3xlarge)
 }
@@ -4544,7 +4544,7 @@ blockquote.blocperso {
 
 .pseudorec i:after {
 	flex: 1;
-	border-bottom: 0.5px solid var(--darkneutral);
+	border-bottom: 0.5px solid var(--dark-neutral);
 	content: ""
 }
 
@@ -4811,7 +4811,7 @@ mbordern,
 mborderbn,
 mborderin,
 mborderbin {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 borderd,
@@ -4841,7 +4841,7 @@ mbordergc,
 mborderbgc,
 mborderigc,
 mborderbigc {
-	color: var(--group-color, var(--lightdark))
+	color: var(--group-color, var(--light-dark))
 }
 
 back1,
@@ -4869,7 +4869,7 @@ backn,
 backbn,
 backin,
 backbin {
-	background-color: var(--darkneutral)
+	background-color: var(--dark-neutral)
 }
 
 backd,
@@ -4883,7 +4883,7 @@ backgc,
 backbgc,
 backigc,
 backbigc {
-	background-color: var(--group-color, var(--lightdark))
+	background-color: var(--group-color, var(--light-dark))
 }
 
 lback1,
@@ -4911,7 +4911,7 @@ lbackn,
 lbackbn,
 lbackin,
 lbackbin {
-	background-color: var(--darklight)
+	background-color: var(--dark-light)
 }
 
 lbackd,
@@ -4953,7 +4953,7 @@ dbackn,
 dbackbn,
 dbackin,
 dbackbin {
-	background-color: var(--darkneutral)
+	background-color: var(--dark-neutral)
 }
 
 dbackd,
@@ -5053,7 +5053,7 @@ lbackn,
 lbackbn,
 lbackin,
 lbackbin {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 wbackd,
@@ -5075,7 +5075,7 @@ lbackgc,
 lbackbgc,
 lbackigc,
 lbackbigc {
-	color: var(--group-color, var(--lightdark))
+	color: var(--group-color, var(--light-dark))
 }
 
 back1,
@@ -5644,7 +5644,7 @@ serifn,
 serifbn,
 serifin,
 serifbin {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 serifd,
@@ -5658,7 +5658,7 @@ serifgc,
 serifbgc,
 serifigc,
 serifbigc {
-	color: var(--group-color, var(--lightdark))
+	color: var(--group-color, var(--light-dark))
 }
 
 under1,
@@ -5766,7 +5766,7 @@ displayn,
 displaybn,
 displayin,
 displaybin {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 displayd,
@@ -5780,7 +5780,7 @@ displaygc,
 displaybgc,
 displayigc,
 displaybigc {
-	color: var(--group-color, var(--lightdark))
+	color: var(--group-color, var(--light-dark))
 }
 
 mono1,
@@ -5808,7 +5808,7 @@ monon,
 monobn,
 monoin,
 monobin {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 monod,
@@ -5822,7 +5822,7 @@ monogc,
 monobgc,
 monoigc,
 monobigc {
-	color: var(--group-color, var(--lightdark))
+	color: var(--group-color, var(--light-dark))
 }
 
 under1,
@@ -5859,10 +5859,10 @@ undern,
 underbn,
 underin,
 underbin {
-	box-shadow: inset 0 -8px 0 var(--darklight);
+	box-shadow: inset 0 -8px 0 var(--dark-light);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 underd,
@@ -5909,7 +5909,7 @@ mainn,
 mainbn,
 mainin,
 mainbin {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 maind,
@@ -5923,7 +5923,7 @@ maingc,
 mainbgc,
 mainigc,
 mainbigc {
-	color: var(--group-color, var(--lightdark))
+	color: var(--group-color, var(--light-dark))
 }
 
 lbackb1,
@@ -6262,17 +6262,17 @@ tit3 {
 }
 
 titn {
-	-webkit-text-stroke: 1px var(--darkneutral);
+	-webkit-text-stroke: 1px var(--dark-neutral);
 	color: var(--neutral)
 }
 
 titd {
 	-webkit-text-stroke: 1px var(--dark);
-	color: var(--lighterdark)
+	color: var(--lighter-dark)
 }
 
 titgc {
-	-webkit-text-stroke: 1px var(--group-color, var(--lightdark));
+	-webkit-text-stroke: 1px var(--group-color, var(--light-dark));
 	color: var(--group-color-200, var(--neutral))
 }
 
@@ -6303,7 +6303,7 @@ sstit3 {
 }
 
 sstitn {
-	-webkit-text-stroke: 1px var(--darkneutral)
+	-webkit-text-stroke: 1px var(--dark-neutral)
 }
 
 sstitd {
@@ -6311,7 +6311,7 @@ sstitd {
 }
 
 sstitgc {
-	-webkit-text-stroke: 1px var(--group-color, var(--darkneutral))
+	-webkit-text-stroke: 1px var(--group-color, var(--dark-neutral))
 }
 
 upp1,
@@ -6358,7 +6358,7 @@ spcl3 {
 uppn,
 majn,
 spcln {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 uppd,
@@ -6370,7 +6370,7 @@ spcld {
 uppgc,
 majgc,
 spclgc {
-	color: var(--group-color, var(--darkneutral))
+	color: var(--group-color, var(--dark-neutral))
 }
 
 blsp1,
@@ -6402,7 +6402,7 @@ blsp4 {
 }
 
 blspn {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 blspd {
@@ -6410,7 +6410,7 @@ blspd {
 }
 
 blspgc {
-	color: var(--group-color, var(--darkneutral))
+	color: var(--group-color, var(--dark-neutral))
 }
 
 maj1,
@@ -6550,7 +6550,7 @@ majgc::first-letter {
 
 .br1n,
 .br5n {
-	background-color: var(--darkneutral)
+	background-color: var(--dark-neutral)
 }
 
 .br1n:before,
@@ -6559,7 +6559,7 @@ majgc::first-letter {
 .br5n:before,
 .br6n:before,
 .br7n:before {
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 .br1d,
@@ -6578,7 +6578,7 @@ majgc::first-letter {
 
 .br1gc,
 .br5gc {
-	background-color: var(--group-color, var(--darkneutral))
+	background-color: var(--group-color, var(--dark-neutral))
 }
 
 .br1gc:before,
@@ -6587,7 +6587,7 @@ majgc::first-letter {
 .br5gc:before,
 .br6gc:before,
 .br7gc:before {
-	color: var(--group-color, var(--darkneutral))
+	color: var(--group-color, var(--dark-neutral))
 }
 
 .br22 {
@@ -6605,7 +6605,7 @@ majgc::first-letter {
 .br2n {
 	background: linear-gradient(to right,
 			var(--light),
-			var(--darkneutral),
+			var(--dark-neutral),
 			var(--light))
 }
 
@@ -6619,7 +6619,7 @@ majgc::first-letter {
 .br2gc {
 	background: linear-gradient(to right,
 			var(--light),
-			var(--group-color, var(--darkneutral)),
+			var(--group-color, var(--dark-neutral)),
 			var(--light))
 }
 
@@ -6762,7 +6762,7 @@ majgc::first-letter {
 }
 
 .br8n {
-	background-color: var(--darkneutral)
+	background-color: var(--dark-neutral)
 }
 
 .br8d {
@@ -6922,7 +6922,7 @@ majgc::first-letter {
 #postprofile-libre ul li::before,
 .postprofile-libre ul li::before {
 	content: "—";
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	margin-right: var(--large)
 }
 
@@ -7049,7 +7049,7 @@ bbloc3,
 
 bblocn,
 .bblocn {
-	outline-color: var(--darkneutral)
+	outline-color: var(--dark-neutral)
 }
 
 bblocd,
@@ -7059,7 +7059,7 @@ bblocd,
 
 bblocgc,
 .bblocgc {
-	outline-color: var(--group-color, var(--darkneutral))
+	outline-color: var(--group-color, var(--dark-neutral))
 }
 
 lbloc1,
@@ -7137,7 +7137,7 @@ lblocn,
 rblocn,
 .lblocn,
 .rblocn {
-	border-color: var(--darkneutral)
+	border-color: var(--dark-neutral)
 }
 
 lblocd,
@@ -7151,7 +7151,7 @@ lblocgc,
 rblocgc,
 .lblocgc,
 .rblocgc {
-	border-color: var(--group-color, var(--darkneutral))
+	border-color: var(--group-color, var(--dark-neutral))
 }
 
 pbloc1,
@@ -7201,7 +7201,7 @@ pblocd,
 pblocgc,
 .pblocgc {
 	background-color: var(--group-color-100);
-	color: var(--group-color, var(--darkneutral))
+	color: var(--group-color, var(--dark-neutral))
 }
 
 .fichemoodboard {
@@ -7421,7 +7421,7 @@ pblocgc,
 	background: var(--light) !important;
 	padding: var(--3xsmall) !important;
 	box-shadow: none !important;
-	border: 0.5px solid var(--darkerlight);
+	border: 0.5px solid var(--darker-light);
 	border-radius: 0px !important;
 	width: fit-content !important;
 	max-width: 500px !important;
@@ -7433,7 +7433,7 @@ pblocgc,
 	background: white !important;
 	font-family: var(--main) !important;
 	display: flex;
-	color: var(--lightdark) !important;
+	color: var(--light-dark) !important;
 	align-items: center;
 	width: -webkit-fill-available;
 	padding: var(--small) !important;
@@ -7466,7 +7466,7 @@ pblocgc,
 	position: absolute;
 	padding: var(--large);
 	width: 300px;
-	border: 0.5px solid var(--lighterneutral);
+	border: 0.5px solid var(--lighter-neutral);
 	height: fit-content;
 	background-color: var(--light);
 	letter-spacing: 0px;
@@ -7538,7 +7538,7 @@ pblocgc,
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
 	font-weight: 700;
-	color: var(--group-color, var(--darkneutral))
+	color: var(--group-color, var(--dark-neutral))
 }
 
 .ficheperso.indiv blockquote {
@@ -7566,14 +7566,14 @@ blockquote.indiv {
 }
 
 blockquote.indiv a {
-	color: var(--group-color, var(--darkneutral))
+	color: var(--group-color, var(--dark-neutral))
 }
 
 chronodate {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	color: var(--group-color, var(--darkneutral));
+	color: var(--group-color, var(--dark-neutral));
 	font-family: var(--mono);
 	width: 100px
 }
@@ -7581,7 +7581,7 @@ chronodate {
 chronodate:after {
 	content: "";
 	display: block;
-	border: 0.5px solid var(--group-color, var(--darkneutral));
+	border: 0.5px solid var(--group-color, var(--dark-neutral));
 	height: 7.5px;
 	width: 7.5px;
 	border-radius: 100%;
@@ -7594,7 +7594,7 @@ chronoevent {
 	display: block;
 	flex: 1;
 	padding-left: var(--2xlarge);
-	border-left: 1px solid var(--group-color, var(--darkneutral))
+	border-left: 1px solid var(--group-color, var(--dark-neutral))
 }
 
 .blochrono div:not(:last-child) chronoevent {
@@ -7606,7 +7606,7 @@ chronoevent strong {
 	font-size: var(--medium);
 	font-weight: 700;
 	color: white;
-	background-color: var(--group-color, var(--darkneutral));
+	background-color: var(--group-color, var(--dark-neutral));
 	padding-right: 2.5px;
 	padding-left: 5px;
 	letter-spacing: 2.5px
@@ -7660,7 +7660,7 @@ chronoevent strong {
 .listcult .posttab:not(.active) borderb2,
 .listcult .posttab:not(.active) borderb3,
 .listcult .posttab:not(.active) borderb4 {
-	color: var(--darkneutral) !important
+	color: var(--dark-neutral) !important
 }
 
 .topic-actions-buttons:empty {
@@ -7842,13 +7842,13 @@ p {
 	margin-bottom: var(--medium);
 	padding: var(--medium);
 	align-items: center;
-	border: 0.5px solid var(--lighterneutral);
+	border: 0.5px solid var(--lighter-neutral);
 	background: white;
 	transition: border 0.2s;
 	animation: notiffiFadeIn 0.3s ease-in-out;
 
 	&:hover {
-		border-color: var(--darkneutral);
+		border-color: var(--dark-neutral);
 	}
 }
 
@@ -8138,7 +8138,7 @@ p {
 	width: 100%;
 	position: absolute;
 	left: 0;
-	border-bottom: 1px solid var(--lighterneutral);
+	border-bottom: 1px solid var(--lighter-neutral);
 	padding-bottom: var(--3xsmall);
 	top: -34px
 }
@@ -8586,12 +8586,12 @@ littlepseudo {
 }
 
 statusinsta {
-	color: var(--darkerneutral);
+	color: var(--darker-neutral);
 	font-weight: 300
 }
 
 .followsinsta {
-	color: var(--lighterdark);
+	color: var(--lighter-dark);
 	font-family: var(--mono);
 	width: 100%;
 	text-align: center;
@@ -8742,14 +8742,14 @@ statusinsta {
 
 .ficherp.two .ficherphead img {
 	width: 100px;
-	border: 0.5px solid var(--lighterneutral)
+	border: 0.5px solid var(--lighter-neutral)
 }
 
 .ficherp.three .ficherphead img {
 	width: 75px;
 	height: 75px;
 	border: 5px solid var(--light);
-	outline: 0.5px solid var(--lighterneutral);
+	outline: 0.5px solid var(--lighter-neutral);
 	border-radius: 50%;
 	padding: 0px
 }
@@ -8866,7 +8866,7 @@ statusinsta {
 
 .ficherp.seven ficherpsstitle {
 	letter-spacing: 1.5px;
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 .ficherp.eight ficherptitle {
@@ -8881,7 +8881,7 @@ statusinsta {
 	letter-spacing: 1.5px;
 	align-self: end;
 	text-transform: uppercase;
-	color: var(--darkneutral)
+	color: var(--dark-neutral)
 }
 
 .ficherp.nine ficherptitle {
@@ -8924,7 +8924,7 @@ statusinsta {
 .ficherp.six .ficherpbanner,
 .ficherp.six .ficherpfooter {
 	padding: var(--3xsmall);
-	background: var(--darklight);
+	background: var(--dark-light);
 	text-transform: lowercase;
 	font-weight: 700
 }
@@ -9159,7 +9159,7 @@ statusinsta {
 	width: 100px;
 	padding: 5px;
 	background-color: white;
-	border: 0.5px solid var(--darklight)
+	border: 0.5px solid var(--dark-light)
 }
 
 .signtes.seven img {
@@ -9468,7 +9468,7 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab:before {
-	color: var(--darkneutral);
+	color: var(--dark-neutral);
 	font-family: var(--icons-thin) !important;
 	font-size: var(--medium);
 	margin: 0 var(--large)
@@ -9565,7 +9565,7 @@ lblpmdn {
 .ficheportrait img {
 	padding: var(--small);
 	background-color: white;
-	border: 0.5px solid var(--lighterneutral);
+	border: 0.5px solid var(--lighter-neutral);
 	height: 100px
 }
 
@@ -9604,7 +9604,7 @@ lblpmdn {
 
 .fichetodo span,
 .fichedefi span {
-	border-bottom: 1px solid var(--darklight);
+	border-bottom: 1px solid var(--dark-light);
 	padding-bottom: var(--3xsmall);
 	text-transform: lowercase;
 	letter-spacing: 1px;

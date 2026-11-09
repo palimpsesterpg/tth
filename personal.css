@@ -97,7 +97,7 @@
 }
 
 .cam cam4 {
-    color: white;
+    color: var(--white-op50);
     background-color: var(--group-color);
     font-family: var(--display);
     text-transform: lowercase;
@@ -121,7 +121,7 @@
             var(--group-color-300),
             var(--group-color),
             var(--group-color-300));
-    color: white;
+    color: var(--white-op50);
     padding-right: var(--2xsmall);
     padding-left: calc(var(--2xsmall) + 5px);
     text-transform: lowercase;
@@ -142,7 +142,7 @@
 .cam cam8 {
     font-size: var(--large);
     background: var(--group-color-600);
-    color: white;
+    color: var(--white-op50);
     padding: 0 var(--small);
     text-transform: lowercase;
     font-weight: 200
@@ -175,14 +175,14 @@
     letter-spacing: 1px;
     color: var(--group-color);
     background: var(--group-color-100);
-    text-shadow: 1px 1px white
+    text-shadow: 1px 1px var(--white-op50)
 }
 
 .cam .rpcam {
     border: 0.5px solid var(--group-color-300);
     outline: 2px solid var(--group-color-100);
-    box-shadow: 0px 0px 0px 6px white;
-    background-color: white;
+    box-shadow: 0px 0px 0px 6px var(--white-op50);
+    background-color: var(--white-op50);
     padding: var(--large);
     display: flex;
     width: 90%;
@@ -239,7 +239,7 @@
 
 .cam .footrpcam {
     background: var(--group-color);
-    color: white !important;
+    color: var(--white-op50) !important;
     padding: var(--32xsmall);
     text-align: center;
     text-transform: lowercase;
@@ -355,7 +355,7 @@
 }
 
 .cam #postprofile-libre div[align="justify"] a {
-    background-color: white;
+    background-color: var(--white-op50);
     color: var(--group-color) !important
 }
 
@@ -414,8 +414,6 @@
     object-fit: cover
 }
 
-.cam .headperso img {}
-
 .cam .blocperso blspgc {
     font-family: var(--serif)
 }
@@ -441,16 +439,16 @@
     filter: grayscale(1);
     object-fit: cover;
     padding: var(--2xsmall);
-    background: white;
-    border: 0.5px solid var(--lighterneutral)
+    background: var(--white-op50);
+    border: 0.5px solid var(--lighter-neutral)
 }
 
 .cam .blocperso chronoevent strong {
     font-family: var(--main);
     font-size: var(--small);
     text-transform: uppercase;
-    background-color: white;
-    color: var(--group-color, var(--darkneutral));
+    background-color: var(--white-op50);
+    color: var(--group-color, var(--dark-neutral));
     padding: var(--32xsmall) var(--large) var(--32xsmall) calc(var(--large) + 1.5px);
     letter-spacing: 1.5px;
     border: 0.25px solid
