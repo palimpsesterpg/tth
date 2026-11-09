@@ -754,7 +754,7 @@ a.FAM-attachment-thumb {
 
 .FAM-chat,
 .FAM-pagination {
-    border-bottom: 1px solid var(--neutral)
+    border-bottom: 1px solid var(--lighterneutral)
 }
 
 #FAM-msg-container {

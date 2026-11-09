@@ -2,7 +2,7 @@
     background-color: var(--light);
     border: var(--large) solid white;
     padding: var(--large);
-    outline: 0.5px solid var(--neutral);
+    outline: 0.5px solid var(--lighterneutral);
     height: 100%;
     display: flex;
     gap: var(--large);
@@ -50,7 +50,7 @@ headtitle {
 
 .header-prj {
     background-color: white;
-    border: 0.5px solid var(--neutral);
+    border: 0.5px solid var(--lighterneutral);
     padding: var(--large);
     display: flex;
     justify-content: space-between;
@@ -104,7 +104,7 @@ subtitle {
     content: '';
     flex: 1;
     margin: 0 var(--large);
-    border-bottom: 0.5px solid var(--neutral)
+    border-bottom: 0.5px solid var(--lighterneutral)
 }
 
 m {

@@ -844,12 +844,12 @@ body {
 
 .forumlist:nth-of-type(even) .forumlist-title {
 	padding-right: var(--large);
-	border-right: 0.5px solid var(--neutral)
+	border-right: 0.5px solid var(--lighterneutral)
 }
 
 .forumlist:nth-of-type(odd) .forumlist-title {
 	padding-left: var(--large);
-	border-left: 0.5px solid var(--neutral);
+	border-left: 0.5px solid var(--lighterneutral);
 	padding-top: 0 var(--3xsmall);
 	order: 3
 }
@@ -1386,7 +1386,7 @@ div.award.award-hj::before {
 	word-break: break-word;
 	width: max-content;
 	white-space: normal;
-	border: 0.5px solid var(--neutral)
+	border: 0.5px solid var(--lighterneutral)
 }
 
 .award_tooltiptext::before {
@@ -2249,7 +2249,7 @@ topicdesc {
 .post {
 	display: flex;
 	gap: var(--large);
-	border: 0.5px solid var(--neutral);
+	border: 0.5px solid var(--lighterneutral);
 	padding: var(--large);
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -2499,7 +2499,7 @@ topicdesc {
 	font-family: var(--display);
 	flex: 1;
 	text-align: center;
-	border-bottom: 0.5px solid var(--neutral);
+	border-bottom: 0.5px solid var(--lighterneutral);
 	padding-bottom: var(--large)
 }
 
@@ -3013,7 +3013,7 @@ textarea {
 .panel-content button {
 	padding: var(--2xsmall);
 	background-color: var(--darklight);
-	border: 0.5px solid var(--neutral)
+	border: 0.5px solid var(--lighterneutral)
 }
 
 .panel-content button:hover {
@@ -3707,7 +3707,7 @@ avhi:hover {
 	content: "";
 	flex: 1;
 	margin: 0 var(--large);
-	border-bottom: 0.5px solid var(--neutral)
+	border-bottom: 0.5px solid var(--lighterneutral)
 }
 
 .feed-item .text {
@@ -3973,7 +3973,7 @@ dl.codebox {
 	text-transform: lowercase;
 	letter-spacing: 2.5px;
 	padding-left: 2.5px;
-	border-bottom: 0.5px solid var(--neutral)
+	border-bottom: 0.5px solid var(--lighterneutral)
 }
 
 .fichepl .posttabs {
@@ -4049,7 +4049,7 @@ dl.codebox {
 .ficheadmin,
 .fichelisting {
 	padding: var(--2xlarge);
-	border: 0.5px solid var(--neutral);
+	border: 0.5px solid var(--lighterneutral);
 	outline: var(--large) solid white;
 	margin-top: var(--large)
 }
@@ -4086,12 +4086,12 @@ dl.codebox {
 
 .fichepredef .posttab:nth-of-type(odd) {
 	text-align: right;
-	border-left: var(--3xsmall) solid var(--neutral);
+	border-left: var(--3xsmall) solid var(--lighterneutral);
 	padding-left: var(--3xsmall)
 }
 
 .fichepredef .posttab:nth-of-type(even) {
-	border-right: var(--3xsmall) solid var(--neutral);
+	border-right: var(--3xsmall) solid var(--lighterneutral);
 	padding-right: var(--3xsmall)
 }
 
@@ -4496,7 +4496,7 @@ blockquote.blocperso {
 .attentes strong:first-child:before,
 .attentes strong:first-child:after {
 	content: "";
-	border-bottom: 0.5px solid var(--neutral);
+	border-bottom: 0.5px solid var(--lighterneutral);
 	flex: 1;
 	margin: 0 var(--3xlarge)
 }
@@ -7466,7 +7466,7 @@ pblocgc,
 	position: absolute;
 	padding: var(--large);
 	width: 300px;
-	border: 0.5px solid var(--neutral);
+	border: 0.5px solid var(--lighterneutral);
 	height: fit-content;
 	background-color: var(--light);
 	letter-spacing: 0px;
@@ -7842,7 +7842,7 @@ p {
 	margin-bottom: var(--medium);
 	padding: var(--medium);
 	align-items: center;
-	border: 0.5px solid var(--neutral);
+	border: 0.5px solid var(--lighterneutral);
 	background: white;
 	transition: border 0.2s;
 	animation: notiffiFadeIn 0.3s ease-in-out;
@@ -8138,7 +8138,7 @@ p {
 	width: 100%;
 	position: absolute;
 	left: 0;
-	border-bottom: 1px solid var(--neutral);
+	border-bottom: 1px solid var(--lighterneutral);
 	padding-bottom: var(--3xsmall);
 	top: -34px
 }
@@ -8742,14 +8742,14 @@ statusinsta {
 
 .ficherp.two .ficherphead img {
 	width: 100px;
-	border: 0.5px solid var(--neutral)
+	border: 0.5px solid var(--lighterneutral)
 }
 
 .ficherp.three .ficherphead img {
 	width: 75px;
 	height: 75px;
 	border: 5px solid var(--light);
-	outline: 0.5px solid var(--neutral);
+	outline: 0.5px solid var(--lighterneutral);
 	border-radius: 50%;
 	padding: 0px
 }
@@ -9565,7 +9565,7 @@ lblpmdn {
 .ficheportrait img {
 	padding: var(--small);
 	background-color: white;
-	border: 0.5px solid var(--neutral);
+	border: 0.5px solid var(--lighterneutral);
 	height: 100px
 }
 
