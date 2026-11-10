@@ -1051,7 +1051,7 @@ a.forumtitle {
 	align-items: center;
 	justify-content: center;
 	text-shadow: 0.5px 0.5px var(--co1-700);
-	border: 0.5px solidvar(--white-op50);
+	border: 0.5px solid var(--white-op50);
 	box-shadow: 1px 1px var(--co1-100);
 	border-radius: 50%;
 	line-height: 2
@@ -1638,7 +1638,7 @@ div.award.award-hj::before {
 	height: 125px;
 	filter: grayscale(1);
 	width: 150px;
-	border: var(--small) solidvar(--white-op50)
+	border: var(--small) solid var(--white-op50)
 }
 
 .bloc-accueil.one div {
@@ -1675,7 +1675,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.two {
 	border: 0.5px solid var(--co2);
-	outline: 4px solidvar(--white-op50);
+	outline: 4px solid var(--white-op50);
 	padding: var(--large);
 	text-align: justify;
 	margin: 4px;
@@ -1943,7 +1943,7 @@ div.award.award-hj::before {
 	height: 115px;
 
 	aspect-ratio: 1;
-	border: var(--2xsmall) solidvar(--white-op50)
+	border: var(--2xsmall) solid var(--white-op50)
 }
 
 #groups-qeel {
@@ -2514,7 +2514,7 @@ topicdesc {
 }
 
 .profile-tabs:after {
-	border-top: 0.5px solidvar(--white-op50);
+	border-top: 0.5px solid var(--white-op50);
 	content: "";
 	top: 10px;
 	width: calc(100% - var(--2xlarge));
@@ -3335,7 +3335,7 @@ button.toggle-panel .fi:before:hover {
 	padding: var(--2xsmall) 0;
 	justify-content: space-between;
 	background-color: var(--light);
-	outline: var(--2xsmall) solidvar(--white-op50);
+	outline: var(--2xsmall) solid var(--white-op50);
 	align-items: center;
 	gap: var(--2xsmall);
 	margin: var(--2xsmall);
@@ -3632,7 +3632,7 @@ input#profile_field_4_-12_0 {
 	border-radius: var(--3xsmall);
 	background-color: var(--co3);
 	color: var(--light);
-	border: 2px solidvar(--white-op50);
+	border: 2px solid var(--white-op50);
 	align-items: center;
 	justify-content: center;
 	outline: 0.5px solid var(--co3-200)
@@ -4368,7 +4368,7 @@ lblplyr {
 .idperso .contenttoggle {
 	padding: var(--large);
 	margin: var(--2xlarge) var(--large) 0;
-	outline: var(--large) solidvar(--white-op50);
+	outline: var(--large) solid var(--white-op50);
 	background: var(--light);
 	border: 0.5px solid var(--group-color-100, var(--co1-100)) !important
 }
@@ -4399,7 +4399,7 @@ lblrchrch {
 
 blockquote.blocperso {
 	border: 0.5px solid var(--group-color-100, var(--co3-100));
-	outline: var(--large) solidvar(--white-op50)
+	outline: var(--large) solid var(--white-op50)
 }
 
 .idperso {
@@ -8300,9 +8300,9 @@ p {
 	width: 250px;
 	border-radius: var(--large) 0 0 var(--small);
 	padding: var(--2xsmall);
-	border-top: var(--2xsmall) solidvar(--white-op50);
-	border-left: var(--2xsmall) solidvar(--white-op50);
-	border-bottom: var(--2xsmall) solidvar(--white-op50)
+	border-top: var(--2xsmall) solid var(--white-op50);
+	border-left: var(--2xsmall) solid var(--white-op50);
+	border-bottom: var(--2xsmall) solid var(--white-op50)
 }
 
 .firstcontent {
@@ -8717,7 +8717,7 @@ statusinsta {
 
 .ficheinsta.story .contentstory div:first-child {
 	padding: var(--small);
-	border-bottom: 1px solidvar(--white-op50)
+	border-bottom: 1px solid var(--white-op50)
 }
 
 .ficheinsta.story .contentstory div:first-child monod {
@@ -8750,7 +8750,7 @@ statusinsta {
 }
 
 .ficheinsta.story .contentstory .miniconinsta {
-	border: 0.5px solidvar(--white-op50);
+	border: 0.5px solid var(--white-op50);
 	height: 35px;
 	width: 35px
 }
@@ -9217,7 +9217,7 @@ statusinsta {
 	width: 75px;
 	outline-offset: -5px;
 	border-radius: 50%;
-	outline: 0.5px solidvar(--white-op50)
+	outline: 0.5px solid var(--white-op50)
 }
 
 .signtes.five,
@@ -9235,7 +9235,7 @@ statusinsta {
 .signtes.five img {
 	width: 75px;
 	outline-offset: -5px;
-	outline: 0.5px solidvar(--white-op50)
+	outline: 0.5px solid var(--white-op50)
 }
 
 .signtes.five div {
@@ -9415,7 +9415,7 @@ statusinsta {
 	border-radius: var(--large) var(--small) var(--large) var(--small);
 	background-color: var(--group-color-100);
 	padding: var(--large);
-	border: 0.5px solidvar(--white-op50);
+	border: 0.5px solid var(--white-op50);
 	width: 100%
 }
 
