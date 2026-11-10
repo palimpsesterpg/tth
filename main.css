@@ -1,6 +1,8 @@
 :root {
 	color-scheme: light;
 
+	--header: url("header-tth.png");
+
 	--4xsmall: 0.25rem;
 	--3xsmall: 0.375rem;
 	--2xsmall: 0.5rem;
@@ -117,7 +119,7 @@
 	--gradientAll-100: linear-gradient(to right,
 			var(--co1-100),
 			var(--co2-100),
-			var(--co3-100)) --header: url("header-tth-light.png")
+			var(--co3-100))
 }
 
 [data-color-scheme="dark"] {
@@ -461,7 +463,15 @@ a:hover {
 *,
 *:before,
 *:after {
-	box-sizing: border-box !important
+	box-sizing: border-box !important;
+	scrollbar-width: thin;
+	scrollbar-color: var(--neutral) var(--dark-light);
+}
+
+*:empty,
+*:before:empty,
+*:after:empty {
+	display: none
 }
 
 img {
@@ -481,6 +491,10 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed
+}
+
+[data-color-scheme="dark"] body {
+	backdrop-filter: brightness(35%)
 }
 
 #wrap {
