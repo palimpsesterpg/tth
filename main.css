@@ -116,10 +116,8 @@
 	--gradient12-100: linear-gradient(to right, var(--co1-100), var(--co2-100));
 	--gradient13-100: linear-gradient(to right, var(--co1-100), var(--co3-100));
 	--gradient23-100: linear-gradient(to right, var(--co2-100), var(--co3-100));
-	--gradientAll-100: linear-gradient(to right,
-			var(--co1-100),
-			var(--co2-100),
-			var(--co3-100))
+
+	--gradientAll-100: linear-gradient(to right, var(--co1-100), var(--co2-100), var(--co3-100));
 }
 
 [data-color-scheme="dark"] {
@@ -395,25 +393,25 @@ h2,
 
 h3,
 .h3 {
-	font-size: var(--medium) !important;
+	font-size: var(--xlarge) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h4,
 .h4 {
-	font-size: var(--medium) !important;
+	font-size: var(--large) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h5,
 .h5 {
-	font-size: var(--small) !important;
+	font-size: var(--medium) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h6,
 .h6 {
-	font-size: var(--2xsmall) !important;
+	font-size: var(--small) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
@@ -433,7 +431,7 @@ h6,
 	font-family: var(--spe);
 	text-align: center;
 	display: block;
-	color: var(--black-op50)
+	color: var(--dark)
 }
 
 a.h1,
@@ -448,7 +446,7 @@ a.h6,
 .h4 a,
 .h5 a,
 .h6 a {
-	color: var(--black-op50) !important
+	color: var(--dark) !important
 }
 
 a,
@@ -589,7 +587,7 @@ body:before {
 	position: fixed;
 	padding: var(--large);
 	z-index: 999;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	backdrop-filter: blur(3px);
 	top: var(--large);
 	right: 50%;
