@@ -36,71 +36,71 @@
 	--sea: #86c1ae;
 	--land: #9dccd7;
 
-	--co1-100: color-mix(in srgb, var(--co1) 20%, white);
-	--co1-200: color-mix(in srgb, var(--co1) 40%, white);
-	--co1-300: color-mix(in srgb, var(--co1) 60%, white);
-	--co1-400: color-mix(in srgb, var(--co1) 80%, white);
-	--co1-600: color-mix(in srgb, var(--co1) 80%, black);
-	--co1-700: color-mix(in srgb, var(--co1) 60%, black);
-	--co1-800: color-mix(in srgb, var(--co1) 40%, black);
-	--co1-900: color-mix(in srgb, var(--co1) 20%, black);
+	--co1-100: color-mix(in srgb, var(--co1) 20%,var(--white-op50));
+	--co1-200: color-mix(in srgb, var(--co1) 40%,var(--white-op50));
+	--co1-300: color-mix(in srgb, var(--co1) 60%,var(--white-op50));
+	--co1-400: color-mix(in srgb, var(--co1) 80%,var(--white-op50));
+	--co1-600: color-mix(in srgb, var(--co1) 80%,var(--black-op50));
+	--co1-700: color-mix(in srgb, var(--co1) 60%,var(--black-op50));
+	--co1-800: color-mix(in srgb, var(--co1) 40%,var(--black-op50));
+	--co1-900: color-mix(in srgb, var(--co1) 20%,var(--black-op50));
 
 	--co1-op25: color-mix(in srgb, var(--co1) 25%, transparent);
 	--co1-op50: color-mix(in srgb, var(--co1) 50%, transparent);
 	--co1-op75: color-mix(in srgb, var(--co1) 75%, transparent);
 	--co1-op90: color-mix(in srgb, var(--co1) 90%, transparent);
 
-	--co2-100: color-mix(in srgb, var(--co2) 20%, white);
-	--co2-200: color-mix(in srgb, var(--co2) 40%, white);
-	--co2-300: color-mix(in srgb, var(--co2) 60%, white);
-	--co2-400: color-mix(in srgb, var(--co2) 80%, white);
-	--co2-600: color-mix(in srgb, var(--co2) 80%, black);
-	--co2-700: color-mix(in srgb, var(--co2) 60%, black);
-	--co2-800: color-mix(in srgb, var(--co2) 40%, black);
-	--co2-900: color-mix(in srgb, var(--co2) 20%, black);
+	--co2-100: color-mix(in srgb, var(--co2) 20%,var(--white-op50));
+	--co2-200: color-mix(in srgb, var(--co2) 40%,var(--white-op50));
+	--co2-300: color-mix(in srgb, var(--co2) 60%,var(--white-op50));
+	--co2-400: color-mix(in srgb, var(--co2) 80%,var(--white-op50));
+	--co2-600: color-mix(in srgb, var(--co2) 80%,var(--black-op50));
+	--co2-700: color-mix(in srgb, var(--co2) 60%,var(--black-op50));
+	--co2-800: color-mix(in srgb, var(--co2) 40%,var(--black-op50));
+	--co2-900: color-mix(in srgb, var(--co2) 20%,var(--black-op50));
 
 	--co2-op25: color-mix(in srgb, var(--co2) 25%, transparent);
 	--co2-op50: color-mix(in srgb, var(--co2) 50%, transparent);
 	--co2-op75: color-mix(in srgb, var(--co2) 75%, transparent);
 	--co2-op90: color-mix(in srgb, var(--co2) 90%, transparent);
 
-	--co3-100: color-mix(in srgb, var(--co3) 20%, white);
-	--co3-200: color-mix(in srgb, var(--co3) 40%, white);
-	--co3-300: color-mix(in srgb, var(--co3) 60%, white);
-	--co3-400: color-mix(in srgb, var(--co3) 80%, white);
-	--co3-600: color-mix(in srgb, var(--co3) 80%, black);
-	--co3-700: color-mix(in srgb, var(--co3) 60%, black);
-	--co3-800: color-mix(in srgb, var(--co3) 40%, black);
-	--co3-900: color-mix(in srgb, var(--co3) 20%, black);
+	--co3-100: color-mix(in srgb, var(--co3) 20%,var(--white-op50));
+	--co3-200: color-mix(in srgb, var(--co3) 40%,var(--white-op50));
+	--co3-300: color-mix(in srgb, var(--co3) 60%,var(--white-op50));
+	--co3-400: color-mix(in srgb, var(--co3) 80%,var(--white-op50));
+	--co3-600: color-mix(in srgb, var(--co3) 80%,var(--black-op50));
+	--co3-700: color-mix(in srgb, var(--co3) 60%,var(--black-op50));
+	--co3-800: color-mix(in srgb, var(--co3) 40%,var(--black-op50));
+	--co3-900: color-mix(in srgb, var(--co3) 20%,var(--black-op50));
 
 	--co3-op25: color-mix(in srgb, var(--co3) 25%, transparent);
 	--co3-op50: color-mix(in srgb, var(--co3) 50%, transparent);
 	--co3-op75: color-mix(in srgb, var(--co3) 75%, transparent);
 	--co3-op90: color-mix(in srgb, var(--co3) 90%, transparent);
 
-	--white-op25: color-mix(in srgb, white 25%, transparent);
-	--white-op50: color-mix(in srgb, white 50%, transparent);
-	--white-op75: color-mix(in srgb, white 75%, transparent);
-	--white-op90: color-mix(in srgb, white 90%, transparent);
+	--white-op25: color-mix(in srgb,var(--white-op50) 25%, transparent);
+	--white-op50: color-mix(in srgb,var(--white-op50) 50%, transparent);
+	--white-op75: color-mix(in srgb,var(--white-op50) 75%, transparent);
+	--white-op90: color-mix(in srgb,var(--white-op50) 90%, transparent);
 
-	--black-op25: color-mix(in srgb, black 25%, transparent);
-	--black-op50: color-mix(in srgb, black 50%, transparent);
-	--black-op75: color-mix(in srgb, black 75%, transparent);
-	--black-op90: color-mix(in srgb, black 90%, transparent);
+	--black-op25: color-mix(in srgb,var(--black-op50) 25%, transparent);
+	--black-op50: color-mix(in srgb,var(--black-op50) 50%, transparent);
+	--black-op75: color-mix(in srgb,var(--black-op50) 75%, transparent);
+	--black-op90: color-mix(in srgb,var(--black-op50) 90%, transparent);
 
-	--light: color-mix(in srgb, white 97.5%, black);
-	--dark-light: color-mix(in srgb, white 95%, black);
-	--darker-light: color-mix(in srgb, white 90%, black);
+	--light: color-mix(in srgb,var(--white-op50) 97.5%,var(--black-op50));
+	--dark-light: color-mix(in srgb,var(--white-op50) 95%,var(--black-op50));
+	--darker-light: color-mix(in srgb,var(--white-op50) 90%,var(--black-op50));
 
-	--lighter-neutral: color-mix(in srgb, white 75%, grey);
-	--light-neutral: color-mix(in srgb, white 67.5%, grey);
-	--neutral: color-mix(in srgb, white 50%, grey);
-	--dark-neutral: color-mix(in srgb, white 37.5%, grey);
-	--darker-neutral: color-mix(in srgb, white 25%, grey);
+	--lighter-neutral: color-mix(in srgb,var(--white-op50) 75%, grey);
+	--light-neutral: color-mix(in srgb,var(--white-op50) 67.5%, grey);
+	--neutral: color-mix(in srgb,var(--white-op50) 50%, grey);
+	--dark-neutral: color-mix(in srgb,var(--white-op50) 37.5%, grey);
+	--darker-neutral: color-mix(in srgb,var(--white-op50) 25%, grey);
 
-	--lighter-dark: color-mix(in srgb, white 35%, black);
-	--light-dark: color-mix(in srgb, white 30%, black);
-	--dark: color-mix(in srgb, white 25%, black);
+	--lighter-dark: color-mix(in srgb,var(--white-op50) 35%,var(--black-op50));
+	--light-dark: color-mix(in srgb,var(--white-op50) 30%,var(--black-op50));
+	--dark: color-mix(in srgb,var(--white-op50) 25%,var(--black-op50));
 
 	--gradientNeutral: linear-gradient(to right,
 			var(--light),
@@ -129,76 +129,76 @@
 	--co2-base: #C08497;
 	--co3-base: #F7AF9D;
 
-	--co1: color-mix(in srgb, var(--co1-base) 80%, white);
-	--co2: color-mix(in srgb, var(--co2-base) 80%, white);
-	--co3: color-mix(in srgb, var(--co3-base) 80%, white);
+	--co1: color-mix(in srgb, var(--co1-base) 80%,var(--white-op50));
+	--co2: color-mix(in srgb, var(--co2-base) 80%,var(--white-op50));
+	--co3: color-mix(in srgb, var(--co3-base) 80%,var(--white-op50));
 
 	--co1-400: var(--co1-base);
 	--co2-400: var(--co1-base);
 	--co3-400: var(--co1-base);
 
-	--co1-100: color-mix(in srgb, var(--co1) 20%, black);
-	--co1-200: color-mix(in srgb, var(--co1) 40%, black);
-	--co1-300: color-mix(in srgb, var(--co1) 60%, black);
-	--co1-400: color-mix(in srgb, var(--co1) 80%, black);
-	--co1-600: color-mix(in srgb, var(--co1) 80%, white);
-	--co1-700: color-mix(in srgb, var(--co1) 60%, white);
-	--co1-800: color-mix(in srgb, var(--co1) 40%, white);
-	--co1-900: color-mix(in srgb, var(--co1) 20%, white);
+	--co1-100: color-mix(in srgb, var(--co1) 20%,var(--black-op50));
+	--co1-200: color-mix(in srgb, var(--co1) 40%,var(--black-op50));
+	--co1-300: color-mix(in srgb, var(--co1) 60%,var(--black-op50));
+	--co1-400: color-mix(in srgb, var(--co1) 80%,var(--black-op50));
+	--co1-600: color-mix(in srgb, var(--co1) 80%,var(--white-op50));
+	--co1-700: color-mix(in srgb, var(--co1) 60%,var(--white-op50));
+	--co1-800: color-mix(in srgb, var(--co1) 40%,var(--white-op50));
+	--co1-900: color-mix(in srgb, var(--co1) 20%,var(--white-op50));
 
 	--co1-op25: color-mix(in srgb, var(--co1) 75%, transparent);
 	--co1-op75: color-mix(in srgb, var(--co1) 25%, transparent);
 	--co1-op90: color-mix(in srgb, var(--co1) 10%, transparent);
 
-	--co2-100: color-mix(in srgb, var(--co2) 20%, black);
-	--co2-200: color-mix(in srgb, var(--co2) 40%, black);
-	--co2-300: color-mix(in srgb, var(--co2) 60%, black);
-	--co2-400: color-mix(in srgb, var(--co2) 80%, black);
-	--co2-600: color-mix(in srgb, var(--co2) 80%, white);
-	--co2-700: color-mix(in srgb, var(--co2) 60%, white);
-	--co2-800: color-mix(in srgb, var(--co2) 40%, white);
-	--co2-900: color-mix(in srgb, var(--co2) 20%, white);
+	--co2-100: color-mix(in srgb, var(--co2) 20%,var(--black-op50));
+	--co2-200: color-mix(in srgb, var(--co2) 40%,var(--black-op50));
+	--co2-300: color-mix(in srgb, var(--co2) 60%,var(--black-op50));
+	--co2-400: color-mix(in srgb, var(--co2) 80%,var(--black-op50));
+	--co2-600: color-mix(in srgb, var(--co2) 80%,var(--white-op50));
+	--co2-700: color-mix(in srgb, var(--co2) 60%,var(--white-op50));
+	--co2-800: color-mix(in srgb, var(--co2) 40%,var(--white-op50));
+	--co2-900: color-mix(in srgb, var(--co2) 20%,var(--white-op50));
 
 	--co2-op25: color-mix(in srgb, var(--co2) 75%, transparent);
 	--co2-op75: color-mix(in srgb, var(--co2) 25%, transparent);
 	--co2-op90: color-mix(in srgb, var(--co2) 10%, transparent);
 
-	--co3-100: color-mix(in srgb, var(--co3) 20%, black);
-	--co3-200: color-mix(in srgb, var(--co3) 40%, black);
-	--co3-300: color-mix(in srgb, var(--co3) 60%, black);
-	--co3-400: color-mix(in srgb, var(--co3) 80%, black);
-	--co3-600: color-mix(in srgb, var(--co3) 80%, white);
-	--co3-700: color-mix(in srgb, var(--co3) 60%, white);
-	--co3-800: color-mix(in srgb, var(--co3) 40%, white);
-	--co3-900: color-mix(in srgb, var(--co3) 20%, white);
+	--co3-100: color-mix(in srgb, var(--co3) 20%,var(--black-op50));
+	--co3-200: color-mix(in srgb, var(--co3) 40%,var(--black-op50));
+	--co3-300: color-mix(in srgb, var(--co3) 60%,var(--black-op50));
+	--co3-400: color-mix(in srgb, var(--co3) 80%,var(--black-op50));
+	--co3-600: color-mix(in srgb, var(--co3) 80%,var(--white-op50));
+	--co3-700: color-mix(in srgb, var(--co3) 60%,var(--white-op50));
+	--co3-800: color-mix(in srgb, var(--co3) 40%,var(--white-op50));
+	--co3-900: color-mix(in srgb, var(--co3) 20%,var(--white-op50));
 
 	--co3-op25: color-mix(in srgb, var(--co3) 75%, transparent);
 	--co3-op75: color-mix(in srgb, var(--co3) 25%, transparent);
 	--co3-op90: color-mix(in srgb, var(--co3) 10%, transparent);
 
-	--white-op25: color-mix(in srgb, black 25%, transparent);
-	--white-op50: color-mix(in srgb, black 50%, transparent);
-	--white-op75: color-mix(in srgb, black 75%, transparent);
-	--white-op90: color-mix(in srgb, black 90%, transparent);
+	--white-op25: color-mix(in srgb,var(--black-op50) 25%, transparent);
+	--white-op50: color-mix(in srgb,var(--black-op50) 50%, transparent);
+	--white-op75: color-mix(in srgb,var(--black-op50) 75%, transparent);
+	--white-op90: color-mix(in srgb,var(--black-op50) 90%, transparent);
 
-	--black-op25: color-mix(in srgb, white 25%, transparent);
-	--black-op50: color-mix(in srgb, white 50%, transparent);
-	--black-op75: color-mix(in srgb, white 75%, transparent);
-	--black-op90: color-mix(in srgb, white 90%, transparent);
+	--black-op25: color-mix(in srgb,var(--white-op50) 25%, transparent);
+	--black-op50: color-mix(in srgb,var(--white-op50) 50%, transparent);
+	--black-op75: color-mix(in srgb,var(--white-op50) 75%, transparent);
+	--black-op90: color-mix(in srgb,var(--white-op50) 90%, transparent);
 
-	--light: color-mix(in srgb, black 87.5%, white);
-	--dark-light: color-mix(in srgb, black 85%, white);
-	--darker-light: color-mix(in srgb, black 80%, white);
+	--light: color-mix(in srgb,var(--black-op50) 87.5%,var(--white-op50));
+	--dark-light: color-mix(in srgb,var(--black-op50) 85%,var(--white-op50));
+	--darker-light: color-mix(in srgb,var(--black-op50) 80%,var(--white-op50));
 
-	--lighter-neutral: color-mix(in srgb, black 75%, grey);
-	--light-neutral: color-mix(in srgb, black 67.5%, grey);
-	--neutral: color-mix(in srgb, black 50%, grey);
-	--dark-neutral: color-mix(in srgb, black 37.5%, grey);
-	--darker-neutral: color-mix(in srgb, black 25%, grey);
+	--lighter-neutral: color-mix(in srgb,var(--black-op50) 75%, grey);
+	--light-neutral: color-mix(in srgb,var(--black-op50) 67.5%, grey);
+	--neutral: color-mix(in srgb,var(--black-op50) 50%, grey);
+	--dark-neutral: color-mix(in srgb,var(--black-op50) 37.5%, grey);
+	--darker-neutral: color-mix(in srgb,var(--black-op50) 25%, grey);
 
-	--lighter-dark: color-mix(in srgb, black 45%, white);
-	--light-dark: color-mix(in srgb, black 40%, white);
-	--dark: color-mix(in srgb, black 35%, white);
+	--lighter-dark: color-mix(in srgb,var(--black-op50) 45%,var(--white-op50));
+	--light-dark: color-mix(in srgb,var(--black-op50) 40%,var(--white-op50));
+	--dark: color-mix(in srgb,var(--black-op50) 35%,var(--white-op50));
 }
 
 .group-test {
@@ -225,14 +225,14 @@
 [class*=" group-"] {
 	--group-color: var(--group-base);
 
-	--group-color-100: color-mix(in srgb, var(--group-color) 20%, white);
-	--group-color-200: color-mix(in srgb, var(--group-color) 40%, white);
-	--group-color-300: color-mix(in srgb, var(--group-color) 60%, white);
-	--group-color-400: color-mix(in srgb, var(--group-color) 80%, white);
-	--group-color-600: color-mix(in srgb, var(--group-color) 80%, black);
-	--group-color-700: color-mix(in srgb, var(--group-color) 60%, black);
-	--group-color-800: color-mix(in srgb, var(--group-color) 40%, black);
-	--group-color-900: color-mix(in srgb, var(--group-color) 20%, black);
+	--group-color-100: color-mix(in srgb, var(--group-color) 20%,var(--white-op50));
+	--group-color-200: color-mix(in srgb, var(--group-color) 40%,var(--white-op50));
+	--group-color-300: color-mix(in srgb, var(--group-color) 60%,var(--white-op50));
+	--group-color-400: color-mix(in srgb, var(--group-color) 80%,var(--white-op50));
+	--group-color-600: color-mix(in srgb, var(--group-color) 80%,var(--black-op50));
+	--group-color-700: color-mix(in srgb, var(--group-color) 60%,var(--black-op50));
+	--group-color-800: color-mix(in srgb, var(--group-color) 40%,var(--black-op50));
+	--group-color-900: color-mix(in srgb, var(--group-color) 20%,var(--black-op50));
 
 	--group-color-op25: color-mix(in srgb, var(--group-color) 25%, transparent);
 	--group-color-op50: color-mix(in srgb, var(--group-color) 50%, transparent);
@@ -257,17 +257,17 @@
 
 [data-color-scheme="dark"] :is([class^="group-"],
 	[class*=" group-"]) {
-	--group-color: color-mix(in srgb, var(--group-base) 80%, white);
+	--group-color: color-mix(in srgb, var(--group-base) 80%,var(--white-op50));
 
 	--group-color-400: var(--group-base);
 
-	--group-color-100: color-mix(in srgb, var(--group-color) 20%, black);
-	--group-color-200: color-mix(in srgb, var(--group-color) 40%, black);
-	--group-color-300: color-mix(in srgb, var(--group-color) 60%, black);
-	--group-color-600: color-mix(in srgb, var(--group-color) 80%, white);
-	--group-color-700: color-mix(in srgb, var(--group-color) 60%, white);
-	--group-color-800: color-mix(in srgb, var(--group-color) 40%, white);
-	--group-color-900: color-mix(in srgb, var(--group-color) 20%, white);
+	--group-color-100: color-mix(in srgb, var(--group-color) 20%,var(--black-op50));
+	--group-color-200: color-mix(in srgb, var(--group-color) 40%,var(--black-op50));
+	--group-color-300: color-mix(in srgb, var(--group-color) 60%,var(--black-op50));
+	--group-color-600: color-mix(in srgb, var(--group-color) 80%,var(--white-op50));
+	--group-color-700: color-mix(in srgb, var(--group-color) 60%,var(--white-op50));
+	--group-color-800: color-mix(in srgb, var(--group-color) 40%,var(--white-op50));
+	--group-color-900: color-mix(in srgb, var(--group-color) 20%,var(--white-op50));
 
 	--group-color-op25: color-mix(in srgb, var(--group-color) 75%, transparent);
 	--group-color-op75: color-mix(in srgb, var(--group-color) 25%, transparent);
@@ -433,7 +433,7 @@ h6,
 	font-family: var(--spe);
 	text-align: center;
 	display: block;
-	color: black
+	color:var(--black-op50)
 }
 
 a.h1,
@@ -448,12 +448,12 @@ a.h6,
 .h4 a,
 .h5 a,
 .h6 a {
-	color: black !important
+	color:var(--black-op50) !important
 }
 
 a,
 a:visited {
-	color: black
+	color:var(--black-op50)
 }
 
 a:hover {
@@ -481,16 +481,16 @@ img {
 }
 
 body {
-	width: 100%;
-	height: 100%;
-	font-family: var(--main);
-	color: var(--lighter-dark);
-	font-size: var(--small);
-	background: var(--header);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed
+    width: 100%;
+    margin-top: 0 !important;
+    font-family: var(--main);
+    color: var(--lighter-dark);
+    font-size: var(--small);
+    background: var(--header);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 [data-color-scheme="dark"] body {
@@ -543,7 +543,7 @@ body {
 	font-weight: 700;
 	font-size: var(--medium);
 	padding: 2.5px;
-	box-shadow: 0px -5px inset white
+	box-shadow: 0px -5px insetvar(--white-op50)
 }
 
 #page-header {
@@ -555,7 +555,7 @@ body {
 	font-size: var(--5xlarge);
 	align-items: center;
 	justify-content: center;
-	color: white;
+	color:var(--white-op50);
 	font-family: var(--spe)
 }
 
@@ -572,7 +572,7 @@ body {
 
 [data-color-scheme="dark"] .sceditor-button,
 [data-color-scheme="dark"] .pathname-box a {
-	color: black !important
+	color:var(--black-op50) !important
 }
 
 #page-navbar {
@@ -600,7 +600,7 @@ body {
 
 #page-navbar div>* {
 	text-transform: lowercase;
-	color: black;
+	color:var(--black-op50);
 	opacity: 0.75;
 	font-family: var(--display);
 	font-weight: 700;
@@ -616,7 +616,7 @@ body {
 	margin-top: 34px;
 	position: relative;
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	flex: 1
 }
 
@@ -687,7 +687,7 @@ body {
 	opacity: 1;
 	transition: transform 128ms var(--ease), opacity 64ms var(--ease);
 	cursor: pointer;
-	color: white;
+	color:var(--white-op50);
 	justify-content: center
 }
 
@@ -698,7 +698,7 @@ body {
 
 .switcheroo__popper {
 	background-color: var(--group-color, var(--co1));
-	color: white;
+	color:var(--white-op50);
 	padding: var(--3xsmall);
 	position: absolute;
 	width: -webkit-max-content;
@@ -815,7 +815,7 @@ body {
 	right: 15px;
 	padding: var(--2xsmall);
 	cursor: pointer;
-	color: white;
+	color:var(--white-op50);
 	border: 0;
 	outline: none;
 	background: var(--co2);
@@ -826,7 +826,7 @@ body {
 }
 
 .monomer-close:hover {
-	background: white;
+	background:var(--white-op50);
 	color: var(--co2);
 	border: 0 !important
 }
@@ -921,7 +921,7 @@ body {
 	gap: var(--large);
 	padding: var(--large);
 	width: 100%;
-	background-color: white;
+	background-color:var(--white-op50);
 	justify-content: space-between
 }
 
@@ -998,7 +998,7 @@ a.forumtitle {
 	letter-spacing: 0.15rem;
 	padding-left: 0.15rem;
 	background-color: var(--co1-100);
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1pxvar(--white-op50);
 	width: 100%;
 	text-align: center;
 	border-bottom: 0.5px solid;
@@ -1028,7 +1028,7 @@ a.forumtitle {
 }
 
 .thirty .forumtitle dot {
-	color: white;
+	color:var(--white-op50);
 	background-color: var(--co1);
 	height: 25px;
 	width: 25px;
@@ -1036,7 +1036,7 @@ a.forumtitle {
 	align-items: center;
 	justify-content: center;
 	text-shadow: 0.5px 0.5px var(--co1-700);
-	border: 0.5px solid white;
+	border: 0.5px solidvar(--white-op50);
 	box-shadow: 1px 1px var(--co1-100);
 	border-radius: 50%;
 	line-height: 2
@@ -1127,7 +1127,7 @@ a.forumtitle {
 	width: 35px;
 	display: flex;
 	border-radius: var(--3xsmall);
-	box-shadow: 2.5px 2.5px white;
+	box-shadow: 2.5px 2.5pxvar(--white-op50);
 	align-items: center;
 	justify-content: center;
 	font-size: var(--medium)
@@ -1165,7 +1165,7 @@ a.forumtitle {
 .cat_new .forumrow-status:before {
 	content: "\E04C";
 	background-color: var(--group-color, var(--dark-neutral));
-	box-shadow: 2.5px 2.5px var(--group-color-100, white);
+	box-shadow: 2.5px 2.5px var(--group-color-100,var(--white-op50));
 	color: var(--group-color-100, var(--darker-light))
 }
 
@@ -1262,7 +1262,7 @@ a.forumtitle {
 }
 
 .forumrow-lastpost .fi:before {
-	color: var(--group-color, black)
+	color: var(--group-color,var(--black-op50))
 }
 
 .forumdesc {
@@ -1311,7 +1311,7 @@ labdesc {
 	padding-left: calc(2.5px + var(--small));
 	font-family: var(--display);
 	padding-right: var(--small);
-	background-color: white;
+	background-color:var(--white-op50);
 	border: 0.5px solid var(--co2-200)
 }
 
@@ -1369,7 +1369,7 @@ div.award.award-astro {
 }
 
 div.award.award-astro::before {
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 div.award.award-hj {
@@ -1378,7 +1378,7 @@ div.award.award-hj {
 }
 
 div.award.award-hj::before {
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .award_tooltiptext {
@@ -1453,7 +1453,7 @@ div.award.award-hj::before {
 }
 
 .profile-admin a {
-	color: black !important
+	color:var(--black-op50) !important
 }
 
 .bloc-details.two {
@@ -1471,7 +1471,7 @@ div.award.award-hj::before {
 .bloc-details.two strong,
 .bloc-details.two i {
 	font-family: var(--serif);
-	color: black
+	color:var(--black-op50)
 }
 
 .icon-admin {
@@ -1509,7 +1509,7 @@ div.award.award-hj::before {
 	text-transform: uppercase;
 	font-family: var(--serif);
 	letter-spacing: 1px;
-	color: white
+	color:var(--white-op50)
 }
 
 .icon-admin strong a {
@@ -1523,7 +1523,7 @@ div.award.award-hj::before {
 }
 
 .icon-admin u {
-	box-shadow: inset 0 -5px 0 white;
+	box-shadow: inset 0 -5px 0var(--white-op50);
 	letter-spacing: 1px;
 	padding-left: 1px;
 	font-weight: 700;
@@ -1606,7 +1606,7 @@ div.award.award-hj::before {
 }
 
 .bloc-accueil.one {
-	background-color: white;
+	background-color:var(--white-op50);
 	width: 100%;
 	padding: var(--large) 0
 }
@@ -1623,7 +1623,7 @@ div.award.award-hj::before {
 	height: 125px;
 	filter: grayscale(1);
 	width: 150px;
-	border: var(--small) solid white
+	border: var(--small) solidvar(--white-op50)
 }
 
 .bloc-accueil.one div {
@@ -1660,7 +1660,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.two {
 	border: 0.5px solid var(--co2);
-	outline: 4px solid white;
+	outline: 4px solidvar(--white-op50);
 	padding: var(--large);
 	text-align: justify;
 	margin: 4px;
@@ -1688,14 +1688,14 @@ div.award.award-hj::before {
 	margin: 0 var(--3xsmall);
 	padding: 0 var(--3xsmall);
 	background: var(--co2-100);
-	text-shadow: 0.5px 0.5px white
+	text-shadow: 0.5px 0.5pxvar(--white-op50)
 }
 
 .bloc-accueil.three {
 	background-color: var(--neutral);
 	padding: var(--large);
 	text-align: justify;
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .bloc-accueil.four {
@@ -1757,7 +1757,7 @@ div.award.award-hj::before {
 	text-align: center;
 	padding: var(--2xsmall);
 	font-family: var(--serif);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .bloc-accueil.five span a {
@@ -1766,7 +1766,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.five i:before {
 	background-color: var(--co3);
-	color: white;
+	color:var(--white-op50);
 	margin: 0 var(--large);
 	padding: var(--small);
 	display: flex;
@@ -1885,7 +1885,7 @@ div.award.award-hj::before {
 
 #total-users-online strong,
 .total-others strong {
-	color: white;
+	color:var(--white-op50);
 	padding-right: var(--3xsmall)
 }
 
@@ -1905,7 +1905,7 @@ div.award.award-hj::before {
 	width: -webkit-fill-available;
 	text-transform: capitalize;
 	border: var(--2xsmall) solid var(--light);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .bloc-qeel.one {
@@ -1928,7 +1928,7 @@ div.award.award-hj::before {
 	height: 115px;
 
 	aspect-ratio: 1;
-	border: var(--2xsmall) solid white
+	border: var(--2xsmall) solidvar(--white-op50)
 }
 
 #groups-qeel {
@@ -1989,7 +1989,7 @@ div.award.award-hj::before {
 	width: 100%;
 	display: flex;
 	height: 100%;
-	background-color: white;
+	background-color:var(--white-op50);
 	align-items: center;
 	justify-content: center
 }
@@ -1997,7 +1997,7 @@ div.award.award-hj::before {
 #newest-user span strong {
 	font-size: var(--medium);
 	text-transform: capitalize;
-	color: black !important;
+	color:var(--black-op50) !important;
 	font-family: var(--spe);
 	display: flex;
 	justify-content: center;
@@ -2249,7 +2249,7 @@ topicdesc {
 }
 
 .post_new .topictitle {
-	color: black !important
+	color:var(--black-op50) !important
 }
 
 .topiclist {
@@ -2324,7 +2324,7 @@ topicdesc {
 	font-family: var(--icons-thin) !important;
 	display: flex;
 	height: 20px;
-	color: white;
+	color:var(--white-op50);
 	background-color: var(--group-color, var(--neutral));
 	width: 20px;
 	border-radius: 50%;
@@ -2406,11 +2406,11 @@ topicdesc {
 	height: 370px;
 
 	padding: var(--large);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .postprofile-pseudo {
-	background-color: white;
+	background-color:var(--white-op50);
 	padding: var(--large) 0;
 	font-family: var(--spe);
 	font-size: var(--medium);
@@ -2444,7 +2444,7 @@ topicdesc {
 	background-color: var(--group-color-100, var(--co1-100));
 	width: 100px;
 	display: inline-block;
-	text-shadow: 0.5px 0.5px white;
+	text-shadow: 0.5px 0.5pxvar(--white-op50);
 	margin-right: var(--3xsmall);
 	border-radius: var(--small);
 	text-align: center;
@@ -2483,7 +2483,7 @@ topicdesc {
 }
 
 .profile-tab {
-	color: white;
+	color:var(--white-op50);
 	font-family: var(--display);
 	font-size: var(--medium);
 	padding: 0 var(--large);
@@ -2499,7 +2499,7 @@ topicdesc {
 }
 
 .profile-tabs:after {
-	border-top: 0.5px solid white;
+	border-top: 0.5px solidvar(--white-op50);
 	content: "";
 	top: 10px;
 	width: calc(100% - var(--2xlarge));
@@ -2547,7 +2547,7 @@ topicdesc {
 	width: 232px;
 	max-height: 150px;
 	padding: var(--large);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .postprofile-contact {
@@ -2575,7 +2575,7 @@ topicdesc {
 .postbody-icons {
 	height: 51.5px;
 	padding: var(--large);
-	background: white;
+	background:var(--white-op50);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2677,7 +2677,7 @@ topicdesc {
 	justify-content: center;
 	height: 35px;
 	width: 200px;
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1pxvar(--white-op50);
 	font-family: var(--serif);
 	color: var(--co2) !important
 }
@@ -2689,7 +2689,7 @@ topicdesc {
 .pathname-box a {
 	padding: 2.5px var(--large);
 	margin: 0 var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	border: 0.5px solid;
 	color: var(--co1);
 	font-weight: 300;
@@ -2706,7 +2706,7 @@ topicdesc {
 
 .word-count {
 	padding-left: 2.5px;
-	background-color: white !important;
+	background-color:var(--white-op50) !important;
 	text-transform: uppercase;
 	font-family: var(--mono);
 	font-weight: 300;
@@ -2722,7 +2722,7 @@ topicdesc {
 .sceditor-container iframe,
 .sceditor-container textarea {
 	padding: var(--large) !important;
-	background-color: white !important;
+	background-color:var(--white-op50) !important;
 	border: 0 !important;
 	color: var(--light-dark) !important;
 	font-family: var(--mono) !important;
@@ -2742,7 +2742,7 @@ div.sceditor-toolbar,
 .sceditor-toolbar {
 	padding: var(--large) !important;
 	gap: var(--small) !important;
-	background-color: white !important;
+	background-color:var(--white-op50) !important;
 	border: 0 !important;
 	display: flex !important;
 	flex-direction: row !important;
@@ -2759,7 +2759,7 @@ div.sceditor-toolbar,
 	width: 15px !important;
 	align-items: center;
 	justify-content: center;
-	color: white;
+	color:var(--white-op50);
 	background-color: transparent !important;
 	text-indent: 0 !important;
 	border-radius: 0 !important;
@@ -2810,7 +2810,7 @@ button1,
 	color: var(--co2);
 	border: 0.5px solid var(--co2);
 	border-radius: var(--2xlarge);
-	text-shadow: 1px 1px white
+	text-shadow: 1px 1pxvar(--white-op50)
 }
 
 input,
@@ -2843,7 +2843,7 @@ textarea {
 	text-transform: lowercase;
 	font-size: var(--2xlarge);
 	color: var(--co1);
-	background: white;
+	background:var(--white-op50);
 	width: 100%;
 	text-align: right;
 	padding: var(--large)
@@ -2871,11 +2871,11 @@ textarea {
 .textlisting {
 	width: 100%;
 	padding: var(--large);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .ficheadmin .textlisting .mentiontag {
-	color: black !important
+	color:var(--black-op50) !important
 }
 
 .mentiontag {
@@ -2991,7 +2991,7 @@ textarea {
 
 .ficheadmin a:not(.mentiontag):hover {
 	background-color: var(--co3-400);
-	color: white !important
+	color:var(--white-op50) !important
 }
 
 .inneradmin:before {
@@ -2999,7 +2999,7 @@ textarea {
 	content: "";
 	position: absolute;
 	width: 5px;
-	background: white;
+	background:var(--white-op50);
 	top: var(--large);
 	bottom: var(--large)
 }
@@ -3011,7 +3011,7 @@ textarea {
 
 .inneradmin u {
 	text-decoration: none;
-	box-shadow: inset 0 -5px 0 white !important
+	box-shadow: inset 0 -5px 0var(--white-op50) !important
 }
 
 .inneradmin {
@@ -3049,7 +3049,7 @@ button.toggle-panel .fi:before {
 	width: 31px;
 	align-items: center;
 	justify-content: center;
-	color: white
+	color:var(--white-op50)
 }
 
 button.toggle-panel .fi:before:hover {
@@ -3320,7 +3320,7 @@ button.toggle-panel .fi:before:hover {
 	padding: var(--2xsmall) 0;
 	justify-content: space-between;
 	background-color: var(--light);
-	outline: var(--2xsmall) solid white;
+	outline: var(--2xsmall) solidvar(--white-op50);
 	align-items: center;
 	gap: var(--2xsmall);
 	margin: var(--2xsmall);
@@ -3357,7 +3357,7 @@ button.toggle-panel .fi:before:hover {
 	text-align: center;
 	text-transform: uppercase;
 	background: var(--group-color, var(--dark));
-	color: white
+	color:var(--white-op50)
 }
 
 .member-data {
@@ -3493,7 +3493,7 @@ input#profile_field_4_-12_0 {
 .mespriv-display.post {
 	border: 0.5px solid var(--group-color, var(--co1));
 	margin: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	flex-direction: row-reverse !important
 }
 
@@ -3616,8 +3616,8 @@ input#profile_field_4_-12_0 {
 	width: 25px;
 	border-radius: var(--3xsmall);
 	background-color: var(--co3);
-	color: white;
-	border: 2px solid white;
+	color:var(--white-op50);
+	border: 2px solidvar(--white-op50);
 	align-items: center;
 	justify-content: center;
 	outline: 0.5px solid var(--co3-200)
@@ -3792,7 +3792,7 @@ blockquote,
 .codebox.code dd,
 .spoiler_content.hidden {
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	width: -webkit-fill-available
 }
 
@@ -3845,7 +3845,7 @@ cite:before {
 .copy-code.copied,
 .copy-code:hover {
 	background-color: var(--co3-400);
-	color: white !important
+	color:var(--white-op50) !important
 }
 
 dl.codebox {
@@ -3908,7 +3908,7 @@ dl.codebox {
 
 .posttab.active backbi3 {
 	color: var(--co3) !important;
-	background: white
+	background:var(--white-op50)
 }
 
 .titrefam {
@@ -4064,7 +4064,7 @@ dl.codebox {
 .fichelisting {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--lighter-neutral);
-	outline: var(--large) solid white;
+	outline: var(--large) solidvar(--white-op50);
 	margin-top: var(--large)
 }
 
@@ -4251,7 +4251,7 @@ dl.codebox {
 }
 
 .blocperso.one {
-	background-color: white;
+	background-color:var(--white-op50);
 	border: 0.5px solid var(--group-color-200, var(--co3-200));
 	padding: var(--2xlarge)
 }
@@ -4312,7 +4312,7 @@ lblchrn {
 	letter-spacing: 5px;
 	font-weight: 200;
 	text-transform: uppercase;
-	color: white
+	color:var(--white-op50)
 }
 
 lblfvr {
@@ -4353,7 +4353,7 @@ lblplyr {
 .idperso .contenttoggle {
 	padding: var(--large);
 	margin: var(--2xlarge) var(--large) 0;
-	outline: var(--large) solid white;
+	outline: var(--large) solidvar(--white-op50);
 	background: var(--light);
 	border: 0.5px solid var(--group-color-100, var(--co1-100)) !important
 }
@@ -4384,7 +4384,7 @@ lblrchrch {
 
 blockquote.blocperso {
 	border: 0.5px solid var(--group-color-100, var(--co3-100));
-	outline: var(--large) solid white
+	outline: var(--large) solidvar(--white-op50)
 }
 
 .idperso {
@@ -4467,7 +4467,7 @@ blockquote.blocperso {
 }
 
 .blocpl.one {
-	background-color: white;
+	background-color:var(--white-op50);
 	padding: var(--large);
 	font-family: var(--serif);
 	text-transform: lowercase;
@@ -4516,7 +4516,7 @@ blockquote.blocperso {
 }
 
 .attentes .blocpl {
-	background: white;
+	background:var(--white-op50);
 	padding: var(--large)
 }
 
@@ -4525,7 +4525,7 @@ blockquote.blocperso {
 }
 
 .ficheperso.rep backgc a {
-	color: white !important
+	color:var(--white-op50) !important
 }
 
 .ficheperso.rep lbackbgc a {
@@ -4622,7 +4622,7 @@ reclinks a:after {
 }
 
 .blocrec.one {
-	background-color: white;
+	background-color:var(--white-op50);
 	padding: var(--large)
 }
 
@@ -4735,7 +4735,7 @@ bborderbid,
 bborderbigc {
 	border-bottom: 2px solid;
 	padding: 0.1rem var(--small);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 mborder1,
@@ -4763,7 +4763,7 @@ mborderbin,
 mborderbid,
 mborderbigc {
 	border: 0.5px solid;
-	background-color: white;
+	background-color:var(--white-op50);
 	padding: 0.1rem var(--2xsmall);
 	font-family: var(--mono)
 }
@@ -4974,7 +4974,7 @@ dbackd,
 dbackbd,
 dbackid,
 dbackbid {
-	background-color: black
+	background-color:var(--black-op50)
 }
 
 dbackgc,
@@ -5016,7 +5016,7 @@ mbackd,
 mbackbd,
 mbackid,
 mbackbid {
-	background-color: black
+	background-color:var(--black-op50)
 }
 
 mbackgc,
@@ -5204,7 +5204,7 @@ lbgradgc a,
 lbgradbgc a,
 lbgradigc a,
 lbgradbigc {
-	color: white !important
+	color:var(--white-op50) !important
 }
 
 wback1,
@@ -5231,7 +5231,7 @@ wbackgc,
 wbackbgc,
 wbackigc,
 wbackbigc {
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 lback1,
@@ -5399,7 +5399,7 @@ dbackbigc {
 	padding-right: var(--large);
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	color: white
+	color:var(--white-op50)
 }
 
 mback1,
@@ -5430,7 +5430,7 @@ mbackbigc {
 	padding-right: var(--3xsmall);
 	letter-spacing: 5px;
 	text-transform: lowercase;
-	color: white
+	color:var(--white-op50)
 }
 
 grad1,
@@ -5883,7 +5883,7 @@ underd,
 underbd,
 underid,
 underbid {
-	box-shadow: inset 0 -8px 0 white;
+	box-shadow: inset 0 -8px 0var(--white-op50);
 	letter-spacing: 2.5px;
 	padding-left: 2.5px
 }
@@ -6298,7 +6298,7 @@ sstitd,
 sstitgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 1px;
-	color: white;
+	color:var(--white-op50);
 	color: transparent;
 	font-weight: 700;
 	font-family: var(--serif)
@@ -6481,17 +6481,17 @@ majgc::first-letter {
 
 .brf2,
 .brf1 {
-	background-color: var(--group-color, black) !important
+	background-color: var(--group-color,var(--black-op50)) !important
 }
 
 .brf2:before {
-	color: var(--group-color, black) !important
+	color: var(--group-color,var(--black-op50)) !important
 }
 
 .brf1 {
 	background: linear-gradient(to right,
 			var(--light),
-			var(--group-color, black),
+			var(--group-color,var(--black-op50)),
 			var(--light)) !important
 }
 
@@ -6784,7 +6784,7 @@ majgc::first-letter {
 }
 
 .br8w {
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .br8gc {
@@ -6872,7 +6872,7 @@ majgc::first-letter {
 #postprofile-libre a:hover,
 .postprofile-libre a:hover {
 	background-color: var(--group-color, var(--co2));
-	color: white !important
+	color:var(--white-op50) !important
 }
 
 #postprofile-libre strike,
@@ -7042,7 +7042,7 @@ bblocgc,
 .bblocd,
 .bblocgc {
 	border: var(--2xsmall) solid var(--light);
-	background-color: white;
+	background-color:var(--white-op50);
 	display: block;
 	padding: var(--2xsmall);
 	outline: 0.5px solid var(--co1);
@@ -7209,7 +7209,7 @@ pblocn,
 pblocd,
 .pblocd {
 	background-color: var(--dark);
-	color: white
+	color:var(--white-op50)
 }
 
 pblocgc,
@@ -7444,7 +7444,7 @@ pblocgc,
 }
 
 .tooltipster-content {
-	background: white !important;
+	background:var(--white-op50) !important;
 	font-family: var(--main) !important;
 	display: flex;
 	color: var(--light-dark) !important;
@@ -7600,7 +7600,7 @@ chronodate:after {
 	width: 7.5px;
 	border-radius: 100%;
 	margin-right: -5px;
-	background-color: white;
+	background-color:var(--white-op50);
 	z-index: 9
 }
 
@@ -7619,7 +7619,7 @@ chronoevent strong {
 	font-family: var(--display);
 	font-size: var(--medium);
 	font-weight: 700;
-	color: white;
+	color:var(--white-op50);
 	background-color: var(--group-color, var(--dark-neutral));
 	padding-right: 2.5px;
 	padding-left: 5px;
@@ -7656,7 +7656,7 @@ chronoevent strong {
 
 .rules.content strong {
 	background: var(--co3);
-	color: white;
+	color:var(--white-op50);
 	padding: var(--3xsmall) var(--2xlarge);
 	font-size: var(--medium)
 }
@@ -7665,7 +7665,7 @@ chronoevent strong {
 	background: var(--co3);
 	font-size: var(--medium);
 	font-weight: 500;
-	color: white;
+	color:var(--white-op50);
 	padding: var(--3xsmall) var(--2xlarge);
 	font-family: var(--serif)
 }
@@ -7740,7 +7740,7 @@ p {
 .ficval a {
 	font-weight: 300;
 	background: var(--gradient12);
-	color: white !important;
+	color:var(--white-op50) !important;
 	padding: 0 var(--2xsmall);
 	font-family: var(--serif)
 }
@@ -7820,7 +7820,7 @@ p {
 	letter-spacing: 5px;
 	font-weight: 300;
 	padding: var(--medium);
-	background: white;
+	background:var(--white-op50);
 	display: block
 }
 
@@ -7857,7 +7857,7 @@ p {
 	padding: var(--medium);
 	align-items: center;
 	border: 0.5px solid var(--lighter-neutral);
-	background: white;
+	background:var(--white-op50);
 	transition: border 0.2s;
 	animation: notiffiFadeIn 0.3s ease-in-out;
 
@@ -7925,7 +7925,7 @@ p {
 }
 
 .notification.unread .notif_icon {
-	color: white;
+	color:var(--white-op50);
 	background: var(--group-color, var(--co1))
 }
 
@@ -8063,7 +8063,7 @@ p {
 	height: 92px;
 	display: grid;
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	grid-template-columns: auto auto;
 	grid-template-rows: auto auto;
 	gap: var(--2xsmall);
@@ -8126,7 +8126,7 @@ p {
 }
 
 .notiffi_body_rps a {
-	color: white !important;
+	color:var(--white-op50) !important;
 	text-transform: lowercase;
 	font-weight: 300;
 	font-family: var(--mono);
@@ -8213,7 +8213,7 @@ p {
 	padding: var(--large);
 	width: 50%;
 	margin-top: 34px;
-	background: white;
+	background:var(--white-op50);
 	text-align: justify
 }
 
@@ -8285,16 +8285,16 @@ p {
 	width: 250px;
 	border-radius: var(--large) 0 0 var(--small);
 	padding: var(--2xsmall);
-	border-top: var(--2xsmall) solid white;
-	border-left: var(--2xsmall) solid white;
-	border-bottom: var(--2xsmall) solid white
+	border-top: var(--2xsmall) solidvar(--white-op50);
+	border-left: var(--2xsmall) solidvar(--white-op50);
+	border-bottom: var(--2xsmall) solidvar(--white-op50)
 }
 
 .firstcontent {
 	flex: 1;
 	padding: var(--large);
 	border-radius: 0 var(--small) var(--large) 0;
-	background-color: white;
+	background-color:var(--white-op50);
 	display: flex;
 	flex-wrap: wrap;
 	height: -webkit-fill-available;
@@ -8354,7 +8354,7 @@ firstdtls:nth-last-of-type(odd) {
 	background: linear-gradient(to right,
 			var(--group-color-300),
 			var(--group-color-600));
-	color: white;
+	color:var(--white-op50);
 	padding: 0 var(--small);
 	text-transform: uppercase;
 	text-align: right;
@@ -8425,7 +8425,7 @@ firstdtls:nth-last-of-type(odd) {
 }
 
 .statuscontent {
-	background-color: white;
+	background-color:var(--white-op50);
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -8479,7 +8479,7 @@ statusdtls:nth-of-type(odd) {
 	font-family: var(--icons-thin) !important;
 	margin-right: var(--large);
 	background-color: var(--co2);
-	color: white;
+	color:var(--white-op50);
 	display: inline-flex;
 	align-items: center;
 	letter-spacing: 0px;
@@ -8513,7 +8513,7 @@ statusdtls:nth-of-type(odd) {
 .instapostcontent {
 	width: 400px;
 	padding: var(--large);
-	background: white;
+	background:var(--white-op50);
 	display: flex;
 	flex-direction: column;
 	gap: var(--large)
@@ -8702,7 +8702,7 @@ statusinsta {
 
 .ficheinsta.story .contentstory div:first-child {
 	padding: var(--small);
-	border-bottom: 1px solid white
+	border-bottom: 1px solidvar(--white-op50)
 }
 
 .ficheinsta.story .contentstory div:first-child monod {
@@ -8735,7 +8735,7 @@ statusinsta {
 }
 
 .ficheinsta.story .contentstory .miniconinsta {
-	border: 0.5px solid white;
+	border: 0.5px solidvar(--white-op50);
 	height: 35px;
 	width: 35px
 }
@@ -8751,7 +8751,7 @@ statusinsta {
 .ficherphead img {
 	height: 100px;
 	padding: var(--2xsmall);
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .ficherp.two .ficherphead img {
@@ -8827,7 +8827,7 @@ statusinsta {
 	font-family: var(--serif);
 	text-transform: uppercase;
 	background: var(--gradientgc2);
-	color: white;
+	color:var(--white-op50);
 	padding: var(--4xsmall) var(--2xlarge);
 	font-weight: 600
 }
@@ -8926,7 +8926,7 @@ statusinsta {
 .ficherp.three .ficherpbanner,
 .ficherp.three .ficherpfooter {
 	padding: var(--small);
-	background-color: white;
+	background-color:var(--white-op50);
 	text-transform: uppercase;
 	font-weight: 200
 }
@@ -9012,7 +9012,7 @@ statusinsta {
 	justify-content: space-between;
 	gap: var(--large);
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	color: var(--group-color)
 }
 
@@ -9025,7 +9025,7 @@ statusinsta {
 .ficheperso.playlist .dtlsplaylist img {
 	width: 150px;
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	height: 150px
 }
 
@@ -9036,7 +9036,7 @@ statusinsta {
 	padding: var(--large);
 	gap: var(--large);
 	flex-direction: column;
-	color: white;
+	color:var(--white-op50);
 	align-items: center;
 	background: var(--group-color-300)
 }
@@ -9136,7 +9136,7 @@ statusinsta {
 	flex-direction: column;
 	padding: var(--large);
 	gap: var(--large);
-	background: white
+	background:var(--white-op50)
 }
 
 .signtes {
@@ -9159,7 +9159,7 @@ statusinsta {
 .signtes u {
 	background-color: var(--group-color, var(--co3));
 	text-decoration: none !important;
-	color: white;
+	color:var(--white-op50);
 	padding: 0 var(--3xsmall)
 }
 
@@ -9172,7 +9172,7 @@ statusinsta {
 .signtes.seven img {
 	width: 100px;
 	padding: 5px;
-	background-color: white;
+	background-color:var(--white-op50);
 	border: 0.5px solid var(--dark-light)
 }
 
@@ -9202,7 +9202,7 @@ statusinsta {
 	width: 75px;
 	outline-offset: -5px;
 	border-radius: 50%;
-	outline: 0.5px solid white
+	outline: 0.5px solidvar(--white-op50)
 }
 
 .signtes.five,
@@ -9213,19 +9213,19 @@ statusinsta {
 .signtes.four div,
 .signtes.nine div {
 	font-family: var(--serif);
-	background-color: white;
+	background-color:var(--white-op50);
 	padding: var(--3xsmall)
 }
 
 .signtes.five img {
 	width: 75px;
 	outline-offset: -5px;
-	outline: 0.5px solid white
+	outline: 0.5px solidvar(--white-op50)
 }
 
 .signtes.five div {
 	font-family: var(--mono);
-	background-color: white;
+	background-color:var(--white-op50);
 	padding: var(--3xsmall)
 }
 
@@ -9256,7 +9256,7 @@ statusinsta {
 	gap: var(--large);
 	display: flex;
 	flex-direction: column;
-	background: white;
+	background:var(--white-op50);
 	padding: var(--large);
 	padding-top: 0px
 }
@@ -9273,7 +9273,7 @@ statusinsta {
 	height: 50px;
 	width: 50px;
 	background: var(--group-color);
-	color: white;
+	color:var(--white-op50);
 	display: flex;
 	align-items: center;
 	overflow: hidden;
@@ -9317,7 +9317,7 @@ statusinsta {
 
 .tindermisc span:hover {
 	background-color: var(--group-color);
-	color: white
+	color:var(--white-op50)
 }
 
 .fichetinder .tinderimg img {
@@ -9342,7 +9342,7 @@ statusinsta {
 }
 
 .fichetinder .tinderimg:hover:after {
-	color: white;
+	color:var(--white-op50);
 	cursor: pointer
 }
 
@@ -9400,7 +9400,7 @@ statusinsta {
 	border-radius: var(--large) var(--small) var(--large) var(--small);
 	background-color: var(--group-color-100);
 	padding: var(--large);
-	border: 0.5px solid white;
+	border: 0.5px solidvar(--white-op50);
 	width: 100%
 }
 
@@ -9412,7 +9412,7 @@ statusinsta {
 	align-items: center;
 	justify-content: center;
 
-	background-color: white
+	background-color:var(--white-op50)
 }
 
 .astrocontent span {
@@ -9459,7 +9459,7 @@ lblpmdn {
 	padding: 1px 5px 1px 6.5px;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	color: white
+	color:var(--white-op50)
 }
 
 .posttab-content.thst strong {
@@ -9477,7 +9477,7 @@ lblpmdn {
 .ficheperso.more .posttab-contents {
 	width: 100%;
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	text-align: justify
 }
 
@@ -9578,7 +9578,7 @@ lblpmdn {
 
 .ficheportrait img {
 	padding: var(--small);
-	background-color: white;
+	background-color:var(--white-op50);
 	border: 0.5px solid var(--lighter-neutral);
 	height: 100px
 }
@@ -9597,7 +9597,7 @@ lblpmdn {
 	width: 400px;
 	display: flex;
 	gap: var(--small);
-	background-color: white;
+	background-color:var(--white-op50);
 	box-shadow: 5px 5px 0px var(--group-color-100);
 	flex-direction: column;
 	position: relative;
@@ -9665,13 +9665,13 @@ lblpmdn {
 .random .posttab-contents {
 	flex: 1;
 	padding: var(--large);
-	background: white
+	background:var(--white-op50)
 }
 
 .random .posttab {
 	width: 150px;
 	padding: var(--3xsmall);
-	background-color: white;
+	background-color:var(--white-op50);
 	color: var(--group-color);
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -9679,7 +9679,7 @@ lblpmdn {
 }
 
 .random .posttab.active {
-	color: white;
+	color:var(--white-op50);
 	background-color: var(--group-color)
 }
 
@@ -9689,7 +9689,7 @@ lblpmdn {
 	gap: var(--large);
 	width: 100%;
 	padding: var(--large);
-	background-color: white;
+	background-color:var(--white-op50);
 	justify-content: center;
 	align-items: center
 }
@@ -9716,7 +9716,7 @@ lblpmdn {
 .ficheperso.defis defistatus {
 	text-transform: uppercase;
 	background: var(--group-color);
-	color: white;
+	color:var(--white-op50);
 	padding: 0 var(--3xsmall);
 	font-weight: 200
 }
@@ -9821,7 +9821,7 @@ lblpmdn {
 	font-weight: 900;
 	font-family: var(--display);
 	color: var(--co3);
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1pxvar(--white-op50);
 	font-size: var(--medium)
 }
 
@@ -9831,7 +9831,7 @@ lblpmdn {
 	width: 100%;
 	padding: var(--3xsmall) var(--large);
 	background: var(--co3);
-	color: white !important;
+	color:var(--white-op50) !important;
 	font-family: var(--serif);
 	font-size: var(--medium);
 	text-transform: uppercase
