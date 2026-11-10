@@ -587,7 +587,7 @@ body:before {
 	position: fixed;
 	padding: var(--large);
 	z-index: 999;
-	background-color: var(--light);
+	background-color: var(--white-op50);
 	backdrop-filter: blur(3px);
 	top: var(--large);
 	right: 50%;
@@ -605,7 +605,7 @@ body:before {
 
 #page-navbar div>* {
 	text-transform: lowercase;
-	color: var(--dark);
+	color: var(--light);
 	opacity: 0.75;
 	font-family: var(--display);
 	font-weight: 700;
