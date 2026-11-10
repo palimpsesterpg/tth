@@ -2858,7 +2858,7 @@ textarea {
 	text-transform: lowercase;
 	font-size: var(--2xlarge);
 	color: var(--co1);
-	background: var(--white-op50);
+	background-color: var(--white-op90);
 	width: 100%;
 	text-align: right;
 	padding: var(--large)
