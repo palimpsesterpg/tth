@@ -933,7 +933,7 @@ body:before {
 }
 
 [data-color-scheme="dark"] .forumrow:before {
-    filter: brightness(35%)
+	filter: brightness(35%)
 }
 
 .forumrow-inside {
