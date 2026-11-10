@@ -225,14 +225,14 @@
 [class*=" group-"] {
 	--group-color: var(--group-base);
 
-	--group-color-100: color-mix(in srgb, var(--group-color) 20%, var(--white-op50));
-	--group-color-200: color-mix(in srgb, var(--group-color) 40%, var(--white-op50));
-	--group-color-300: color-mix(in srgb, var(--group-color) 60%, var(--white-op50));
-	--group-color-400: color-mix(in srgb, var(--group-color) 80%, var(--white-op50));
-	--group-color-600: color-mix(in srgb, var(--group-color) 80%, var(--black-op50));
-	--group-color-700: color-mix(in srgb, var(--group-color) 60%, var(--black-op50));
-	--group-color-800: color-mix(in srgb, var(--group-color) 40%, var(--black-op50));
-	--group-color-900: color-mix(in srgb, var(--group-color) 20%, var(--black-op50));
+	--group-color-100: color-mix(in srgb, var(--group-color) 20%, white);
+	--group-color-200: color-mix(in srgb, var(--group-color) 40%, white);
+	--group-color-300: color-mix(in srgb, var(--group-color) 60%, white);
+	--group-color-400: color-mix(in srgb, var(--group-color) 80%, white);
+	--group-color-600: color-mix(in srgb, var(--group-color) 80%, black);
+	--group-color-700: color-mix(in srgb, var(--group-color) 60%, black);
+	--group-color-800: color-mix(in srgb, var(--group-color) 40%, black);
+	--group-color-900: color-mix(in srgb, var(--group-color) 20%, black);
 
 	--group-color-op25: color-mix(in srgb, var(--group-color) 25%, transparent);
 	--group-color-op50: color-mix(in srgb, var(--group-color) 50%, transparent);
@@ -257,17 +257,17 @@
 
 [data-color-scheme="dark"] :is([class^="group-"],
 	[class*=" group-"]) {
-	--group-color: color-mix(in srgb, var(--group-base) 80%, var(--white-op50));
+	--group-color: color-mix(in srgb, var(--group-base) 80%, white);
 
 	--group-color-400: var(--group-base);
 
-	--group-color-100: color-mix(in srgb, var(--group-color) 20%, var(--black-op50));
-	--group-color-200: color-mix(in srgb, var(--group-color) 40%, var(--black-op50));
-	--group-color-300: color-mix(in srgb, var(--group-color) 60%, var(--black-op50));
-	--group-color-600: color-mix(in srgb, var(--group-color) 80%, var(--white-op50));
-	--group-color-700: color-mix(in srgb, var(--group-color) 60%, var(--white-op50));
-	--group-color-800: color-mix(in srgb, var(--group-color) 40%, var(--white-op50));
-	--group-color-900: color-mix(in srgb, var(--group-color) 20%, var(--white-op50));
+	--group-color-100: color-mix(in srgb, var(--group-color) 20%, black);
+	--group-color-200: color-mix(in srgb, var(--group-color) 40%, black);
+	--group-color-300: color-mix(in srgb, var(--group-color) 60%, black);
+	--group-color-600: color-mix(in srgb, var(--group-color) 80%, white);
+	--group-color-700: color-mix(in srgb, var(--group-color) 60%, white);
+	--group-color-800: color-mix(in srgb, var(--group-color) 40%, white);
+	--group-color-900: color-mix(in srgb, var(--group-color) 20%, white);
 
 	--group-color-op25: color-mix(in srgb, var(--group-color) 75%, transparent);
 	--group-color-op75: color-mix(in srgb, var(--group-color) 25%, transparent);
@@ -916,6 +916,8 @@ body:before {
 
 .forumrow {
 	box-shadow: 2.5px 2.5px var(--dark-light);
+	padding: var(--large);
+	position: relative;
 	flex: 1 1 100%
 }
 
@@ -924,7 +926,14 @@ body:before {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	z-index: -1
+	top: 0;
+	right: 0;
+	background-position: center;
+	position: absolute
+}
+
+[data-color-scheme="dark"] .forumrow:before {
+    filter: brightness(35%)
 }
 
 .forumrow-inside {
@@ -953,15 +962,6 @@ body:before {
 .fifty,
 .fifarc {
 	flex: 1
-}
-
-#c2 .forumrow,
-#c3 .forumrow,
-#c4 .forumrow,
-#c6 .forumrow,
-#c5 .forumrow,
-#c7 .forumrow {
-	padding: var(--large)
 }
 
 #c2 .forumrow:before,
