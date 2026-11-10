@@ -451,11 +451,11 @@ a.h6,
 
 a,
 a:visited {
-	color: var(--black-op50)
+	color: var(--dark)
 }
 
 a:hover {
-	color: var(--dark-neutral)
+	color: var(--darker-neutral)
 }
 
 *,
@@ -560,7 +560,7 @@ body:before {
 	font-size: var(--5xlarge);
 	align-items: center;
 	justify-content: center;
-	color: var(--white-op50);
+	color: var(--light);
 	font-family: var(--spe)
 }
 
@@ -577,7 +577,7 @@ body:before {
 
 [data-color-scheme="dark"] .sceditor-button,
 [data-color-scheme="dark"] .pathname-box a {
-	color: var(--black-op50) !important
+	color: var(--dark) !important
 }
 
 #page-navbar {
@@ -605,7 +605,7 @@ body:before {
 
 #page-navbar div>* {
 	text-transform: lowercase;
-	color: var(--black-op50);
+	color: var(--dark);
 	opacity: 0.75;
 	font-family: var(--display);
 	font-weight: 700;
@@ -621,7 +621,7 @@ body:before {
 	margin-top: 34px;
 	position: relative;
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	flex: 1
 }
 
@@ -692,7 +692,7 @@ body:before {
 	opacity: 1;
 	transition: transform 128ms var(--ease), opacity 64ms var(--ease);
 	cursor: pointer;
-	color: var(--white-op50);
+	color: var(--light);
 	justify-content: center
 }
 
@@ -703,7 +703,7 @@ body:before {
 
 .switcheroo__popper {
 	background-color: var(--group-color, var(--co1));
-	color: var(--white-op50);
+	color: var(--light);
 	padding: var(--3xsmall);
 	position: absolute;
 	width: -webkit-max-content;
@@ -820,7 +820,7 @@ body:before {
 	right: 15px;
 	padding: var(--2xsmall);
 	cursor: pointer;
-	color: var(--white-op50);
+	color: var(--light);
 	border: 0;
 	outline: none;
 	background: var(--co2);
@@ -941,7 +941,7 @@ body:before {
 	gap: var(--large);
 	padding: var(--large);
 	width: 100%;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	justify-content: space-between
 }
 
@@ -1043,7 +1043,7 @@ a.forumtitle {
 }
 
 .thirty .forumtitle dot {
-	color: var(--white-op50);
+	color: var(--light);
 	background-color: var(--co1);
 	height: 25px;
 	width: 25px;
@@ -1326,7 +1326,7 @@ labdesc {
 	padding-left: calc(2.5px + var(--small));
 	font-family: var(--display);
 	padding-right: var(--small);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	border: 0.5px solid var(--co2-200)
 }
 
@@ -1384,7 +1384,7 @@ div.award.award-astro {
 }
 
 div.award.award-astro::before {
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 div.award.award-hj {
@@ -1393,7 +1393,7 @@ div.award.award-hj {
 }
 
 div.award.award-hj::before {
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .award_tooltiptext {
@@ -1468,7 +1468,7 @@ div.award.award-hj::before {
 }
 
 .profile-admin a {
-	color: var(--black-op50) !important
+	color: var(--dark) !important
 }
 
 .bloc-details.two {
@@ -1486,7 +1486,7 @@ div.award.award-hj::before {
 .bloc-details.two strong,
 .bloc-details.two i {
 	font-family: var(--serif);
-	color: var(--black-op50)
+	color: var(--dark)
 }
 
 .icon-admin {
@@ -1524,7 +1524,7 @@ div.award.award-hj::before {
 	text-transform: uppercase;
 	font-family: var(--serif);
 	letter-spacing: 1px;
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 .icon-admin strong a {
@@ -1621,7 +1621,7 @@ div.award.award-hj::before {
 }
 
 .bloc-accueil.one {
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	width: 100%;
 	padding: var(--large) 0
 }
@@ -1710,7 +1710,7 @@ div.award.award-hj::before {
 	background-color: var(--neutral);
 	padding: var(--large);
 	text-align: justify;
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .bloc-accueil.four {
@@ -1772,7 +1772,7 @@ div.award.award-hj::before {
 	text-align: center;
 	padding: var(--2xsmall);
 	font-family: var(--serif);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .bloc-accueil.five span a {
@@ -1781,7 +1781,7 @@ div.award.award-hj::before {
 
 .bloc-accueil.five i:before {
 	background-color: var(--co3);
-	color: var(--white-op50);
+	color: var(--light);
 	margin: 0 var(--large);
 	padding: var(--small);
 	display: flex;
@@ -1900,7 +1900,7 @@ div.award.award-hj::before {
 
 #total-users-online strong,
 .total-others strong {
-	color: var(--white-op50);
+	color: var(--light);
 	padding-right: var(--3xsmall)
 }
 
@@ -1920,7 +1920,7 @@ div.award.award-hj::before {
 	width: -webkit-fill-available;
 	text-transform: capitalize;
 	border: var(--2xsmall) solid var(--light);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .bloc-qeel.one {
@@ -2004,7 +2004,7 @@ div.award.award-hj::before {
 	width: 100%;
 	display: flex;
 	height: 100%;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	align-items: center;
 	justify-content: center
 }
@@ -2012,7 +2012,7 @@ div.award.award-hj::before {
 #newest-user span strong {
 	font-size: var(--medium);
 	text-transform: capitalize;
-	color: var(--black-op50) !important;
+	color: var(--dark) !important;
 	font-family: var(--spe);
 	display: flex;
 	justify-content: center;
@@ -2264,7 +2264,7 @@ topicdesc {
 }
 
 .post_new .topictitle {
-	color: var(--black-op50) !important
+	color: var(--dark) !important
 }
 
 .topiclist {
@@ -2339,7 +2339,7 @@ topicdesc {
 	font-family: var(--icons-thin) !important;
 	display: flex;
 	height: 20px;
-	color: var(--white-op50);
+	color: var(--light);
 	background-color: var(--group-color, var(--neutral));
 	width: 20px;
 	border-radius: 50%;
@@ -2421,11 +2421,11 @@ topicdesc {
 	height: 370px;
 
 	padding: var(--large);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .postprofile-pseudo {
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	padding: var(--large) 0;
 	font-family: var(--spe);
 	font-size: var(--medium);
@@ -2498,7 +2498,7 @@ topicdesc {
 }
 
 .profile-tab {
-	color: var(--white-op50);
+	color: var(--light);
 	font-family: var(--display);
 	font-size: var(--medium);
 	padding: 0 var(--large);
@@ -2562,7 +2562,7 @@ topicdesc {
 	width: 232px;
 	max-height: 150px;
 	padding: var(--large);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .postprofile-contact {
@@ -2704,7 +2704,7 @@ topicdesc {
 .pathname-box a {
 	padding: 2.5px var(--large);
 	margin: 0 var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	border: 0.5px solid;
 	color: var(--co1);
 	font-weight: 300;
@@ -2721,7 +2721,7 @@ topicdesc {
 
 .word-count {
 	padding-left: 2.5px;
-	background-color: var(--white-op50) !important;
+	background-color: var(--light) !important;
 	text-transform: uppercase;
 	font-family: var(--mono);
 	font-weight: 300;
@@ -2737,7 +2737,7 @@ topicdesc {
 .sceditor-container iframe,
 .sceditor-container textarea {
 	padding: var(--large) !important;
-	background-color: var(--white-op50) !important;
+	background-color: var(--light) !important;
 	border: 0 !important;
 	color: var(--light-dark) !important;
 	font-family: var(--mono) !important;
@@ -2757,7 +2757,7 @@ div.sceditor-toolbar,
 .sceditor-toolbar {
 	padding: var(--large) !important;
 	gap: var(--small) !important;
-	background-color: var(--white-op50) !important;
+	background-color: var(--light) !important;
 	border: 0 !important;
 	display: flex !important;
 	flex-direction: row !important;
@@ -2774,7 +2774,7 @@ div.sceditor-toolbar,
 	width: 15px !important;
 	align-items: center;
 	justify-content: center;
-	color: var(--white-op50);
+	color: var(--light);
 	background-color: transparent !important;
 	text-indent: 0 !important;
 	border-radius: 0 !important;
@@ -2886,11 +2886,11 @@ textarea {
 .textlisting {
 	width: 100%;
 	padding: var(--large);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .ficheadmin .textlisting .mentiontag {
-	color: var(--black-op50) !important
+	color: var(--dark) !important
 }
 
 .mentiontag {
@@ -3006,7 +3006,7 @@ textarea {
 
 .ficheadmin a:not(.mentiontag):hover {
 	background-color: var(--co3-400);
-	color: var(--white-op50) !important
+	color: var(--light) !important
 }
 
 .inneradmin:before {
@@ -3064,7 +3064,7 @@ button.toggle-panel .fi:before {
 	width: 31px;
 	align-items: center;
 	justify-content: center;
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 button.toggle-panel .fi:before:hover {
@@ -3372,7 +3372,7 @@ button.toggle-panel .fi:before:hover {
 	text-align: center;
 	text-transform: uppercase;
 	background: var(--group-color, var(--dark));
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 .member-data {
@@ -3508,7 +3508,7 @@ input#profile_field_4_-12_0 {
 .mespriv-display.post {
 	border: 0.5px solid var(--group-color, var(--co1));
 	margin: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	flex-direction: row-reverse !important
 }
 
@@ -3631,7 +3631,7 @@ input#profile_field_4_-12_0 {
 	width: 25px;
 	border-radius: var(--3xsmall);
 	background-color: var(--co3);
-	color: var(--white-op50);
+	color: var(--light);
 	border: 2px solidvar(--white-op50);
 	align-items: center;
 	justify-content: center;
@@ -3807,7 +3807,7 @@ blockquote,
 .codebox.code dd,
 .spoiler_content.hidden {
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	width: -webkit-fill-available
 }
 
@@ -3860,7 +3860,7 @@ cite:before {
 .copy-code.copied,
 .copy-code:hover {
 	background-color: var(--co3-400);
-	color: var(--white-op50) !important
+	color: var(--light) !important
 }
 
 dl.codebox {
@@ -4079,7 +4079,7 @@ dl.codebox {
 .fichelisting {
 	padding: var(--2xlarge);
 	border: 0.5px solid var(--lighter-neutral);
-	outline: var(--large) solidvar(--white-op50);
+	outline: var(--large) solid var(--white-op90);
 	margin-top: var(--large)
 }
 
@@ -4266,7 +4266,7 @@ dl.codebox {
 }
 
 .blocperso.one {
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	border: 0.5px solid var(--group-color-200, var(--co3-200));
 	padding: var(--2xlarge)
 }
@@ -4327,7 +4327,7 @@ lblchrn {
 	letter-spacing: 5px;
 	font-weight: 200;
 	text-transform: uppercase;
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 lblfvr {
@@ -4482,7 +4482,7 @@ blockquote.blocperso {
 }
 
 .blocpl.one {
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	padding: var(--large);
 	font-family: var(--serif);
 	text-transform: lowercase;
@@ -4540,7 +4540,7 @@ blockquote.blocperso {
 }
 
 .ficheperso.rep backgc a {
-	color: var(--white-op50) !important
+	color: var(--light) !important
 }
 
 .ficheperso.rep lbackbgc a {
@@ -4637,7 +4637,7 @@ reclinks a:after {
 }
 
 .blocrec.one {
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	padding: var(--large)
 }
 
@@ -4750,7 +4750,7 @@ bborderbid,
 bborderbigc {
 	border-bottom: 2px solid;
 	padding: 0.1rem var(--small);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 mborder1,
@@ -4778,7 +4778,7 @@ mborderbin,
 mborderbid,
 mborderbigc {
 	border: 0.5px solid;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	padding: 0.1rem var(--2xsmall);
 	font-family: var(--mono)
 }
@@ -4989,7 +4989,7 @@ dbackd,
 dbackbd,
 dbackid,
 dbackbid {
-	background-color: var(--black-op50)
+	background-color: var(--dark)
 }
 
 dbackgc,
@@ -5031,7 +5031,7 @@ mbackd,
 mbackbd,
 mbackid,
 mbackbid {
-	background-color: var(--black-op50)
+	background-color: var(--dark)
 }
 
 mbackgc,
@@ -5219,7 +5219,7 @@ lbgradgc a,
 lbgradbgc a,
 lbgradigc a,
 lbgradbigc {
-	color: var(--white-op50) !important
+	color: var(--light) !important
 }
 
 wback1,
@@ -5246,7 +5246,7 @@ wbackgc,
 wbackbgc,
 wbackigc,
 wbackbigc {
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 lback1,
@@ -5414,7 +5414,7 @@ dbackbigc {
 	padding-right: var(--large);
 	letter-spacing: 2.5px;
 	text-transform: uppercase;
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 mback1,
@@ -5445,7 +5445,7 @@ mbackbigc {
 	padding-right: var(--3xsmall);
 	letter-spacing: 5px;
 	text-transform: lowercase;
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 grad1,
@@ -6313,7 +6313,7 @@ sstitd,
 sstitgc {
 	font-size: var(--2xlarge);
 	letter-spacing: 1px;
-	color: var(--white-op50);
+	color: var(--light);
 	color: transparent;
 	font-weight: 700;
 	font-family: var(--serif)
@@ -6799,7 +6799,7 @@ majgc::first-letter {
 }
 
 .br8w {
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .br8gc {
@@ -6887,7 +6887,7 @@ majgc::first-letter {
 #postprofile-libre a:hover,
 .postprofile-libre a:hover {
 	background-color: var(--group-color, var(--co2));
-	color: var(--white-op50) !important
+	color: var(--light) !important
 }
 
 #postprofile-libre strike,
@@ -7057,7 +7057,7 @@ bblocgc,
 .bblocd,
 .bblocgc {
 	border: var(--2xsmall) solid var(--light);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	display: block;
 	padding: var(--2xsmall);
 	outline: 0.5px solid var(--co1);
@@ -7224,7 +7224,7 @@ pblocn,
 pblocd,
 .pblocd {
 	background-color: var(--dark);
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 pblocgc,
@@ -7615,7 +7615,7 @@ chronodate:after {
 	width: 7.5px;
 	border-radius: 100%;
 	margin-right: -5px;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	z-index: 9
 }
 
@@ -7634,7 +7634,7 @@ chronoevent strong {
 	font-family: var(--display);
 	font-size: var(--medium);
 	font-weight: 700;
-	color: var(--white-op50);
+	color: var(--light);
 	background-color: var(--group-color, var(--dark-neutral));
 	padding-right: 2.5px;
 	padding-left: 5px;
@@ -7671,7 +7671,7 @@ chronoevent strong {
 
 .rules.content strong {
 	background: var(--co3);
-	color: var(--white-op50);
+	color: var(--light);
 	padding: var(--3xsmall) var(--2xlarge);
 	font-size: var(--medium)
 }
@@ -7680,7 +7680,7 @@ chronoevent strong {
 	background: var(--co3);
 	font-size: var(--medium);
 	font-weight: 500;
-	color: var(--white-op50);
+	color: var(--light);
 	padding: var(--3xsmall) var(--2xlarge);
 	font-family: var(--serif)
 }
@@ -7755,7 +7755,7 @@ p {
 .ficval a {
 	font-weight: 300;
 	background: var(--gradient12);
-	color: var(--white-op50) !important;
+	color: var(--light) !important;
 	padding: 0 var(--2xsmall);
 	font-family: var(--serif)
 }
@@ -7940,7 +7940,7 @@ p {
 }
 
 .notification.unread .notif_icon {
-	color: var(--white-op50);
+	color: var(--light);
 	background: var(--group-color, var(--co1))
 }
 
@@ -8078,7 +8078,7 @@ p {
 	height: 92px;
 	display: grid;
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	grid-template-columns: auto auto;
 	grid-template-rows: auto auto;
 	gap: var(--2xsmall);
@@ -8141,7 +8141,7 @@ p {
 }
 
 .notiffi_body_rps a {
-	color: var(--white-op50) !important;
+	color: var(--light) !important;
 	text-transform: lowercase;
 	font-weight: 300;
 	font-family: var(--mono);
@@ -8309,7 +8309,7 @@ p {
 	flex: 1;
 	padding: var(--large);
 	border-radius: 0 var(--small) var(--large) 0;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	display: flex;
 	flex-wrap: wrap;
 	height: -webkit-fill-available;
@@ -8369,7 +8369,7 @@ firstdtls:nth-last-of-type(odd) {
 	background: linear-gradient(to right,
 			var(--group-color-300),
 			var(--group-color-600));
-	color: var(--white-op50);
+	color: var(--light);
 	padding: 0 var(--small);
 	text-transform: uppercase;
 	text-align: right;
@@ -8440,7 +8440,7 @@ firstdtls:nth-last-of-type(odd) {
 }
 
 .statuscontent {
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -8494,7 +8494,7 @@ statusdtls:nth-of-type(odd) {
 	font-family: var(--icons-thin) !important;
 	margin-right: var(--large);
 	background-color: var(--co2);
-	color: var(--white-op50);
+	color: var(--light);
 	display: inline-flex;
 	align-items: center;
 	letter-spacing: 0px;
@@ -8766,7 +8766,7 @@ statusinsta {
 .ficherphead img {
 	height: 100px;
 	padding: var(--2xsmall);
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .ficherp.two .ficherphead img {
@@ -8842,7 +8842,7 @@ statusinsta {
 	font-family: var(--serif);
 	text-transform: uppercase;
 	background: var(--gradientgc2);
-	color: var(--white-op50);
+	color: var(--light);
 	padding: var(--4xsmall) var(--2xlarge);
 	font-weight: 600
 }
@@ -8941,7 +8941,7 @@ statusinsta {
 .ficherp.three .ficherpbanner,
 .ficherp.three .ficherpfooter {
 	padding: var(--small);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	text-transform: uppercase;
 	font-weight: 200
 }
@@ -9027,7 +9027,7 @@ statusinsta {
 	justify-content: space-between;
 	gap: var(--large);
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	color: var(--group-color)
 }
 
@@ -9040,7 +9040,7 @@ statusinsta {
 .ficheperso.playlist .dtlsplaylist img {
 	width: 150px;
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	height: 150px
 }
 
@@ -9051,7 +9051,7 @@ statusinsta {
 	padding: var(--large);
 	gap: var(--large);
 	flex-direction: column;
-	color: var(--white-op50);
+	color: var(--light);
 	align-items: center;
 	background: var(--group-color-300)
 }
@@ -9174,7 +9174,7 @@ statusinsta {
 .signtes u {
 	background-color: var(--group-color, var(--co3));
 	text-decoration: none !important;
-	color: var(--white-op50);
+	color: var(--light);
 	padding: 0 var(--3xsmall)
 }
 
@@ -9187,7 +9187,7 @@ statusinsta {
 .signtes.seven img {
 	width: 100px;
 	padding: 5px;
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	border: 0.5px solid var(--dark-light)
 }
 
@@ -9228,7 +9228,7 @@ statusinsta {
 .signtes.four div,
 .signtes.nine div {
 	font-family: var(--serif);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	padding: var(--3xsmall)
 }
 
@@ -9240,7 +9240,7 @@ statusinsta {
 
 .signtes.five div {
 	font-family: var(--mono);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	padding: var(--3xsmall)
 }
 
@@ -9288,7 +9288,7 @@ statusinsta {
 	height: 50px;
 	width: 50px;
 	background: var(--group-color);
-	color: var(--white-op50);
+	color: var(--light);
 	display: flex;
 	align-items: center;
 	overflow: hidden;
@@ -9332,7 +9332,7 @@ statusinsta {
 
 .tindermisc span:hover {
 	background-color: var(--group-color);
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 .fichetinder .tinderimg img {
@@ -9357,7 +9357,7 @@ statusinsta {
 }
 
 .fichetinder .tinderimg:hover:after {
-	color: var(--white-op50);
+	color: var(--light);
 	cursor: pointer
 }
 
@@ -9427,7 +9427,7 @@ statusinsta {
 	align-items: center;
 	justify-content: center;
 
-	background-color: var(--white-op50)
+	background-color: var(--light)
 }
 
 .astrocontent span {
@@ -9474,7 +9474,7 @@ lblpmdn {
 	padding: 1px 5px 1px 6.5px;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	color: var(--white-op50)
+	color: var(--light)
 }
 
 .posttab-content.thst strong {
@@ -9492,7 +9492,7 @@ lblpmdn {
 .ficheperso.more .posttab-contents {
 	width: 100%;
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	text-align: justify
 }
 
@@ -9593,7 +9593,7 @@ lblpmdn {
 
 .ficheportrait img {
 	padding: var(--small);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	border: 0.5px solid var(--lighter-neutral);
 	height: 100px
 }
@@ -9612,7 +9612,7 @@ lblpmdn {
 	width: 400px;
 	display: flex;
 	gap: var(--small);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	box-shadow: 5px 5px 0px var(--group-color-100);
 	flex-direction: column;
 	position: relative;
@@ -9686,7 +9686,7 @@ lblpmdn {
 .random .posttab {
 	width: 150px;
 	padding: var(--3xsmall);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	color: var(--group-color);
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -9694,7 +9694,7 @@ lblpmdn {
 }
 
 .random .posttab.active {
-	color: var(--white-op50);
+	color: var(--light);
 	background-color: var(--group-color)
 }
 
@@ -9704,7 +9704,7 @@ lblpmdn {
 	gap: var(--large);
 	width: 100%;
 	padding: var(--large);
-	background-color: var(--white-op50);
+	background-color: var(--light);
 	justify-content: center;
 	align-items: center
 }
@@ -9731,7 +9731,7 @@ lblpmdn {
 .ficheperso.defis defistatus {
 	text-transform: uppercase;
 	background: var(--group-color);
-	color: var(--white-op50);
+	color: var(--light);
 	padding: 0 var(--3xsmall);
 	font-weight: 200
 }
@@ -9846,7 +9846,7 @@ lblpmdn {
 	width: 100%;
 	padding: var(--3xsmall) var(--large);
 	background: var(--co3);
-	color: var(--white-op50) !important;
+	color: var(--light) !important;
 	font-family: var(--serif);
 	font-size: var(--medium);
 	text-transform: uppercase
