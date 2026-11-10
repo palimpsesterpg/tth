@@ -294,11 +294,6 @@ strong {
 	font-weight: 100
 }
 
-* {
-	scrollbar-color: var(--co3);
-	scrollbar-width: thin
-}
-
 table {
 	width: 100%
 }
@@ -382,36 +377,42 @@ low,
 h1,
 .h1 {
 	font-size: var(--3xlarge) !important;
+	height: var(--3xlarge) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h2,
 .h2 {
 	font-size: var(--2xlarge) !important;
+	height: var(--2xlarge) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h3,
 .h3 {
 	font-size: var(--xlarge) !important;
+	height: var(--xlarge) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h4,
 .h4 {
 	font-size: var(--large) !important;
+	height: var(--large) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h5,
 .h5 {
 	font-size: var(--medium) !important;
+	height: var(--medium) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
 h6,
 .h6 {
 	font-size: var(--small) !important;
+	height: var(--small) !important;
 	margin: var(--2xsmall) 0 !important
 }
 
@@ -431,6 +432,7 @@ h6,
 	font-family: var(--spe);
 	text-align: center;
 	display: block;
+	line-height: 1;
 	color: var(--dark)
 }
 
@@ -3627,15 +3629,16 @@ input#profile_field_4_-12_0 {
 
 .topicactionsadmin i:before {
 	display: flex;
-	height: 25px;
-	width: 25px;
-	border-radius: var(--3xsmall);
+	height: var(--2xlarge);
+	font-size: var(--large);
+	width: var(--2xlarge);
+	border-radius: var(--2xsmall);
 	background-color: var(--co3);
-	color: var(--light);
-	border: 2px solid var(--white-op50);
+	color: var(--light) !important;
+	border: 1px solid var(--dark-light);
 	align-items: center;
 	justify-content: center;
-	outline: 0.5px solid var(--co3-200)
+	outline: 1px solid var(--co3)
 }
 
 .jumpbox {
