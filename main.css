@@ -432,7 +432,6 @@ h6,
 	font-family: var(--spe);
 	text-align: center;
 	display: block;
-	line-height: 1;
 	color: var(--dark)
 }
 
@@ -448,7 +447,7 @@ a.h6,
 .h4 a,
 .h5 a,
 .h6 a {
-	color: var(--dark) !important
+	color: var(--dark)
 }
 
 a,
