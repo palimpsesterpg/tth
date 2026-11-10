@@ -2588,9 +2588,9 @@ topicdesc {
 }
 
 .postbody-icons {
-	height: 51.5px;
+	height: var(--3xlarge);
 	padding: var(--large);
-	background: var(--white-op50);
+	background-color: var(--white-op90);
 	display: flex;
 	align-items: center;
 	justify-content: center;
