@@ -1014,7 +1014,7 @@ a.forumtitle {
 	letter-spacing: 0.15rem;
 	padding-left: 0.15rem;
 	background-color: var(--co1-100);
-	text-shadow: 1px 1pxvar(--white-op50);
+	text-shadow: 1px 1px var(--white-op50);
 	width: 100%;
 	text-align: center;
 	border-bottom: 0.5px solid;
@@ -2678,28 +2678,29 @@ topicdesc {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: var(--large);
-	gap: var(--6xlarge)
+	gap: var(--5xlarge)
 }
 
 .new-reply-button,
 .new-topic-button {
 	text-transform: lowercase;
-	font-size: var(--medium);
+	font-size: var(--large);
 	font-weight: 700;
 	font-style: italic;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 35px;
 	width: 200px;
-	text-shadow: 1px 1pxvar(--white-op50);
+	text-shadow: 1px 1px var(--white-op50);
 	font-family: var(--serif);
 	color: var(--co2) !important
 }
 
 .pathname-box {
-	color: var(--co1)
+	display: flex;
+	color: var(--co1);
+	align-items: center;
+	justify-content: center
 }
 
 .pathname-box a {
@@ -2826,7 +2827,7 @@ button1,
 	color: var(--co2);
 	border: 0.5px solid var(--co2);
 	border-radius: var(--2xlarge);
-	text-shadow: 1px 1pxvar(--white-op50)
+	text-shadow: 1px 1px var(--white-op50)
 }
 
 input,
@@ -9838,7 +9839,7 @@ lblpmdn {
 	font-weight: 900;
 	font-family: var(--display);
 	color: var(--co3);
-	text-shadow: 1px 1pxvar(--white-op50);
+	text-shadow: 1px 1px var(--white-op50);
 	font-size: var(--medium)
 }
 
