@@ -594,7 +594,7 @@ body:before {
 	right: 50%;
 	gap: var(--2xlarge);
 	transform: translateX(50%);
-	border: 0.5px solid var(--light)
+	border: 0.5px solid var(--neutral)
 }
 
 #page-navbar div {
@@ -606,7 +606,7 @@ body:before {
 
 #page-navbar div>* {
 	text-transform: lowercase;
-	color: var(--light);
+	color: var(--neutral);
 	opacity: 0.75;
 	font-family: var(--display);
 	font-weight: 700;
